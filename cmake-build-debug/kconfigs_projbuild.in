@@ -1,0 +1,5 @@
+source "C:/Users/Justin/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/Users/Justin/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/Justin/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/Justin/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/Kconfig.projbuild"

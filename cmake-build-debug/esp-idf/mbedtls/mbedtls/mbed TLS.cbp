@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mbed TLS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Users\;CMake Files\..\..\..\..\Users\Justin\;CMake Files\..\..\..\..\Users\Justin\esp\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\third_party\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\kconfig_new\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\asio\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\asio\asio\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\subproject\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\subproject\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\subproject\components\micro-ecc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\subproject\components\micro-ecc\micro-ecc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\controller\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\controller\lib_esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\controller\lib_esp32c3_family\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\host\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\host\nimble\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\host\nimble\nimble\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cbor\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cbor\tinycbor\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cmock\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cmock\CMock\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\coap\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\coap\libcoap\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esp_wifi\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esp_wifi\lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esptool_py\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esptool_py\esptool\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\expat\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\expat\expat\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\json\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\json\cJSON\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\libsodium\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\libsodium\libsodium\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\lwip\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\lwip\lwip\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mbedtls\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mbedtls\mbedtls\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mqtt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mqtt\esp-mqtt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\nghttp\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\nghttp\nghttp2\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\protobuf-c\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\protobuf-c\protobuf-c\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\spiffs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\spiffs\spiffs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\tinyusb\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\tinyusb\tinyusb\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\unity\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\unity\unity\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\import_lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\import_lib\main\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\import_lib\main\lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\import_lib\main\lib\tinyxml2\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\secure_element\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\secure_element\atecc608_ecdsa\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\secure_element\atecc608_ecdsa\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\secure_element\atecc608_ecdsa\components\esp-cryptoauthlib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\partition_table\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\app_trace\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\subproject\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\subproject\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\subproject\components\micro-ecc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\subproject\components\micro-ecc\micro-ecc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esptool_py\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esptool_py\esptool\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spiffs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spiffs\spiffs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\ulp\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\asio\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\asio\asio\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\controller\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\controller\lib_esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\controller\lib_esp32c3_family\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\host\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\host\nimble\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\host\nimble\nimble\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cbor\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cbor\tinycbor\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cmock\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cmock\CMock\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\coap\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\coap\libcoap\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_wifi\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_wifi\lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\expat\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\expat\expat\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\json\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\json\cJSON\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\libsodium\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\libsodium\libsodium\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\lwip\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\lwip\lwip\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\library\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\include\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mqtt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mqtt\esp-mqtt\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nghttp\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nghttp\nghttp2\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protobuf-c\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protobuf-c\protobuf-c\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tinyusb\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tinyusb\tinyusb\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\unity\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\unity\unity\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_pm\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\efuse\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\efuse\esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\app_update\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader_support\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_ipc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spi_flash\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nvs_flash\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\pthread\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_gdbstub\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\port\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\port\soc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\port\soc\esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_rom\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\hal\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\vfs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_eth\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tcpip_adapter\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_netif\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_event\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wpa_supplicant\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\log\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\heap\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\soc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\soc\esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hw_support\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hw_support\port\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hw_support\port\esp32\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_ringbuf\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\driver\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\xtensa\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\espcoredump\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\perfmon\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_common\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_timer\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\freertos\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\newlib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\newlib\port\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cxx\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\console\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp-tls\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_adc_cal\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hid\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tcp_transport\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_http_client\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_http_server\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_https_ota\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_https_server\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protocomm\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mdns\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_local_ctrl\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\sdmmc\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_serial_slave_link\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_websocket_client\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wear_levelling\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\fatfs\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\freemodbus\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\idf_test\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\jsmn\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\openssl\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wifi_provisioning\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\import_lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\import_lib\main\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\import_lib\main\lib\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\import_lib\main\lib\tinyxml2\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\secure_element\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\secure_element\atecc608_ecdsa\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\secure_element\atecc608_ecdsa\components\;CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\secure_element\atecc608_ecdsa\components\esp-cryptoauthlib\;CMake Files\.git\;CMake Files\.git\refs\;CMake Files\.git\refs\heads\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\config\;CMake Files\cmake-build-debug\bootloader-prefix\;CMake Files\cmake-build-debug\bootloader-prefix\tmp\;CMake Files\cmake-build-debug\esp-idf\;CMake Files\cmake-build-debug\esp-idf\partition_table\;CMake Files\cmake-build-debug\esp-idf\bootloader\;CMake Files\cmake-build-debug\esp-idf\esptool_py\;CMake Files\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apidoc">
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 apidoc"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedcrypto">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedcrypto/fast">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedx509">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedx509.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedx509/fast">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedx509.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib">
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedtls.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mbedtls/fast">
+				<Option output="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/libmbedtls.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add directory="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/freertos/port/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/heap/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/log/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/include/apps/sntp"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/lwip/src/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/lwip/port/esp32/include/arch"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/."/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/soc/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/hal/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_rom/esp32"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_common/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_system/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/driver/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/efuse/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/xtensa/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/espcoredump/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_timer/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_ipc/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_pm/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/vfs/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_wifi/esp32/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_event/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_netif/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/esp_eth/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/tcpip_adapter/include"/>
+					<Add directory="C:/Users/Justin/esp/esp-idf/components/app_trace/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include"/>
+					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/aes.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/aesni.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/arc4.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/aria.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/asn1parse.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/asn1write.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/base64.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/bignum.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/blowfish.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/camellia.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ccm.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/certs.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/chacha20.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/chachapoly.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/cipher.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/cipher_wrap.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/cmac.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ctr_drbg.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/debug.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/des.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/dhm.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ecdh.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ecdsa.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ecjpake.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ecp.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ecp_curves.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/entropy.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/entropy_poll.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/error.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/gcm.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/havege.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/hkdf.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/hmac_drbg.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/md.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/md2.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/md4.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/md5.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/md_wrap.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/memory_buffer_alloc.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/nist_kw.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/oid.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/padlock.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pem.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pk.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pk_wrap.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pkcs11.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pkcs12.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pkcs5.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pkparse.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/pkwrite.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/platform.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/platform_util.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/poly1305.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ripemd160.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/rsa.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/rsa_internal.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/sha1.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/sha256.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/sha512.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cache.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_ciphersuites.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cli.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cookie.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_srv.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_ticket.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/threading.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/timing.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/version.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/version_features.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509_create.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509_crl.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509_crt.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509_csr.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509write_crt.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/x509write_csr.c">
+			<Option target="mbedx509"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/xtea.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/aes/block/esp_aes.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/esp32/bignum.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/esp_bignum.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/esp_hardware.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/esp_mem.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/esp_timing.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/md/esp_md.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/net_sockets.c">
+			<Option target="mbedtls"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/Users/Justin/esp/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c">
+			<Option target="mbedcrypto"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/build.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/component.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/crosstool_version_check.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/dfu.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/git_submodules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/idf.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/kconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/ldgen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/project.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/project_description.json.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/toolchain-esp32.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/uf2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/third_party/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\third_party\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/cmake/third_party/GetGitRevisionDescription.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\cmake\third_party\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/kconfig_new/confgen.py">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\kconfig_new\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/tools/kconfig_new/config.env.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\tools\kconfig_new\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/asio/asio/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\asio\asio\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/bootloader/subproject/components/micro-ecc/micro-ecc/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bootloader\subproject\components\micro-ecc\micro-ecc\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/bt/controller/lib_esp32/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\controller\lib_esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/bt/controller/lib_esp32c3_family/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\controller\lib_esp32c3_family\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/bt/host/nimble/nimble/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\bt\host\nimble\nimble\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/cbor/tinycbor/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cbor\tinycbor\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/cmock/CMock/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\cmock\CMock\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/coap/libcoap/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\coap\libcoap\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/esp_wifi/lib/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esp_wifi\lib\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/esptool_py/esptool/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\esptool_py\esptool\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/expat/expat/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\expat\expat\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/json/cJSON/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\json\cJSON\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/libsodium/libsodium/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\libsodium\libsodium\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/lwip/lwip/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\lwip\lwip\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/mbedtls/mbedtls/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mbedtls\mbedtls\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/mqtt/esp-mqtt/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\mqtt\esp-mqtt\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/nghttp/nghttp2/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\nghttp\nghttp2\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/protobuf-c/protobuf-c/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\protobuf-c\protobuf-c\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/spiffs/spiffs/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\spiffs\spiffs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/tinyusb/tinyusb/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\tinyusb\tinyusb\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/components/unity/unity/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\components\unity\unity\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/examples/build_system/cmake/import_lib/main/lib/tinyxml2/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\build_system\cmake\import_lib\main\lib\tinyxml2\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/.git/modules/examples/peripherals/secure_element/atecc608_ecdsa/components/esp-cryptoauthlib/HEAD">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\.git\modules\examples\peripherals\secure_element\atecc608_ecdsa\components\esp-cryptoauthlib\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/partition_table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\partition_table\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/partition_table/partitions_singleapp.csv">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\partition_table\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/partition_table/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\partition_table\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp32/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/app_trace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\app_trace\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/app_trace/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\app_trace\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bootloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bootloader/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bootloader/subproject/components/micro-ecc/micro-ecc/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader\subproject\components\micro-ecc\micro-ecc\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esptool_py/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esptool_py\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esptool_py/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esptool_py\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esptool_py/esptool/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esptool_py\esptool\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/spiffs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spiffs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/spiffs/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spiffs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/spiffs/spiffs/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spiffs\spiffs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/ulp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\ulp\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/ulp/project_include.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\ulp\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/asio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\asio\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/asio/asio/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\asio\asio\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bt/controller/lib_esp32/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\controller\lib_esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bt/controller/lib_esp32c3_family/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\controller\lib_esp32c3_family\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bt/host/nimble/nimble/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bt\host\nimble\nimble\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/cbor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cbor\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/cbor/tinycbor/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cbor\tinycbor\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/cmock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cmock\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/cmock/CMock/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cmock\CMock\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/coap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\coap\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/coap/libcoap/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\coap\libcoap\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_wifi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_wifi\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_wifi/lib/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_wifi\lib\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/expat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\expat\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/expat/expat/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\expat\expat\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\json\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/json/cJSON/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\json\cJSON\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/libsodium/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\libsodium\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/libsodium/libsodium/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\libsodium\libsodium\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/lwip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\lwip\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/lwip/lwip/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\lwip\lwip\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mbedtls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\library\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mbedtls/mbedtls/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mbedtls\mbedtls\include\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mqtt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mqtt\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mqtt/esp-mqtt/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mqtt\esp-mqtt\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/nghttp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nghttp\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/nghttp/nghttp2/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nghttp\nghttp2\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/protobuf-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protobuf-c\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/protobuf-c/protobuf-c/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protobuf-c\protobuf-c\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/tinyusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tinyusb\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/tinyusb/tinyusb/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tinyusb\tinyusb\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/unity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\unity\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/unity/unity/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\unity\unity\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_pm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_pm\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/efuse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\efuse\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/efuse/esp32/sources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\efuse\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/app_update/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\app_update\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/bootloader_support/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\bootloader_support\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_ipc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_ipc\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/spi_flash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\spi_flash\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/nvs_flash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\nvs_flash\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/pthread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\pthread\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_gdbstub/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_gdbstub\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_system/port/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\port\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_system/port/soc/esp32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_system\port\soc\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_rom/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_rom\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/hal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\hal\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/vfs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\vfs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_eth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_eth\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/tcpip_adapter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tcpip_adapter\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_netif/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_netif\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_event/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_event\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/wpa_supplicant/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wpa_supplicant\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\log\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\heap\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/soc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\soc\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/soc/esp32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\soc\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_hw_support/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hw_support\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_hw_support/port/esp32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hw_support\port\esp32\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_ringbuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_ringbuf\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\driver\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/xtensa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\xtensa\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/espcoredump/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\espcoredump\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/perfmon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\perfmon\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_common\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_timer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_timer\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/freertos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\freertos\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/newlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\newlib\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/newlib/port/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\newlib\port\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/cxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\cxx\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/console/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\console\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp-tls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp-tls\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_adc_cal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_adc_cal\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_hid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_hid\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/tcp_transport/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\tcp_transport\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_http_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_http_client\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_http_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_http_server\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_https_ota/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_https_ota\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_https_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_https_server\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/protocomm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\protocomm\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/mdns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\mdns\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_local_ctrl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_local_ctrl\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/sdmmc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\sdmmc\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_serial_slave_link/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_serial_slave_link\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/esp_websocket_client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\esp_websocket_client\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/wear_levelling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wear_levelling\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/fatfs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\fatfs\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/freemodbus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\freemodbus\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/idf_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\idf_test\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/jsmn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\jsmn\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/openssl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\openssl\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/components/wifi_provisioning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\components\wifi_provisioning\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/examples/build_system/cmake/import_lib/main/lib/tinyxml2/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\build_system\cmake\import_lib\main\lib\tinyxml2\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/../../../../Users/Justin/esp/esp-idf/examples/peripherals/secure_element/atecc608_ecdsa/components/esp-cryptoauthlib/.git">
+			<Option virtualFolder="CMake Files\..\..\..\..\Users\Justin\esp\esp-idf\examples\peripherals\secure_element\atecc608_ecdsa\components\esp-cryptoauthlib\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/.git/HEAD">
+			<Option virtualFolder="CMake Files\.git\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/.git/refs/heads/main">
+			<Option virtualFolder="CMake Files\.git\refs\heads\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/app-flash_args">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/bootloader-flash_args">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/flash_args">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/flash_args.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/ldgen_libraries.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config/sdkconfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\config\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config/sdkconfig.h">
+			<Option virtualFolder="CMake Files\cmake-build-debug\config\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/bootloader-prefix/tmp/bootloader-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\bootloader-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/partition_table/partition_table-flash_args.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\esp-idf\partition_table\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/bootloader/bootloader-flash_args.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\esp-idf\bootloader\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/esptool_py/app-flash_args.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\esp-idf\esptool_py\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/esptool_py/flasher_args.json.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\esp-idf\esptool_py\"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

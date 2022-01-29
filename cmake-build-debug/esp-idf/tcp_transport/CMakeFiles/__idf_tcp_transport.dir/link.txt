@@ -1,0 +1,2 @@
+C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ar.exe qc libtcp_transport.a CMakeFiles/__idf_tcp_transport.dir/transport.c.obj CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj CMakeFiles/__idf_tcp_transport.dir/transport_tcp.c.obj CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj CMakeFiles/__idf_tcp_transport.dir/transport_utils.c.obj
+C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-ranlib.exe libtcp_transport.a
