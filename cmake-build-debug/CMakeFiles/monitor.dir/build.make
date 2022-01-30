@@ -66,7 +66,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /d C:\Users\Justin\esp\esp-idf\components\esptool_py && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -D IDF_PATH="C:/Users/Justin/esp/esp-idf" -D SERIAL_TOOL="C:/Users/Justin/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/app-template.elf" -D WORKING_DIRECTORY="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug" -P run_serial_tool.cmake
+	cd /d C:\Users\Justin\esp\esp-idf\components\esptool_py && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -D IDF_PATH="C:/Users/Justin/esp/esp-idf" -D SERIAL_TOOL="C:/Users/Justin/esp/esp-idf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.elf" -D WORKING_DIRECTORY="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug" -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make

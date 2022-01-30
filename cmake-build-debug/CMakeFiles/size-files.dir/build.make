@@ -65,8 +65,8 @@ include CMakeFiles/size-files.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/size-files.dir/progress.make
 
-CMakeFiles/size-files: app-template.elf
-	python C:/Users/Justin/esp/esp-idf/tools/idf_size.py --files C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/app-template.map
+CMakeFiles/size-files: FOCX.elf
+	python C:/Users/Justin/esp/esp-idf/tools/idf_size.py --files C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.map
 
 size-files: CMakeFiles/size-files
 size-files: CMakeFiles/size-files.dir/build.make

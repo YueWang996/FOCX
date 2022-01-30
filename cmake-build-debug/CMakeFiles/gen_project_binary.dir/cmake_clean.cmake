@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   ".bin_timestamp"
-  "app-template.bin"
-  "app-template.map"
+  "FOCX.bin"
+  "FOCX.map"
   "bootloader/bootloader.bin"
   "bootloader/bootloader.elf"
   "bootloader/bootloader.map"

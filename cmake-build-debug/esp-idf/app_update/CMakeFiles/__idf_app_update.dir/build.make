@@ -81,15 +81,15 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s: cmake_force
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: C:/Users/Justin/esp/esp-idf/components/app_update/esp_app_desc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj"
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"app-template\" -DPROJECT_VER=\"3f2dc86-dirty\" $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_app_update.dir\esp_app_desc.c.obj -c C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"FOCX\" -DPROJECT_VER=\"bc3bbb9-dirty\" $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\__idf_app_update.dir\esp_app_desc.c.obj -c C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i"
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"app-template\" -DPROJECT_VER=\"3f2dc86-dirty\" $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c > CMakeFiles\__idf_app_update.dir\esp_app_desc.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"FOCX\" -DPROJECT_VER=\"bc3bbb9-dirty\" $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c > CMakeFiles\__idf_app_update.dir\esp_app_desc.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s"
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"app-template\" -DPROJECT_VER=\"3f2dc86-dirty\" $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c -o CMakeFiles\__idf_app_update.dir\esp_app_desc.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\app_update && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $(C_DEFINES) -D PROJECT_NAME=\"FOCX\" -DPROJECT_VER=\"bc3bbb9-dirty\" $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Justin\esp\esp-idf\components\app_update\esp_app_desc.c -o CMakeFiles\__idf_app_update.dir\esp_app_desc.c.s
 
 # Object files for target __idf_app_update
 __idf_app_update_OBJECTS = \

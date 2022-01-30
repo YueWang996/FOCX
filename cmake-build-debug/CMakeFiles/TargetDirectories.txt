@@ -8,7 +8,7 @@ C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/flash
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/monitor.dir
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/encrypted-flash.dir
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/_project_elf_src.dir
-C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/app-template.elf.dir
+C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/FOCX.elf.dir
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/size.dir
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/size-files.dir
 C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/CMakeFiles/size-components.dir

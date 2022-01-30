@@ -10570,7 +10570,13 @@
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/x509_crt_bundle.S">
 			<Option target="__idf_mbedtls"/>
 		</Unit>
-		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.c">
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.h">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.cpp">
 			<Option target="__idf_main"/>
 		</Unit>
 		<Unit filename="C:/Users/Justin/esp/esp-idf/components/app_trace/app_trace.c">

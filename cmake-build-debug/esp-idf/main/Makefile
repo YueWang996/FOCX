@@ -174,29 +174,53 @@ __idf_main/fast:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-main.obj: main.c.obj
+driver/SPI_CLASS.obj: driver/SPI_CLASS.cpp.obj
+.PHONY : driver/SPI_CLASS.obj
+
+# target to build an object file
+driver/SPI_CLASS.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj
+.PHONY : driver/SPI_CLASS.cpp.obj
+
+driver/SPI_CLASS.i: driver/SPI_CLASS.cpp.i
+.PHONY : driver/SPI_CLASS.i
+
+# target to preprocess a source file
+driver/SPI_CLASS.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.i
+.PHONY : driver/SPI_CLASS.cpp.i
+
+driver/SPI_CLASS.s: driver/SPI_CLASS.cpp.s
+.PHONY : driver/SPI_CLASS.s
+
+# target to generate assembly for a file
+driver/SPI_CLASS.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s
+.PHONY : driver/SPI_CLASS.cpp.s
+
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -211,6 +235,9 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... __idf_main
+	@echo ... driver/SPI_CLASS.obj
+	@echo ... driver/SPI_CLASS.i
+	@echo ... driver/SPI_CLASS.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

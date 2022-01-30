@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.c" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
+  "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
+set(CMAKE_TARGET_DEFINITIONS_CXX
   "HAVE_CONFIG_H"
   "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
   "UNITY_INCLUDE_CONFIG_H"
@@ -21,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   )
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "config"
   "C:/Users/Justin/esp/esp-idf/components/newlib/platform_include"
   "C:/Users/Justin/esp/esp-idf/components/freertos/include"

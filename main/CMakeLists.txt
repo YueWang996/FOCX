@@ -2,7 +2,10 @@
 set(COMPONENT_REQUIRES )
 set(COMPONENT_PRIV_REQUIRES )
 
-set(COMPONENT_SRCS "main.c")
+file(GLOB DRIVER driver/*.cpp)
+file(GLOB MAINCPP *.cpp)
+
+set(COMPONENT_SRCS ${MAINCPP} ${DRIVER})
 set(COMPONENT_ADD_INCLUDEDIRS "")
 
 register_component()

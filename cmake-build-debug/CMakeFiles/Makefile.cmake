@@ -351,7 +351,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/monitor.dir/DependInfo.cmake"
   "CMakeFiles/encrypted-flash.dir/DependInfo.cmake"
   "CMakeFiles/_project_elf_src.dir/DependInfo.cmake"
-  "CMakeFiles/app-template.elf.dir/DependInfo.cmake"
+  "CMakeFiles/FOCX.elf.dir/DependInfo.cmake"
   "CMakeFiles/size.dir/DependInfo.cmake"
   "CMakeFiles/size-files.dir/DependInfo.cmake"
   "CMakeFiles/size-components.dir/DependInfo.cmake"

@@ -291,17 +291,17 @@ _project_elf_src/fast:
 .PHONY : _project_elf_src/fast
 
 #=============================================================================
-# Target rules for targets named app-template.elf
+# Target rules for targets named FOCX.elf
 
 # Build rule for target.
-app-template.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app-template.elf
-.PHONY : app-template.elf
+FOCX.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FOCX.elf
+.PHONY : FOCX.elf
 
 # fast build rule for target.
-app-template.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app-template.elf.dir\build.make CMakeFiles/app-template.elf.dir/build
-.PHONY : app-template.elf/fast
+FOCX.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/build
+.PHONY : FOCX.elf/fast
 
 #=============================================================================
 # Target rules for targets named size
@@ -1556,7 +1556,7 @@ project_elf_src_esp32.obj: project_elf_src_esp32.c.obj
 
 # target to build an object file
 project_elf_src_esp32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app-template.elf.dir\build.make CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/project_elf_src_esp32.c.obj
 .PHONY : project_elf_src_esp32.c.obj
 
 project_elf_src_esp32.i: project_elf_src_esp32.c.i
@@ -1564,7 +1564,7 @@ project_elf_src_esp32.i: project_elf_src_esp32.c.i
 
 # target to preprocess a source file
 project_elf_src_esp32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app-template.elf.dir\build.make CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/project_elf_src_esp32.c.i
 .PHONY : project_elf_src_esp32.c.i
 
 project_elf_src_esp32.s: project_elf_src_esp32.c.s
@@ -1572,7 +1572,7 @@ project_elf_src_esp32.s: project_elf_src_esp32.c.s
 
 # target to generate assembly for a file
 project_elf_src_esp32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\app-template.elf.dir\build.make CMakeFiles/app-template.elf.dir/project_elf_src_esp32.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/project_elf_src_esp32.c.s
 .PHONY : project_elf_src_esp32.c.s
 
 # Help Target
@@ -1619,6 +1619,7 @@ help:
 	@echo ... size-files
 	@echo ... uf2
 	@echo ... uf2-app
+	@echo ... FOCX.elf
 	@echo ... __idf_app_trace
 	@echo ... __idf_app_update
 	@echo ... __idf_asio
@@ -1690,7 +1691,6 @@ help:
 	@echo ... __idf_wifi_provisioning
 	@echo ... __idf_wpa_supplicant
 	@echo ... __idf_xtensa
-	@echo ... app-template.elf
 	@echo ... mbedcrypto
 	@echo ... mbedtls
 	@echo ... mbedx509
