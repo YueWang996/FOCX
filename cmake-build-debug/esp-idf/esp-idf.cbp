@@ -10579,6 +10579,12 @@
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.cpp">
 			<Option target="__idf_main"/>
 		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/sensor/Tle5012b/TLE5012B.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/sensor/Tle5012b/TLE5012B.h">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="C:/Users/Justin/esp/esp-idf/components/app_trace/app_trace.c">
 			<Option target="__idf_app_trace"/>
 		</Unit>

@@ -91,19 +91,34 @@ esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\driver\SPI_CLASS.cpp -o CMakeFiles\__idf_main.dir\driver\SPI_CLASS.cpp.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj: ../main/sensor/Tle5012b/TLE5012B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\sensor\Tle5012b\TLE5012B.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\sensor\Tle5012b\TLE5012B.cpp
+
+esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\sensor\Tle5012b\TLE5012B.cpp > CMakeFiles\__idf_main.dir\sensor\Tle5012b\TLE5012B.cpp.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\sensor\Tle5012b\TLE5012B.cpp -o CMakeFiles\__idf_main.dir\sensor\Tle5012b\TLE5012B.cpp.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/main.cpp.obj" \
-"CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
+"CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj" \
+"CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
 
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libmain.a"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && $(CMAKE_COMMAND) -P CMakeFiles\__idf_main.dir\cmake_clean_target.cmake
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_main.dir\link.txt --verbose=$(VERBOSE)
 

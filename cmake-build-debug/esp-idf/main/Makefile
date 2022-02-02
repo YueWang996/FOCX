@@ -222,6 +222,30 @@ main.cpp.s:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sensor/Tle5012b/TLE5012B.obj: sensor/Tle5012b/TLE5012B.cpp.obj
+.PHONY : sensor/Tle5012b/TLE5012B.obj
+
+# target to build an object file
+sensor/Tle5012b/TLE5012B.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj
+.PHONY : sensor/Tle5012b/TLE5012B.cpp.obj
+
+sensor/Tle5012b/TLE5012B.i: sensor/Tle5012b/TLE5012B.cpp.i
+.PHONY : sensor/Tle5012b/TLE5012B.i
+
+# target to preprocess a source file
+sensor/Tle5012b/TLE5012B.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i
+.PHONY : sensor/Tle5012b/TLE5012B.cpp.i
+
+sensor/Tle5012b/TLE5012B.s: sensor/Tle5012b/TLE5012B.cpp.s
+.PHONY : sensor/Tle5012b/TLE5012B.s
+
+# target to generate assembly for a file
+sensor/Tle5012b/TLE5012B.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s
+.PHONY : sensor/Tle5012b/TLE5012B.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +265,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sensor/Tle5012b/TLE5012B.obj
+	@echo ... sensor/Tle5012b/TLE5012B.i
+	@echo ... sensor/Tle5012b/TLE5012B.s
 .PHONY : help
 
 
