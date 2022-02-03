@@ -5,12 +5,13 @@ set(COMPONENT_PRIV_REQUIRES )
 file(GLOB DRIVER driver/*.cpp)
 file(GLOB MAINCPP *.cpp)
 file(GLOB TLE5012B sensor/Tle5012b/*.cpp)
+file(GLOB FOC FOC/*.cpp)
 
 #file(GLOB DRIVER_H driver/*.h)
 #file(GLOB MAIN_H *.h)
 #file(GLOB TLE5012B_H sensor/Tle5012b/*.h)
 
-set(COMPONENT_SRCS ${MAINCPP} ${DRIVER} ${TLE5012B}) #${DRIVER_H} ${MAIN_H} ${TLE5012B_H})
+set(COMPONENT_SRCS ${MAINCPP} ${DRIVER} ${TLE5012B} ${FOC}) #${DRIVER_H} ${MAIN_H} ${TLE5012B_H})
 set(COMPONENT_ADD_INCLUDEDIRS "")
 
 register_component()

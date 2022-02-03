@@ -78,9 +78,22 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/main.cpp.s"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\main.cpp -o CMakeFiles\__idf_main.dir\main.cpp.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj: ../main/driver/MotorControlPWM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\driver\MotorControlPWM.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\driver\MotorControlPWM.cpp
+
+esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.i"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\driver\MotorControlPWM.cpp > CMakeFiles\__idf_main.dir\driver\MotorControlPWM.cpp.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.s"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\driver\MotorControlPWM.cpp -o CMakeFiles\__idf_main.dir\driver\MotorControlPWM.cpp.s
+
 esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj: ../main/driver/SPI_CLASS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\driver\SPI_CLASS.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\driver\SPI_CLASS.cpp
 
 esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.i: cmake_force
@@ -93,7 +106,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s: cmake_force
 
 esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
 esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj: ../main/sensor/Tle5012b/TLE5012B.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\sensor\Tle5012b\TLE5012B.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\sensor\Tle5012b\TLE5012B.cpp
 
 esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i: cmake_force
@@ -104,21 +117,53 @@ esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\sensor\Tle5012b\TLE5012B.cpp -o CMakeFiles\__idf_main.dir\sensor\Tle5012b\TLE5012B.cpp.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj: ../main/FOC/FOC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\FOC\FOC.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\FOC.cpp
+
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_main.dir/FOC/FOC.cpp.i"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\FOC.cpp > CMakeFiles\__idf_main.dir\FOC\FOC.cpp.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\FOC.cpp -o CMakeFiles\__idf_main.dir\FOC\FOC.cpp.s
+
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj: ../main/FOC/foc_utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\__idf_main.dir\FOC\foc_utilities.cpp.obj -c C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\foc_utilities.cpp
+
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.i"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\foc_utilities.cpp > CMakeFiles\__idf_main.dir\FOC\foc_utilities.cpp.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\AllFiles\programming\MachineDog\FocX_v_0_5\main\FOC\foc_utilities.cpp -o CMakeFiles\__idf_main.dir\FOC\foc_utilities.cpp.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/main.cpp.obj" \
+"CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj" \
 "CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj" \
-"CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
+"CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj" \
+"CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj" \
+"CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
 
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libmain.a"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && $(CMAKE_COMMAND) -P CMakeFiles\__idf_main.dir\cmake_clean_target.cmake
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\__idf_main.dir\link.txt --verbose=$(VERBOSE)
 

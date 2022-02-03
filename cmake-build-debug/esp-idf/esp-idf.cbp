@@ -10570,6 +10570,24 @@
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/x509_crt_bundle.S">
 			<Option target="__idf_mbedtls"/>
 		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/FOC/FOC.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/FOC/FOC.h">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/FOC/foc_utilities.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/FOC/foc_utilities.h">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/MotorControlPWM.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/MotorControlPWM.h">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.cpp">
 			<Option target="__idf_main"/>
 		</Unit>

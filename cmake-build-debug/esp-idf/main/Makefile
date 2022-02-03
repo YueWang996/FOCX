@@ -174,6 +174,78 @@ __idf_main/fast:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
+FOC/FOC.obj: FOC/FOC.cpp.obj
+.PHONY : FOC/FOC.obj
+
+# target to build an object file
+FOC/FOC.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj
+.PHONY : FOC/FOC.cpp.obj
+
+FOC/FOC.i: FOC/FOC.cpp.i
+.PHONY : FOC/FOC.i
+
+# target to preprocess a source file
+FOC/FOC.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.i
+.PHONY : FOC/FOC.cpp.i
+
+FOC/FOC.s: FOC/FOC.cpp.s
+.PHONY : FOC/FOC.s
+
+# target to generate assembly for a file
+FOC/FOC.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s
+.PHONY : FOC/FOC.cpp.s
+
+FOC/foc_utilities.obj: FOC/foc_utilities.cpp.obj
+.PHONY : FOC/foc_utilities.obj
+
+# target to build an object file
+FOC/foc_utilities.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj
+.PHONY : FOC/foc_utilities.cpp.obj
+
+FOC/foc_utilities.i: FOC/foc_utilities.cpp.i
+.PHONY : FOC/foc_utilities.i
+
+# target to preprocess a source file
+FOC/foc_utilities.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.i
+.PHONY : FOC/foc_utilities.cpp.i
+
+FOC/foc_utilities.s: FOC/foc_utilities.cpp.s
+.PHONY : FOC/foc_utilities.s
+
+# target to generate assembly for a file
+FOC/foc_utilities.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s
+.PHONY : FOC/foc_utilities.cpp.s
+
+driver/MotorControlPWM.obj: driver/MotorControlPWM.cpp.obj
+.PHONY : driver/MotorControlPWM.obj
+
+# target to build an object file
+driver/MotorControlPWM.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj
+.PHONY : driver/MotorControlPWM.cpp.obj
+
+driver/MotorControlPWM.i: driver/MotorControlPWM.cpp.i
+.PHONY : driver/MotorControlPWM.i
+
+# target to preprocess a source file
+driver/MotorControlPWM.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.i
+.PHONY : driver/MotorControlPWM.cpp.i
+
+driver/MotorControlPWM.s: driver/MotorControlPWM.cpp.s
+.PHONY : driver/MotorControlPWM.s
+
+# target to generate assembly for a file
+driver/MotorControlPWM.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.s
+.PHONY : driver/MotorControlPWM.cpp.s
+
 driver/SPI_CLASS.obj: driver/SPI_CLASS.cpp.obj
 .PHONY : driver/SPI_CLASS.obj
 
@@ -259,6 +331,15 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... __idf_main
+	@echo ... FOC/FOC.obj
+	@echo ... FOC/FOC.i
+	@echo ... FOC/FOC.s
+	@echo ... FOC/foc_utilities.obj
+	@echo ... FOC/foc_utilities.i
+	@echo ... FOC/foc_utilities.s
+	@echo ... driver/MotorControlPWM.obj
+	@echo ... driver/MotorControlPWM.i
+	@echo ... driver/MotorControlPWM.s
 	@echo ... driver/SPI_CLASS.obj
 	@echo ... driver/SPI_CLASS.i
 	@echo ... driver/SPI_CLASS.s
