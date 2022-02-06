@@ -1819,8 +1819,8 @@ CMakeFiles/gen_project_binary.dir/clean:
 # Target rules for target CMakeFiles/flash.dir
 
 # All Build rule for target.
-CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
+CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
@@ -1925,9 +1925,9 @@ CMakeFiles/_project_elf_src.dir/clean:
 # Target rules for target CMakeFiles/FOCX.elf.dir
 
 # All Build rule for target.
-CMakeFiles/FOCX.elf.dir/all: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
 CMakeFiles/FOCX.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
@@ -1936,23 +1936,23 @@ CMakeFiles/FOCX.elf.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target FOCX.elf"
@@ -3288,23 +3288,23 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/coap/C
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\build.make esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\build.make esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=89 "Built target __ldgen_output_esp32.project.ld"
@@ -4012,9 +4012,9 @@ esp-idf/mdns/CMakeFiles/__idf_mdns.dir/clean:
 # All Build rule for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_local_ctrl\CMakeFiles\__idf_esp_local_ctrl.dir\build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_local_ctrl\CMakeFiles\__idf_esp_local_ctrl.dir\build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
@@ -4431,8 +4431,8 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/clean:
 # Target rules for target esp-idf/ulp/CMakeFiles/__idf_ulp.dir
 
 # All Build rule for target.
-esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
+esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\ulp\CMakeFiles\__idf_ulp.dir\build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\ulp\CMakeFiles\__idf_ulp.dir\build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_ulp"
@@ -4460,9 +4460,9 @@ esp-idf/ulp/CMakeFiles/__idf_ulp.dir/clean:
 # All Build rule for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\wifi_provisioning\CMakeFiles\__idf_wifi_provisioning.dir\build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\wifi_provisioning\CMakeFiles\__idf_wifi_provisioning.dir\build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
@@ -4498,22 +4498,22 @@ esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.d
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=60 "Built target __idf_main"

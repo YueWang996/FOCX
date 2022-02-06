@@ -5,9 +5,12 @@
 #ifndef FOCX_FOC_UTILITIES_H
 #define FOCX_FOC_UTILITIES_H
 
+#include "../conf.h"
+
 #define fast_cos(x)                     fast_sin(1.5707963f - x)
 #define fast_sqrt(x)                    _sqrtApprox(x)
 #define _sign(a) ( ( (a) < 0 )  ?  -1   : ( (a) > 0 ) )
+#define fast_constrain(x, low, high)    ((x)<(low)?(low):((x) >(high)?(high):(x)))
 
 #define _2_SQRT3 1.15470053838f
 #define _SQRT3 1.73205080757f
@@ -24,7 +27,10 @@
 #define _PI_6 0.52359877559f
 
 extern "C" {
+    float normalise_angle(float angle);
     float fast_sin(float theta);
+    float LPF(float x, float last_output, float a);
+    float PIDController(PIDControlParameters pid, float error);
 }
 
 #endif //FOCX_FOC_UTILITIES_H

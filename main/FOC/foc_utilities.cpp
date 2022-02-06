@@ -2,6 +2,8 @@
 // Created by Justin on 02/02/2022.
 //
 
+#include <cmath>
+#include <cstdio>
 #include "foc_utilities.h"
 /// fast sine function lookup table
 const float sin_tab[] = {
@@ -73,4 +75,24 @@ float fast_sin(float theta) {
     }
     /* look up the table to obtain the sine value */
     return sin_tab[(int) (81.4873308f * theta)];
+}
+
+float LPF(float x, float last_output, float a) {
+    return a * last_output + (1.0f - a) * x;
+}
+
+float PIDController(PIDControlParameters pid, float error) {
+    float output;
+    pid.error_sum += error * pid.ki;
+    pid.error_sum = fast_constrain(pid.error_sum, -pid.error_sum_constrain, pid.error_sum_constrain);
+    output = error * pid.kp + pid.error_sum;
+    //printf("error:%0.2f, output:%.2f\n", error, output);
+    output = fast_constrain(output, -pid.output_constrain, pid.output_constrain);
+    pid.last_error = error;
+    return output;
+}
+
+float normalise_angle(float angle) {
+    float a = fmod(angle, _2PI);
+    return a >= 0 ? a : (a + _2PI);
 }
