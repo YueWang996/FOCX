@@ -25,12 +25,8 @@ void FOC::init() {
     //printf("Initializing mcpwm...\n");
     motorControlPwm.init(&Ts);
     motorControlPwm.setChannel1Duty(50, 50, 50);
-    vTaskDelay(pdMS_TO_TICKS(1000));
+    vTaskDelay(500 / portTICK_PERIOD_MS);
     motorControlPwm.adc_calibration();
-
-    phaseVoltage = motorControlPwm.getADCVoltage();
-    lpf_last_phaseVoltageU = phaseVoltage.U;
-    lpf_last_phaseVoltageV = phaseVoltage.V;
 
     tle5012B->init();
 
@@ -148,11 +144,6 @@ FOC::FOC() {
 void FOC::ClarkeParkTransform() {
     phaseVoltage = motorControlPwm.getADCVoltage();
 
-    // filter the sampled voltage
-    //float filteredU = LPF(phaseVoltage.U, lpf_last_phaseVoltageU, lpf_ratio);
-    //float filteredV = LPF(phaseVoltage.V, lpf_last_phaseVoltageV, lpf_ratio);
-    //printf("VoltageU:%f, VoltageV:%f\n", filteredU, filteredV);
-
     // Clarke transform
     float i_alpha = CH1_VOLTAGE2CURRENT(phaseVoltage.U);
     float i_beta = _1_SQRT3 * CH1_VOLTAGE2CURRENT(phaseVoltage.U) + _2_SQRT3 * CH1_VOLTAGE2CURRENT(phaseVoltage.V);
@@ -160,27 +151,40 @@ void FOC::ClarkeParkTransform() {
     // Park transform
     id = i_alpha * cosVal + i_beta * sinVal;
     iq = i_beta * cosVal - i_alpha * sinVal;
-    id = LPF(id, lpf_last_id, 0.3);
-    iq = LPF(iq, lpf_last_iq, 0.5);
+    id = LPF(id, lpf_last_id, lpf_ratio_id);
+    iq = LPF(iq, lpf_last_iq, lpf_ratio_iq);
     lpf_last_id = id;
     lpf_last_iq = iq;
 }
 
 void FOC::motorStart(float target) {
-    // Get electrical angle
-    getEAngle();
-    cosVal = fast_cos(angle);
-    sinVal = fast_sin(angle);
+    switch (mode) {
+        case Torque: {
+            // Get electrical angle
+            getEAngle();
+            angle = LPF(angle, lpf_last_angle, lpf_ratio_angle);
+            cosVal = fast_cos(angle);
+            sinVal = fast_sin(angle);
+            lpf_last_angle = angle;
 
-    ClarkeParkTransform();
+            ClarkeParkTransform();
 
-    // Current loop PID;
-    float vd = PIDController(idPID, -id);
-    float vq = PIDController(iqPID, target - iq);
+            // Current loop PID;
+            float vd = PIDController(idPID, -id);
+            float vq = PIDController(iqPID, target - iq);
 
-    printf("id:%.2f,iq:%.2f\n", id, iq);
+            //printf("id:%.2f,iq:%.2f\n", id, iq);
+            svpwm(vq, vd);
+            break;
+        }
+        case Velocity: {
 
-    svpwm(vq, vd);
+            break;
+        }
+        case Position: {
+            break;
+        }
+    }
 }
 
 void FOC::alignElectricalAngle() {
@@ -190,7 +194,7 @@ void FOC::alignElectricalAngle() {
     for (int i = 0; i <= 500; i++) {
         float a = _3PI_2 + _2PI * i / 500.0f;
         spwm(Valign, 0, a);
-        vTaskDelay(pdMS_TO_TICKS(7));
+        vTaskDelay(3 / portTICK_PERIOD_MS);
     }
     tle5012B->update();
     if (tle5012B->getAngleValue() > temp_angle) direction = SensorDirection::CW;
@@ -198,16 +202,17 @@ void FOC::alignElectricalAngle() {
     for (int i = 500; i >= 0; i--) {
         float a = _3PI_2 + _2PI * i / 500.0f;
         spwm(Valign, 0, a);
-        vTaskDelay(pdMS_TO_TICKS(7));
+        vTaskDelay(3 / portTICK_PERIOD_MS);
     }
 
     // Align mechanical angle and electrical angle
     spwm(Valign, 0, _3PI_2);
-    vTaskDelay(pdMS_TO_TICKS(700));
+    vTaskDelay(700 / portTICK_PERIOD_MS);
     tle5012B->update();
     zero_electrical_angle = 0;
     getEAngle();    // update angle value
     zero_electrical_angle = angle;
+    lpf_last_angle = angle;
     motorControlPwm.setChannel1Duty(0, 0, 0);
 }
 

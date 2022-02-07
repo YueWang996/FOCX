@@ -68,7 +68,7 @@ include esp-idf/partition_table/CMakeFiles/partition_table.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition_table:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\partition_table && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "Partition table binary generated. Contents:"
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\partition_table && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo *******************************************************************************
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\partition_table && python C:/Users/Justin/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/partition_table/partition-table.bin
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\partition_table && python C:/Users/Justin/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 4MB C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/partition_table/partition-table.bin
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\partition_table && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo *******************************************************************************
 
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table

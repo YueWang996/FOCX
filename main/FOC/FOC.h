@@ -39,7 +39,14 @@ public:
     // PID things
     PIDControlParameters idPID;
     PIDControlParameters iqPID;
-    float target_id = 0;
+    PIDControlParameters positionPID;
+
+    float lpf_ratio_id = 0.3;
+    float lpf_ratio_iq = 0.5;
+    float lpf_ratio_angle = 0.01;
+
+    FOC_MODE mode = FOC_MODE::Torque;
+
 private:
     TLE5012B *tle5012B;
 
@@ -69,9 +76,7 @@ private:
     float id, iq;
 
     // Low-pass filter
-    float lpf_ratio = 0.1;
-    float lpf_last_phaseVoltageU;
-    float lpf_last_phaseVoltageV;
+    float lpf_last_angle;
     float lpf_last_id;
     float lpf_last_iq;
 

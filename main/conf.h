@@ -12,6 +12,7 @@
 #define CLK  23
 #define CS   19
 
+/// ADC Parameters
 #define CH1_VOLTAGE_GAIN    106.4
 #define CH2_VOLTAGE_GAIN    51.0
 #define CH1_SAMPLING_RESISTANCE     0.001
@@ -19,10 +20,20 @@
 #define CH1_VOLTAGE2CURRENT(v) (v) * 1000.0f / CH1_VOLTAGE_GAIN   /// mV to mA
 #define CH2_VOLTAGE2CURRENT(v) (v) * 1000.0f / CH2_VOLTAGE_GAIN
 
-
 //#define ADC_VREF_CALIBRATION 1135
 
-extern float currentLoopP;
+/// UART
+#define UART_NUMBER UART_NUM_0  //usb transmission
+
+/// Watch dog
+#define TWDT_TIMEOUT_S 1
+
+#define CHECK_ERROR_CODE(returned, expected) ({                        \
+            if(returned != expected){                                  \
+                printf("TWDT ERROR\n");                                \
+                abort();                                               \
+            }                                                          \
+})
 
 typedef struct {
     float U;
@@ -49,5 +60,11 @@ typedef struct {
     float error_sum_constrain;
     float output_constrain;
 } PIDControlParameters;
+
+typedef enum {
+    Torque,
+    Velocity,
+    Position
+} FOC_MODE;
 
 #endif //FOCX_CONF_H

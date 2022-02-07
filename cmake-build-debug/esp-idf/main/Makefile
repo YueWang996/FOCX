@@ -270,6 +270,30 @@ driver/SPI_CLASS.cpp.s:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s
 .PHONY : driver/SPI_CLASS.cpp.s
 
+driver/UART_CLASS.obj: driver/UART_CLASS.cpp.obj
+.PHONY : driver/UART_CLASS.obj
+
+# target to build an object file
+driver/UART_CLASS.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.obj
+.PHONY : driver/UART_CLASS.cpp.obj
+
+driver/UART_CLASS.i: driver/UART_CLASS.cpp.i
+.PHONY : driver/UART_CLASS.i
+
+# target to preprocess a source file
+driver/UART_CLASS.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.i
+.PHONY : driver/UART_CLASS.cpp.i
+
+driver/UART_CLASS.s: driver/UART_CLASS.cpp.s
+.PHONY : driver/UART_CLASS.s
+
+# target to generate assembly for a file
+driver/UART_CLASS.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.s
+.PHONY : driver/UART_CLASS.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -343,6 +367,9 @@ help:
 	@echo ... driver/SPI_CLASS.obj
 	@echo ... driver/SPI_CLASS.i
 	@echo ... driver/SPI_CLASS.s
+	@echo ... driver/UART_CLASS.obj
+	@echo ... driver/UART_CLASS.i
+	@echo ... driver/UART_CLASS.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

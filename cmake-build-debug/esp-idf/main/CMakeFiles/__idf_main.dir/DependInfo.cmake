@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/FOC/foc_utilities.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj"
   "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/MotorControlPWM.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj"
   "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
+  "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/UART_CLASS.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.obj"
   "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj"
   "C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/sensor/Tle5012b/TLE5012B.cpp" "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
   )

@@ -69,7 +69,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: FOCX.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	python C:/Users/Justin/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 -o C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.bin C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.elf
+	python C:/Users/Justin/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 4MB --elf-sha256-offset 0xb0 -o C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.bin C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.elf
 	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "Generated C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.bin"
 	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E md5sum C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/FOCX.bin > C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/.bin_timestamp
 

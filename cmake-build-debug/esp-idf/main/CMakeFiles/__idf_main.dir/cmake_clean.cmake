@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj"
   "CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj"
   "CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj"
+  "CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.obj"
   "CMakeFiles/__idf_main.dir/main.cpp.obj"
   "CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj"
   "libmain.a"

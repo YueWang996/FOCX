@@ -10594,6 +10594,12 @@
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/SPI_CLASS.h">
 			<Option target="__idf_main"/>
 		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/UART_CLASS.cpp">
+			<Option target="__idf_main"/>
+		</Unit>
+		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/driver/UART_CLASS.h">
+			<Option target="__idf_main"/>
+		</Unit>
 		<Unit filename="C:/AllFiles/programming/MachineDog/FocX_v_0_5/main/main.cpp">
 			<Option target="__idf_main"/>
 		</Unit>
