@@ -34,7 +34,7 @@ void FOC::init() {
 }
 
 void FOC::svpwm(float vq, float vd) {
-    vq = fast_constrain(vq, 0, Vlimit);
+    vq = fast_constrain(vq, -Vlimit, Vlimit);
     //float cosVal = fast_cos(angle);
     //float sinVal = fast_sin(angle);
     float va = vd * cosVal - vq * sinVal;
@@ -109,12 +109,11 @@ void FOC::svpwm(float vq, float vd) {
             ch2 = 0;
             ch3 = 0;
     }
+    //printf("CH1:%f, CH2:%f, CH3:%f, sector:%d\n", ch1, ch2, ch3, sector);
     ch1 = fast_constrain(ch1, 0, Ts);
     ch2 = fast_constrain(ch2, 0, Ts);
     ch3 = fast_constrain(ch3, 0, Ts);
     motorControlPwm.setChannel1Duty(ch1 * 100.0 / Ts, ch2 * 100.0 / Ts, ch3 * 100.0 / Ts);
-    //ClarkParkTransform();
-    //printf("CH1:%f, CH2:%f, CH3:%f\n", ch1, ch2, ch3);
 }
 
 void FOC::setVoltage(float Vdc, float Vlim) {
@@ -178,10 +177,28 @@ void FOC::motorStart(float target) {
             break;
         }
         case Velocity: {
-
             break;
         }
         case Position: {
+            tle5012B->update();
+            realAngle = (float) tle5012B->getAngleValue() * (float) direction;
+            realAngle = LPF(realAngle, lpf_last_angle, lpf_ratio_angle);
+
+            angle = normalise_angle((float) (pole_pares) * realAngle - zero_electrical_angle);
+            cosVal = fast_cos(angle);
+            sinVal = fast_sin(angle);
+            lpf_last_angle = realAngle;
+
+            ClarkeParkTransform();
+
+            float target_iq = PIDController(positionPID, target - realAngle);
+
+            // Current loop PID;
+            float vd = PIDController(idPID, -id);
+            float vq = PIDController(iqPID, target_iq - iq);
+            //printf("vd:%f,vq:%f\n", vd, vq);
+
+            svpwm(vq, vd);
             break;
         }
     }
@@ -242,4 +259,8 @@ void FOC::spwm(float vq, float vd, float angle) {
     //}
     motorControlPwm.setChannel1Duty(Ua * 100.0 / Vdc, Ub * 100.0 / Vdc, Uc * 100.0 / Vdc);
 
+}
+
+float FOC::getZeroEAngle() {
+    return zero_electrical_angle;
 }

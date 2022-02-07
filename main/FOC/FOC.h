@@ -32,6 +32,7 @@ public:
     void motorStart(float target);
 
     void getEAngle();
+    float getZeroEAngle();
     void alignElectricalAngle();
 
     MotorControlPWM motorControlPwm;
@@ -66,7 +67,7 @@ private:
 
     // Angles
     float angle;
-    float e_angle;
+    float realAngle;
     float zero_electrical_angle;
     uint8_t pole_pares;
     int8_t direction = SensorDirection::CW;

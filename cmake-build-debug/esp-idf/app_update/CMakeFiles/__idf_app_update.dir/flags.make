@@ -8,5 +8,5 @@ C_INCLUDES = -IC:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\c
 
 C_FLAGS = -mlongcalls -Wno-frame-address -g -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -ggdb -O2 -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -std=gnu99 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v4.3\" -DESP_PLATFORM
 
-# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="62b3363-dirty"; PROJECT_NAME="FOCX"
+# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="91bc602-dirty"; PROJECT_NAME="FOCX"
 

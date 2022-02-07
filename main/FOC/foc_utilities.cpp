@@ -85,7 +85,7 @@ float PIDController(PIDControlParameters pid, float error) {
     float output;
     pid.error_sum += error * pid.ki;
     pid.error_sum = fast_constrain(pid.error_sum, -pid.error_sum_constrain, pid.error_sum_constrain);
-    output = error * pid.kp + pid.error_sum;
+    output = error * pid.kp + pid.error_sum + pid.kd * (error - pid.last_error);
     //printf("error:%0.2f, output:%.2f\n", error, output);
     output = fast_constrain(output, -pid.output_constrain, pid.output_constrain);
     pid.last_error = error;

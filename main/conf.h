@@ -26,7 +26,7 @@
 #define UART_NUMBER UART_NUM_0  //usb transmission
 
 /// Watch dog
-#define TWDT_TIMEOUT_S 1
+#define TWDT_TIMEOUT_S 2
 
 #define CHECK_ERROR_CODE(returned, expected) ({                        \
             if(returned != expected){                                  \

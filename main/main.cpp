@@ -32,6 +32,16 @@ void app_main(void) {
     mutex = xSemaphoreCreateMutex();
 
     xTaskCreatePinnedToCore(
+            foc_task,                   // Function to be called
+            "foc_task",         // Name of task
+            8192,            // Stack size in byte
+            NULL,            // Parameter to pass to function
+            1,                  // Task priority
+            NULL,           // Task handle
+            0                   // Core id
+    );
+
+    xTaskCreatePinnedToCore(
             monitor_task,                   // Function to be called
             "monitor_task",         // Name of task
             4096,            // Stack size in byte
@@ -39,16 +49,6 @@ void app_main(void) {
             1,                  // Task priority
             NULL,           // Task handle
             1                   // Core id
-    );
-
-    xTaskCreatePinnedToCore(
-            foc_task,                   // Function to be called
-            "foc_task",         // Name of task
-            4096,            // Stack size in byte
-            NULL,            // Parameter to pass to function
-            1,                  // Task priority
-            NULL,           // Task handle
-            0                   // Core id
     );
 
 }
@@ -70,16 +70,25 @@ static void foc_task(void *arg) {
         myFoc.iqPID.kd = 0;
         myFoc.iqPID.error_sum_constrain = 2.0;
         myFoc.iqPID.output_constrain = 2.0;
+        myFoc.iqPID.last_error = 0;
 
         myFoc.idPID.kp = 0.0002;
         myFoc.idPID.ki = 0.000003;
         myFoc.iqPID.kd = 0;
         myFoc.idPID.error_sum_constrain = 2.0;
         myFoc.idPID.output_constrain = 2.0;
+        myFoc.idPID.last_error = 0;
 
-        myFoc.mode = FOC_MODE::Torque;
+        myFoc.positionPID.kp = 800;
+        myFoc.positionPID.ki = 20;
+        myFoc.positionPID.kd = 10;
+        myFoc.positionPID.error_sum_constrain = 2000;
+        myFoc.positionPID.output_constrain = 2000;
+        myFoc.positionPID.last_error = 0;
 
-        target = 800.0;
+        myFoc.mode = FOC_MODE::Position;
+
+        target = 0.0;
 
         myFoc.init();
 
@@ -121,15 +130,53 @@ static void monitor_task(void *arg) {
             mutex_flag = true;
             p = strtok(received, delim);
 
+            // Change target
             if(strcmp(p, "T") == 0) {
                 p = strtok(nullptr, delim);
                 parameter = strtof(p, nullptr);
                 while(mutex_flag) {
                     if (xSemaphoreTake(mutex, 0) == pdTRUE) {
                         target = parameter;
-                        printf("Successful: %f", target);
                         xSemaphoreGive(mutex);
+                        printf("Success: %f", target);
                         mutex_flag = false;
+                    }
+                }
+            }
+
+            // Change mode
+            if(strcmp(p, "M") == 0) {
+                p = strtok(nullptr, delim);
+                if(strstr(p, "T") != nullptr) {
+                    while(mutex_flag) {
+                        if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                            myFoc.mode = FOC_MODE::Torque;
+                            target = 0;
+                            xSemaphoreGive(mutex);
+                            //printf("Mode: Torque");
+                            mutex_flag = false;
+                        }
+                    }
+                }
+                //if(strcmp(&p[0], "V") == 0) {
+                //    while(mutex_flag) {
+                //        if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                //            myFoc.mode = FOC_MODE::Velocity;
+                //            printf("Mode: Velocity");
+                //            xSemaphoreGive(mutex);
+                //            mutex_flag = false;
+                //        }
+                //    }
+                //}
+                if(strstr(p, "P") != nullptr) {
+                    while(mutex_flag) {
+                        if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                            myFoc.mode = FOC_MODE::Position;
+                            target = tle5012B.getAngleValue() - myFoc.getZeroEAngle();
+                            //printf("Mode: Position");
+                            xSemaphoreGive(mutex);
+                            mutex_flag = false;
+                        }
                     }
                 }
             }
@@ -164,6 +211,49 @@ static void monitor_task(void *arg) {
                             if (strcmp(p, "VLPF") == 0) {
                                 p = strtok(nullptr, delim);
                                 parameter = strtof(p, nullptr);
+                            }
+                            if (strcmp(p, "ALPF") == 0) {
+                                p = strtok(nullptr, delim);
+                                parameter = strtof(p, nullptr);
+                            }
+                        }
+                    }
+                    if(strcmp(p, "POS") == 0) {
+                        p = strtok(nullptr, delim);
+                        if (strcmp(p, "P") == 0) {
+                            p = strtok(nullptr, delim);
+                            parameter = strtof(p, nullptr);
+                            while(mutex_flag) {
+                                if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                                    myFoc.positionPID.kp = parameter;
+                                    //printf("Success: %f", parameter);
+                                    xSemaphoreGive(mutex);
+                                    mutex_flag = false;
+                                }
+                            }
+                        }
+                        if (strcmp(p, "I") == 0) {
+                            p = strtok(nullptr, delim);
+                            parameter = strtof(p, nullptr);
+                            while(mutex_flag) {
+                                if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                                    myFoc.positionPID.ki = parameter;
+                                    //printf("Success: %f", parameter);
+                                    xSemaphoreGive(mutex);
+                                    mutex_flag = false;
+                                }
+                            }
+                        }
+                        if (strcmp(p, "D") == 0) {
+                            p = strtok(nullptr, delim);
+                            parameter = strtof(p, nullptr);
+                            while(mutex_flag) {
+                                if (xSemaphoreTake(mutex, 0) == pdTRUE) {
+                                    myFoc.positionPID.kd = parameter;
+                                    //printf("Success: %f", parameter);
+                                    xSemaphoreGive(mutex);
+                                    mutex_flag = false;
+                                }
                             }
                         }
                     }
