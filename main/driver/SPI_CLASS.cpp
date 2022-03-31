@@ -4,16 +4,20 @@
 
 #include <cstring>
 #include "SPI_CLASS.h"
+#include <driver/gpio.h>
 
-void MySPI::set_pins(uint8_t miso, uint8_t mosi, uint8_t clk, uint8_t cs) {
-    this->miso = miso;
-    this->mosi = mosi;
-    this->clk = clk;
-    this->cs = cs;
+void MySPI::set_pins(uint8_t *cs, uint8_t num_of_pins) {
+    for(uint8_t i = 0; i < num_of_pins; i++) {
+        gpio_pad_select_gpio(static_cast<gpio_num_t>(cs[i]));
+        gpio_set_direction(static_cast<gpio_num_t>(cs[i]), GPIO_MODE_OUTPUT);
+    }
 }
 
 MySPI::MySPI() {
-
+    this->miso = MISO;
+    this->mosi = MOSI;
+    this->clk = CLK;
+    spi_is_reading = false;
 }
 
 void MySPI::spi_init() {
@@ -29,9 +33,9 @@ void MySPI::spi_init() {
     };
 
     this->spiDeviceInterfaceConfig = {
-            .mode           = 0,                                    // SPI mode 0
+            .mode           = 1,                                    // SPI mode 1
             .clock_speed_hz = APB_CLK_FREQ/80,                      //  Clock at 1 MHz
-            //.clock_speed_hz = SPI_MASTER_FREQ_10M,                // Clock at 10 MHz
+            //.clock_speed_hz = SPI_MASTER_FREQ_8M,                // Clock at 10 MHz
             .input_delay_ns = 500,
             .spics_io_num   = -1,
             .queue_size     = 3,                                    // 传输队列大小，决定了等待传输数据的数量
@@ -48,18 +52,23 @@ void MySPI::spi_init() {
     ret = spi_bus_add_device(SPI3_HOST, &this->spiDeviceInterfaceConfig, &this->spiDeviceHandle);
     ESP_ERROR_CHECK(ret);
 
-    gpio_pad_select_gpio(this->cs);                // 选择一个GPIO
-    gpio_set_direction(static_cast<gpio_num_t>(this->cs), GPIO_MODE_OUTPUT);// 把这个GPIO作为输出
+    //gpio_pad_select_gpio(5);
+    //gpio_set_direction(static_cast<gpio_num_t>(5), GPIO_MODE_OUTPUT);
+    //gpio_pad_select_gpio(22);
+    //gpio_set_direction(static_cast<gpio_num_t>(22), GPIO_MODE_OUTPUT);
 }
 
-void MySPI::spi_send_receive(uint16_t *send, uint8_t slen, uint16_t *receive, uint8_t rlen) {
+void MySPI::spi_send_receive(uint16_t *send, uint8_t slen, uint16_t *receive, uint8_t rlen, uint8_t cs_pin) {
+    spi_is_reading = true;
+
     spi_transaction_t t;
     memset(&t, 0, sizeof(t));
 
     //send phase
     t.length = slen;
     t.tx_buffer = send;
-    gpio_set_level(static_cast<gpio_num_t>(this->cs), 0);
+    //printf("set cs (pin %d) to low...", cs_pin);
+    gpio_set_level(static_cast<gpio_num_t>(cs_pin), 0);
     spi_device_transmit(spiDeviceHandle, &t);
 
     //receive phase
@@ -69,17 +78,20 @@ void MySPI::spi_send_receive(uint16_t *send, uint8_t slen, uint16_t *receive, ui
     t.rx_buffer = receive;
     t.rxlength = rlen;
     spi_device_transmit(spiDeviceHandle, &t);
-    gpio_set_level(static_cast<gpio_num_t>(this->cs), 1);
+    //printf("set cs (pin %d) to high...", cs_pin);
+    gpio_set_level(static_cast<gpio_num_t>(cs_pin), 1);
+
+    spi_is_reading = false;
 }
 
-void MySPI::spi_send(uint16_t *send, uint8_t slen) {
+void MySPI::spi_send(uint16_t *send, uint8_t slen, uint8_t cs_pin) {
     spi_transaction_t t;
     memset(&t, 0, sizeof(t));
 
     //send phase
     t.length = slen;
     t.tx_buffer = send;
-    gpio_set_level(static_cast<gpio_num_t>(this->cs), 0);
+    gpio_set_level(static_cast<gpio_num_t>(cs_pin), 0);
     spi_device_transmit(spiDeviceHandle, &t);
-    gpio_set_level(static_cast<gpio_num_t>(this->cs), 1);
+    gpio_set_level(static_cast<gpio_num_t>(cs_pin), 1);
 }

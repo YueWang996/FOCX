@@ -25,12 +25,6 @@
 
 class MotorControlPWM {
 public:
-    typedef struct {
-        uint8_t p1;
-        uint8_t p2;
-        uint8_t p3;
-    } three_phase_pwm_pins_t;
-
     typedef enum {
         UNUSED = 0,
         USED
@@ -48,11 +42,13 @@ public:
     void setChannel1Duty(float a, float b, float c);
     void setChannel2Duty(float a, float b, float c);
 
-    three_phase_pwm_pins_t channel1, channel2;
+    //three_phase_pwm_pins_t channel1, channel2;
 
-    void adc_interrupt_handler();
+    void adc_interrupt_handler1();
+    void adc_interrupt_handler2();
     void adc_calibration();
-    PhaseVoltage getADCVoltage();
+    PhaseVoltage getADCVoltageCH1();
+    PhaseVoltage getADCVoltageCH2();
 
 private:
     mcpwm_config_t mcpwmConfig;
@@ -69,8 +65,10 @@ private:
 
 
     uint8_t state = 1;
-    int adc_raw1, adc_raw2;
-    float adc_offset1, adc_offset2;
+    uint8_t state1 = 1;
+    uint8_t adc_delay = 3;
+    int adc_raw1a, adc_raw1b, adc_raw2a, adc_raw2b;
+    float adc_offset1a, adc_offset1b, adc_offset2a, adc_offset2b;
 };
 
 

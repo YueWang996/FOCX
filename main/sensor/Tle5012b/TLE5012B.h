@@ -8,6 +8,7 @@
 #include "../../driver/SPI_CLASS.h"
 #include "esp_timer.h"
 
+/// register and command define
 #define REG_AVAL 0x0020U
 #define REG_ASPD 0x0030U
 #define REG_AREV 0x0040U
@@ -36,26 +37,55 @@
 
 class TLE5012B {
 public:
-    TLE5012B(uint8_t miso, uint8_t mosi, uint8_t clk, uint8_t cs);
+    /// Instantiate TLE5012b Magnetic encoder
+    /// \param cs chip selection pin
+    TLE5012B(uint8_t cs);
+
+    /// Initialise sensor
     void init();
 
+    /// SPI driver register
+    /// \param spi Pointer to SPI
+    void setSPI(MySPI *spi);
+
+    /// Read angle from the sensor and update angle
     void update();
+
+    /// Get angular velocity
+    /// \return angular velocity
     double getAngularVelocity();
+
+    /// Get absolute angle value (0 to 2pi)
+    /// \return absolute angle value (0 to 2pi)
     double getAbsoluteAngleValue();
+
+    /// Get accumulated angle
+    /// \return accumulated angle value
     double getAngleValue();
+
+    /// Get revolution
+    /// \return revolution
     int16_t getRevolutionValue();
 
 private:
+    /// read angle from sensor via SPI
+    /// \param angle pointer to where the angle is store
     void getAngle(double *angle);
+
+    /// read revolution from sensor via SPI
+    /// \param revolution pointer to where the revolution is store
     void getRevolution(int16_t *revolution);
 
-    MySPI mySpi;
+    /// SPI pointer
+    MySPI *mySpi;
 
+    /// SPI pins
     uint8_t miso;
     uint8_t mosi;
     uint8_t clk;
     uint8_t cs;
 
+    /// some variables used during update and speed calculation
     uint64_t last_time_stamp;
     uint64_t current_time_stamp;
 

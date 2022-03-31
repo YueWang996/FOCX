@@ -198,6 +198,30 @@ FOC/FOC.cpp.s:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s
 .PHONY : FOC/FOC.cpp.s
 
+FOC/LowPass.obj: FOC/LowPass.cpp.obj
+.PHONY : FOC/LowPass.obj
+
+# target to build an object file
+FOC/LowPass.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.obj
+.PHONY : FOC/LowPass.cpp.obj
+
+FOC/LowPass.i: FOC/LowPass.cpp.i
+.PHONY : FOC/LowPass.i
+
+# target to preprocess a source file
+FOC/LowPass.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.i
+.PHONY : FOC/LowPass.cpp.i
+
+FOC/LowPass.s: FOC/LowPass.cpp.s
+.PHONY : FOC/LowPass.s
+
+# target to generate assembly for a file
+FOC/LowPass.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.s
+.PHONY : FOC/LowPass.cpp.s
+
 FOC/foc_utilities.obj: FOC/foc_utilities.cpp.obj
 .PHONY : FOC/foc_utilities.obj
 
@@ -221,6 +245,102 @@ FOC/foc_utilities.s: FOC/foc_utilities.cpp.s
 FOC/foc_utilities.cpp.s:
 	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s
 .PHONY : FOC/foc_utilities.cpp.s
+
+driver/BoardStateMonitor.obj: driver/BoardStateMonitor.cpp.obj
+.PHONY : driver/BoardStateMonitor.obj
+
+# target to build an object file
+driver/BoardStateMonitor.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.obj
+.PHONY : driver/BoardStateMonitor.cpp.obj
+
+driver/BoardStateMonitor.i: driver/BoardStateMonitor.cpp.i
+.PHONY : driver/BoardStateMonitor.i
+
+# target to preprocess a source file
+driver/BoardStateMonitor.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.i
+.PHONY : driver/BoardStateMonitor.cpp.i
+
+driver/BoardStateMonitor.s: driver/BoardStateMonitor.cpp.s
+.PHONY : driver/BoardStateMonitor.s
+
+# target to generate assembly for a file
+driver/BoardStateMonitor.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.s
+.PHONY : driver/BoardStateMonitor.cpp.s
+
+driver/CAN/CAN.obj: driver/CAN/CAN.c.obj
+.PHONY : driver/CAN/CAN.obj
+
+# target to build an object file
+driver/CAN/CAN.c.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.obj
+.PHONY : driver/CAN/CAN.c.obj
+
+driver/CAN/CAN.i: driver/CAN/CAN.c.i
+.PHONY : driver/CAN/CAN.i
+
+# target to preprocess a source file
+driver/CAN/CAN.c.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.i
+.PHONY : driver/CAN/CAN.c.i
+
+driver/CAN/CAN.s: driver/CAN/CAN.c.s
+.PHONY : driver/CAN/CAN.s
+
+# target to generate assembly for a file
+driver/CAN/CAN.c.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.s
+.PHONY : driver/CAN/CAN.c.s
+
+driver/CAN/ESP32CAN.obj: driver/CAN/ESP32CAN.cpp.obj
+.PHONY : driver/CAN/ESP32CAN.obj
+
+# target to build an object file
+driver/CAN/ESP32CAN.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.obj
+.PHONY : driver/CAN/ESP32CAN.cpp.obj
+
+driver/CAN/ESP32CAN.i: driver/CAN/ESP32CAN.cpp.i
+.PHONY : driver/CAN/ESP32CAN.i
+
+# target to preprocess a source file
+driver/CAN/ESP32CAN.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.i
+.PHONY : driver/CAN/ESP32CAN.cpp.i
+
+driver/CAN/ESP32CAN.s: driver/CAN/ESP32CAN.cpp.s
+.PHONY : driver/CAN/ESP32CAN.s
+
+# target to generate assembly for a file
+driver/CAN/ESP32CAN.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.s
+.PHONY : driver/CAN/ESP32CAN.cpp.s
+
+driver/CANCommunication.obj: driver/CANCommunication.cpp.obj
+.PHONY : driver/CANCommunication.obj
+
+# target to build an object file
+driver/CANCommunication.cpp.obj:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.obj
+.PHONY : driver/CANCommunication.cpp.obj
+
+driver/CANCommunication.i: driver/CANCommunication.cpp.i
+.PHONY : driver/CANCommunication.i
+
+# target to preprocess a source file
+driver/CANCommunication.cpp.i:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.i
+.PHONY : driver/CANCommunication.cpp.i
+
+driver/CANCommunication.s: driver/CANCommunication.cpp.s
+.PHONY : driver/CANCommunication.s
+
+# target to generate assembly for a file
+driver/CANCommunication.cpp.s:
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.s
+.PHONY : driver/CANCommunication.cpp.s
 
 driver/MotorControlPWM.obj: driver/MotorControlPWM.cpp.obj
 .PHONY : driver/MotorControlPWM.obj
@@ -358,9 +478,24 @@ help:
 	@echo ... FOC/FOC.obj
 	@echo ... FOC/FOC.i
 	@echo ... FOC/FOC.s
+	@echo ... FOC/LowPass.obj
+	@echo ... FOC/LowPass.i
+	@echo ... FOC/LowPass.s
 	@echo ... FOC/foc_utilities.obj
 	@echo ... FOC/foc_utilities.i
 	@echo ... FOC/foc_utilities.s
+	@echo ... driver/BoardStateMonitor.obj
+	@echo ... driver/BoardStateMonitor.i
+	@echo ... driver/BoardStateMonitor.s
+	@echo ... driver/CAN/CAN.obj
+	@echo ... driver/CAN/CAN.i
+	@echo ... driver/CAN/CAN.s
+	@echo ... driver/CAN/ESP32CAN.obj
+	@echo ... driver/CAN/ESP32CAN.i
+	@echo ... driver/CAN/ESP32CAN.s
+	@echo ... driver/CANCommunication.obj
+	@echo ... driver/CANCommunication.i
+	@echo ... driver/CANCommunication.s
 	@echo ... driver/MotorControlPWM.obj
 	@echo ... driver/MotorControlPWM.i
 	@echo ... driver/MotorControlPWM.s

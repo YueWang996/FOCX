@@ -11,20 +11,20 @@
 				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="apidoc">
 				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 apidoc"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 apidoc"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedcrypto">
@@ -88,10 +88,10 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedcrypto/fast">
@@ -155,10 +155,10 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedcrypto/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedx509">
@@ -222,10 +222,10 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedx509/fast">
@@ -289,20 +289,20 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedx509/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lib">
 				<Option working_dir="C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 lib"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedtls">
@@ -366,10 +366,10 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mbedtls/fast">
@@ -433,10 +433,10 @@
 					<Add directory="c:\users\justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 mbedtls/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

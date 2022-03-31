@@ -2,18 +2,17 @@
 // Created by Justin on 01/02/2022.
 //
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
 #include "TLE5012B.h"
 
-TLE5012B::TLE5012B(uint8_t miso, uint8_t mosi, uint8_t clk, uint8_t cs) {
-    this->miso = miso;
-    this->mosi = mosi;
-    this->clk = clk;
+TLE5012B::TLE5012B(uint8_t cs) {
     this->cs = cs;
 }
 
 void TLE5012B::init() {
-    mySpi.set_pins(miso, mosi, clk, cs);
-    mySpi.spi_init();
+    //mySpi.set_pins(cs);
+    //mySpi.spi_init();
 
     getAngle(&current_abs_angle);
     getAngle(&last_abs_angle);
@@ -32,7 +31,20 @@ void TLE5012B::getAngle(double *angle) {
 
     data = SPI_SWAP_DATA_TX(command, 16);
 
-    mySpi.spi_send_receive(&data, 16, &received, 16);
+    //if(!mySpi->spi_is_reading) {
+    //    mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+    //} else {
+    //    vTaskDelay(2/portTICK_PERIOD_MS);
+    //    if(!mySpi->spi_is_reading) {
+    //        mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+    //    } else {
+    //        return;
+    //    }
+    //}
+    //while(mySpi->spi_is_reading);
+    mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+
+
 
     received = SPI_SWAP_DATA_RX(received, 16);
     received &= DELETE_BIT_15;
@@ -51,7 +63,18 @@ void TLE5012B::getRevolution(int16_t *revolution) {
 
     data = SPI_SWAP_DATA_TX(command, 16);
 
-    mySpi.spi_send_receive(&data, 16, &received, 16);
+    //while(!mySpi->spi_is_reading);
+    //mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+    if(!mySpi->spi_is_reading) {
+        mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+    } else {
+        vTaskDelay(10/portTICK_PERIOD_MS);
+        if(!mySpi->spi_is_reading) {
+            mySpi->spi_send_receive(&data, 16, &received, 16, cs);
+        } else {
+            return;
+        }
+    }
 
     received = SPI_SWAP_DATA_RX(received, 16);
     received &= DELETE_7BITS;
@@ -91,5 +114,9 @@ double TLE5012B::getAngularVelocity() {
 
 double TLE5012B::getAbsoluteAngleValue() {
     return current_abs_angle;
+}
+
+void TLE5012B::setSPI(MySPI *spi) {
+    mySpi = spi;
 }
 

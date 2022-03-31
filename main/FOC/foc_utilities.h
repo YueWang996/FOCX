@@ -27,9 +27,21 @@
 #define _PI_6 0.52359877559f
 
 extern "C" {
+    /// Get normalised angle (0 - 2pi)
+    /// \param angle Angle to normalise
+    /// \return Normalised angle
     float normalise_angle(float angle);
+
+    /// Fast sine calculation
     float fast_sin(float theta);
+
+    /// Simple 1st-order RC filter
     float LPF(float x, float last_output, float a);
+
+    /// PID controller
+    /// \param pid PID configuration
+    /// \param error PID error input
+    /// \return PID output
     float PIDController(PIDControlParameters pid, float error);
 }
 

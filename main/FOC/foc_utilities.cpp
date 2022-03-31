@@ -78,14 +78,14 @@ float fast_sin(float theta) {
 }
 
 float LPF(float x, float last_output, float a) {
-    return a * last_output + (1.0f - a) * x;
+    return a * x + (1.0f - a) * last_output;
 }
 
 float PIDController(PIDControlParameters pid, float error) {
     float output;
-    pid.error_sum += error * pid.ki;
+    pid.error_sum += error;
     pid.error_sum = fast_constrain(pid.error_sum, -pid.error_sum_constrain, pid.error_sum_constrain);
-    output = error * pid.kp + pid.error_sum + pid.kd * (error - pid.last_error);
+    output = error * pid.kp + pid.error_sum * pid.ki + pid.kd * (error - pid.last_error);
     //printf("error:%0.2f, output:%.2f\n", error, output);
     output = fast_constrain(output, -pid.output_constrain, pid.output_constrain);
     pid.last_error = error;
