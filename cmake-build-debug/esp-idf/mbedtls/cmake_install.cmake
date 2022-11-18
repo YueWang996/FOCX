@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

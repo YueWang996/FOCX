@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 # Utility rule file for efuse_test_table.
 
@@ -66,7 +66,7 @@ include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/compiler_depend.make
 include esp-idf/efuse/CMakeFiles/efuse_test_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/efuse_test_table:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\efuse && python C:/Users/Justin/esp/esp-idf/components/efuse/efuse_table_gen.py C:/Users/Justin/esp/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32 --max_blk_len 192
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\efuse && python C:/Users/Justin/esp/esp-idf/components/efuse/efuse_table_gen.py C:/Users/Justin/esp/esp-idf/components/efuse/test/esp_efuse_test_table.csv -t esp32 --max_blk_len 192
 
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table
 efuse_test_table: esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build.make
@@ -77,10 +77,10 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build: efuse_test_table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\efuse && $(CMAKE_COMMAND) -P CMakeFiles\efuse_test_table.dir\cmake_clean.cmake
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\efuse && $(CMAKE_COMMAND) -P CMakeFiles\efuse_test_table.dir\cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5 C:\Users\Justin\esp\esp-idf\components\efuse C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\efuse C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\efuse\CMakeFiles\efuse_test_table.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5_5 C:\Users\Justin\esp\esp-idf\components\efuse C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\efuse C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\efuse\CMakeFiles\efuse_test_table.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/AllFiles/programming/MachineDog/FocX_v_0_5/main
+# Install script for directory: C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

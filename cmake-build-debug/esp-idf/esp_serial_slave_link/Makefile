@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp_serial_slave_link\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp_serial_slave_link\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule
 .PHONY : esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_esp_serial_slave_link: esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_
 
 # fast build rule for target.
 __idf_esp_serial_slave_link/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/build
 .PHONY : __idf_esp_serial_slave_link/fast
 
 essl.obj: essl.c.obj
@@ -179,7 +179,7 @@ essl.obj: essl.c.obj
 
 # target to build an object file
 essl.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.obj
 .PHONY : essl.c.obj
 
 essl.i: essl.c.i
@@ -187,7 +187,7 @@ essl.i: essl.c.i
 
 # target to preprocess a source file
 essl.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.i
 .PHONY : essl.c.i
 
 essl.s: essl.c.s
@@ -195,7 +195,7 @@ essl.s: essl.c.s
 
 # target to generate assembly for a file
 essl.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.s
 .PHONY : essl.c.s
 
 essl_sdio.obj: essl_sdio.c.obj
@@ -203,7 +203,7 @@ essl_sdio.obj: essl_sdio.c.obj
 
 # target to build an object file
 essl_sdio.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.obj
 .PHONY : essl_sdio.c.obj
 
 essl_sdio.i: essl_sdio.c.i
@@ -211,7 +211,7 @@ essl_sdio.i: essl_sdio.c.i
 
 # target to preprocess a source file
 essl_sdio.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.i
 .PHONY : essl_sdio.c.i
 
 essl_sdio.s: essl_sdio.c.s
@@ -219,7 +219,7 @@ essl_sdio.s: essl_sdio.c.s
 
 # target to generate assembly for a file
 essl_sdio.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.s
 .PHONY : essl_sdio.c.s
 
 essl_spi.obj: essl_spi.c.obj
@@ -227,7 +227,7 @@ essl_spi.obj: essl_spi.c.obj
 
 # target to build an object file
 essl_spi.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.obj
 .PHONY : essl_spi.c.obj
 
 essl_spi.i: essl_spi.c.i
@@ -235,7 +235,7 @@ essl_spi.i: essl_spi.c.i
 
 # target to preprocess a source file
 essl_spi.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.i
 .PHONY : essl_spi.c.i
 
 essl_spi.s: essl_spi.c.s
@@ -243,7 +243,7 @@ essl_spi.s: essl_spi.c.s
 
 # target to generate assembly for a file
 essl_spi.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/essl_spi.c.s
 .PHONY : essl_spi.c.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

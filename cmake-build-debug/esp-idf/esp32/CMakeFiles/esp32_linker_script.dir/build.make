@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 # Utility rule file for esp32_linker_script.
 
@@ -68,8 +68,8 @@ include esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/progress.make
 esp-idf/esp32/CMakeFiles/esp32_linker_script: esp-idf/esp32/esp32_out.ld
 
 esp-idf/esp32/esp32_out.ld: config/sdkconfig.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating linker script..."
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -C -P -x c -E -o esp32_out.ld -I C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32.ld
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating linker script..."
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 && C:\Users\Justin\esp\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -C -P -x c -E -o esp32_out.ld -I C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/config C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32.ld
 
 esp32_linker_script: esp-idf/esp32/CMakeFiles/esp32_linker_script
 esp32_linker_script: esp-idf/esp32/esp32_out.ld
@@ -81,10 +81,10 @@ esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build: esp32_linker_script
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build
 
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\esp32_linker_script.dir\cmake_clean.cmake
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\esp32_linker_script.dir\cmake_clean.cmake
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/clean
 
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5 C:\Users\Justin\esp\esp-idf\components\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32\CMakeFiles\esp32_linker_script.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5_5 C:\Users\Justin\esp\esp-idf\components\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32\CMakeFiles\esp32_linker_script.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend
 

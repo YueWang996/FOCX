@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp_adc_cal\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp_adc_cal\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
 .PHONY : esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_esp_adc_cal: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
 
 # fast build rule for target.
 __idf_esp_adc_cal/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build
 .PHONY : __idf_esp_adc_cal/fast
 
 esp_adc_cal_esp32.obj: esp_adc_cal_esp32.c.obj
@@ -179,7 +179,7 @@ esp_adc_cal_esp32.obj: esp_adc_cal_esp32.c.obj
 
 # target to build an object file
 esp_adc_cal_esp32.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.obj
 .PHONY : esp_adc_cal_esp32.c.obj
 
 esp_adc_cal_esp32.i: esp_adc_cal_esp32.c.i
@@ -187,7 +187,7 @@ esp_adc_cal_esp32.i: esp_adc_cal_esp32.c.i
 
 # target to preprocess a source file
 esp_adc_cal_esp32.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.i
 .PHONY : esp_adc_cal_esp32.c.i
 
 esp_adc_cal_esp32.s: esp_adc_cal_esp32.c.s
@@ -195,7 +195,7 @@ esp_adc_cal_esp32.s: esp_adc_cal_esp32.c.s
 
 # target to generate assembly for a file
 esp_adc_cal_esp32.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal_esp32.c.s
 .PHONY : esp_adc_cal_esp32.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

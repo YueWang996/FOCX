@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\fatfs\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\fatfs\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
 .PHONY : esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_fatfs: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
 
 # fast build rule for target.
 __idf_fatfs/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/build
 .PHONY : __idf_fatfs/fast
 
 diskio/diskio.obj: diskio/diskio.c.obj
@@ -179,7 +179,7 @@ diskio/diskio.obj: diskio/diskio.c.obj
 
 # target to build an object file
 diskio/diskio.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
 .PHONY : diskio/diskio.c.obj
 
 diskio/diskio.i: diskio/diskio.c.i
@@ -187,7 +187,7 @@ diskio/diskio.i: diskio/diskio.c.i
 
 # target to preprocess a source file
 diskio/diskio.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.i
 .PHONY : diskio/diskio.c.i
 
 diskio/diskio.s: diskio/diskio.c.s
@@ -195,7 +195,7 @@ diskio/diskio.s: diskio/diskio.c.s
 
 # target to generate assembly for a file
 diskio/diskio.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.s
 .PHONY : diskio/diskio.c.s
 
 diskio/diskio_rawflash.obj: diskio/diskio_rawflash.c.obj
@@ -203,7 +203,7 @@ diskio/diskio_rawflash.obj: diskio/diskio_rawflash.c.obj
 
 # target to build an object file
 diskio/diskio_rawflash.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
 .PHONY : diskio/diskio_rawflash.c.obj
 
 diskio/diskio_rawflash.i: diskio/diskio_rawflash.c.i
@@ -211,7 +211,7 @@ diskio/diskio_rawflash.i: diskio/diskio_rawflash.c.i
 
 # target to preprocess a source file
 diskio/diskio_rawflash.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.i
 .PHONY : diskio/diskio_rawflash.c.i
 
 diskio/diskio_rawflash.s: diskio/diskio_rawflash.c.s
@@ -219,7 +219,7 @@ diskio/diskio_rawflash.s: diskio/diskio_rawflash.c.s
 
 # target to generate assembly for a file
 diskio/diskio_rawflash.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.s
 .PHONY : diskio/diskio_rawflash.c.s
 
 diskio/diskio_sdmmc.obj: diskio/diskio_sdmmc.c.obj
@@ -227,7 +227,7 @@ diskio/diskio_sdmmc.obj: diskio/diskio_sdmmc.c.obj
 
 # target to build an object file
 diskio/diskio_sdmmc.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
 .PHONY : diskio/diskio_sdmmc.c.obj
 
 diskio/diskio_sdmmc.i: diskio/diskio_sdmmc.c.i
@@ -235,7 +235,7 @@ diskio/diskio_sdmmc.i: diskio/diskio_sdmmc.c.i
 
 # target to preprocess a source file
 diskio/diskio_sdmmc.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.i
 .PHONY : diskio/diskio_sdmmc.c.i
 
 diskio/diskio_sdmmc.s: diskio/diskio_sdmmc.c.s
@@ -243,7 +243,7 @@ diskio/diskio_sdmmc.s: diskio/diskio_sdmmc.c.s
 
 # target to generate assembly for a file
 diskio/diskio_sdmmc.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.s
 .PHONY : diskio/diskio_sdmmc.c.s
 
 diskio/diskio_wl.obj: diskio/diskio_wl.c.obj
@@ -251,7 +251,7 @@ diskio/diskio_wl.obj: diskio/diskio_wl.c.obj
 
 # target to build an object file
 diskio/diskio_wl.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
 .PHONY : diskio/diskio_wl.c.obj
 
 diskio/diskio_wl.i: diskio/diskio_wl.c.i
@@ -259,7 +259,7 @@ diskio/diskio_wl.i: diskio/diskio_wl.c.i
 
 # target to preprocess a source file
 diskio/diskio_wl.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.i
 .PHONY : diskio/diskio_wl.c.i
 
 diskio/diskio_wl.s: diskio/diskio_wl.c.s
@@ -267,7 +267,7 @@ diskio/diskio_wl.s: diskio/diskio_wl.c.s
 
 # target to generate assembly for a file
 diskio/diskio_wl.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.s
 .PHONY : diskio/diskio_wl.c.s
 
 port/freertos/ffsystem.obj: port/freertos/ffsystem.c.obj
@@ -275,7 +275,7 @@ port/freertos/ffsystem.obj: port/freertos/ffsystem.c.obj
 
 # target to build an object file
 port/freertos/ffsystem.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
 .PHONY : port/freertos/ffsystem.c.obj
 
 port/freertos/ffsystem.i: port/freertos/ffsystem.c.i
@@ -283,7 +283,7 @@ port/freertos/ffsystem.i: port/freertos/ffsystem.c.i
 
 # target to preprocess a source file
 port/freertos/ffsystem.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.i
 .PHONY : port/freertos/ffsystem.c.i
 
 port/freertos/ffsystem.s: port/freertos/ffsystem.c.s
@@ -291,7 +291,7 @@ port/freertos/ffsystem.s: port/freertos/ffsystem.c.s
 
 # target to generate assembly for a file
 port/freertos/ffsystem.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.s
 .PHONY : port/freertos/ffsystem.c.s
 
 src/ff.obj: src/ff.c.obj
@@ -299,7 +299,7 @@ src/ff.obj: src/ff.c.obj
 
 # target to build an object file
 src/ff.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
 .PHONY : src/ff.c.obj
 
 src/ff.i: src/ff.c.i
@@ -307,7 +307,7 @@ src/ff.i: src/ff.c.i
 
 # target to preprocess a source file
 src/ff.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.i
 .PHONY : src/ff.c.i
 
 src/ff.s: src/ff.c.s
@@ -315,7 +315,7 @@ src/ff.s: src/ff.c.s
 
 # target to generate assembly for a file
 src/ff.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.s
 .PHONY : src/ff.c.s
 
 src/ffunicode.obj: src/ffunicode.c.obj
@@ -323,7 +323,7 @@ src/ffunicode.obj: src/ffunicode.c.obj
 
 # target to build an object file
 src/ffunicode.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
 .PHONY : src/ffunicode.c.obj
 
 src/ffunicode.i: src/ffunicode.c.i
@@ -331,7 +331,7 @@ src/ffunicode.i: src/ffunicode.c.i
 
 # target to preprocess a source file
 src/ffunicode.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.i
 .PHONY : src/ffunicode.c.i
 
 src/ffunicode.s: src/ffunicode.c.s
@@ -339,7 +339,7 @@ src/ffunicode.s: src/ffunicode.c.s
 
 # target to generate assembly for a file
 src/ffunicode.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.s
 .PHONY : src/ffunicode.c.s
 
 vfs/vfs_fat.obj: vfs/vfs_fat.c.obj
@@ -347,7 +347,7 @@ vfs/vfs_fat.obj: vfs/vfs_fat.c.obj
 
 # target to build an object file
 vfs/vfs_fat.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
 .PHONY : vfs/vfs_fat.c.obj
 
 vfs/vfs_fat.i: vfs/vfs_fat.c.i
@@ -355,7 +355,7 @@ vfs/vfs_fat.i: vfs/vfs_fat.c.i
 
 # target to preprocess a source file
 vfs/vfs_fat.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.i
 .PHONY : vfs/vfs_fat.c.i
 
 vfs/vfs_fat.s: vfs/vfs_fat.c.s
@@ -363,7 +363,7 @@ vfs/vfs_fat.s: vfs/vfs_fat.c.s
 
 # target to generate assembly for a file
 vfs/vfs_fat.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.s
 .PHONY : vfs/vfs_fat.c.s
 
 vfs/vfs_fat_sdmmc.obj: vfs/vfs_fat_sdmmc.c.obj
@@ -371,7 +371,7 @@ vfs/vfs_fat_sdmmc.obj: vfs/vfs_fat_sdmmc.c.obj
 
 # target to build an object file
 vfs/vfs_fat_sdmmc.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
 .PHONY : vfs/vfs_fat_sdmmc.c.obj
 
 vfs/vfs_fat_sdmmc.i: vfs/vfs_fat_sdmmc.c.i
@@ -379,7 +379,7 @@ vfs/vfs_fat_sdmmc.i: vfs/vfs_fat_sdmmc.c.i
 
 # target to preprocess a source file
 vfs/vfs_fat_sdmmc.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.i
 .PHONY : vfs/vfs_fat_sdmmc.c.i
 
 vfs/vfs_fat_sdmmc.s: vfs/vfs_fat_sdmmc.c.s
@@ -387,7 +387,7 @@ vfs/vfs_fat_sdmmc.s: vfs/vfs_fat_sdmmc.c.s
 
 # target to generate assembly for a file
 vfs/vfs_fat_sdmmc.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.s
 .PHONY : vfs/vfs_fat_sdmmc.c.s
 
 vfs/vfs_fat_spiflash.obj: vfs/vfs_fat_spiflash.c.obj
@@ -395,7 +395,7 @@ vfs/vfs_fat_spiflash.obj: vfs/vfs_fat_spiflash.c.obj
 
 # target to build an object file
 vfs/vfs_fat_spiflash.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
 .PHONY : vfs/vfs_fat_spiflash.c.obj
 
 vfs/vfs_fat_spiflash.i: vfs/vfs_fat_spiflash.c.i
@@ -403,7 +403,7 @@ vfs/vfs_fat_spiflash.i: vfs/vfs_fat_spiflash.c.i
 
 # target to preprocess a source file
 vfs/vfs_fat_spiflash.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.i
 .PHONY : vfs/vfs_fat_spiflash.c.i
 
 vfs/vfs_fat_spiflash.s: vfs/vfs_fat_spiflash.c.s
@@ -411,7 +411,7 @@ vfs/vfs_fat_spiflash.s: vfs/vfs_fat_spiflash.c.s
 
 # target to generate assembly for a file
 vfs/vfs_fat_spiflash.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.s
 .PHONY : vfs/vfs_fat_spiflash.c.s
 
 # Help Target
@@ -468,6 +468,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

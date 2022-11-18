@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -1666,14 +1666,14 @@ esp-idf/xtensa/clean: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/clean
 CMakeFiles/confserver.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\confserver.dir\build.make CMakeFiles/confserver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\confserver.dir\build.make CMakeFiles/confserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target confserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target confserver"
 .PHONY : CMakeFiles/confserver.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/confserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/confserver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/confserver.dir/rule
 
 # Convenience name for target.
@@ -1692,14 +1692,14 @@ CMakeFiles/confserver.dir/clean:
 CMakeFiles/erase_flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\erase_flash.dir\build.make CMakeFiles/erase_flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\erase_flash.dir\build.make CMakeFiles/erase_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target erase_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target erase_flash"
 .PHONY : CMakeFiles/erase_flash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/erase_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/erase_flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/erase_flash.dir/rule
 
 # Convenience name for target.
@@ -1718,14 +1718,14 @@ CMakeFiles/erase_flash.dir/clean:
 CMakeFiles/app.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\app.dir\build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -1744,14 +1744,14 @@ CMakeFiles/app.dir/clean:
 CMakeFiles/menuconfig.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\menuconfig.dir\build.make CMakeFiles/menuconfig.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\menuconfig.dir\build.make CMakeFiles/menuconfig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target menuconfig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target menuconfig"
 .PHONY : CMakeFiles/menuconfig.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/menuconfig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/menuconfig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/menuconfig.dir/rule
 
 # Convenience name for target.
@@ -1770,14 +1770,14 @@ CMakeFiles/menuconfig.dir/clean:
 CMakeFiles/bootloader.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bootloader.dir\build.make CMakeFiles/bootloader.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bootloader.dir\build.make CMakeFiles/bootloader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=90 "Built target bootloader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target bootloader"
 .PHONY : CMakeFiles/bootloader.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bootloader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/bootloader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/bootloader.dir/rule
 
 # Convenience name for target.
@@ -1796,14 +1796,14 @@ CMakeFiles/bootloader.dir/clean:
 CMakeFiles/gen_project_binary.dir/all: CMakeFiles/FOCX.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gen_project_binary.dir\build.make CMakeFiles/gen_project_binary.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gen_project_binary.dir\build.make CMakeFiles/gen_project_binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target gen_project_binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target gen_project_binary"
 .PHONY : CMakeFiles/gen_project_binary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gen_project_binary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gen_project_binary.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/gen_project_binary.dir/rule
 
 # Convenience name for target.
@@ -1824,14 +1824,14 @@ CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\flash.dir\build.make CMakeFiles/flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target flash"
 .PHONY : CMakeFiles/flash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/flash.dir/rule
 
 # Convenience name for target.
@@ -1850,14 +1850,14 @@ CMakeFiles/flash.dir/clean:
 CMakeFiles/monitor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\monitor.dir\build.make CMakeFiles/monitor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\monitor.dir\build.make CMakeFiles/monitor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target monitor"
 .PHONY : CMakeFiles/monitor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/monitor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/monitor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/monitor.dir/rule
 
 # Convenience name for target.
@@ -1876,14 +1876,14 @@ CMakeFiles/monitor.dir/clean:
 CMakeFiles/encrypted-flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypted-flash.dir\build.make CMakeFiles/encrypted-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypted-flash.dir\build.make CMakeFiles/encrypted-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-flash"
 .PHONY : CMakeFiles/encrypted-flash.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/encrypted-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/encrypted-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/encrypted-flash.dir/rule
 
 # Convenience name for target.
@@ -1902,14 +1902,14 @@ CMakeFiles/encrypted-flash.dir/clean:
 CMakeFiles/_project_elf_src.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_project_elf_src.dir\build.make CMakeFiles/_project_elf_src.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\_project_elf_src.dir\build.make CMakeFiles/_project_elf_src.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target _project_elf_src"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target _project_elf_src"
 .PHONY : CMakeFiles/_project_elf_src.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_project_elf_src.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/_project_elf_src.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/_project_elf_src.dir/rule
 
 # Convenience name for target.
@@ -1929,40 +1929,40 @@ CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 CMakeFiles/FOCX.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
-CMakeFiles/FOCX.elf.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 CMakeFiles/FOCX.elf.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+CMakeFiles/FOCX.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FOCX.elf.dir\build.make CMakeFiles/FOCX.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target FOCX.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target FOCX.elf"
 .PHONY : CMakeFiles/FOCX.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FOCX.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FOCX.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/FOCX.elf.dir/rule
 
 # Convenience name for target.
@@ -1981,14 +1981,14 @@ CMakeFiles/FOCX.elf.dir/clean:
 CMakeFiles/size.dir/all: CMakeFiles/FOCX.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size.dir\build.make CMakeFiles/size.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size.dir\build.make CMakeFiles/size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size"
 .PHONY : CMakeFiles/size.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/size.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/size.dir/rule
 
 # Convenience name for target.
@@ -2007,14 +2007,14 @@ CMakeFiles/size.dir/clean:
 CMakeFiles/size-files.dir/all: CMakeFiles/FOCX.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size-files.dir\build.make CMakeFiles/size-files.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size-files.dir\build.make CMakeFiles/size-files.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size-files"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size-files"
 .PHONY : CMakeFiles/size-files.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size-files.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/size-files.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/size-files.dir/rule
 
 # Convenience name for target.
@@ -2033,14 +2033,14 @@ CMakeFiles/size-files.dir/clean:
 CMakeFiles/size-components.dir/all: CMakeFiles/FOCX.elf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size-components.dir\build.make CMakeFiles/size-components.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\size-components.dir\build.make CMakeFiles/size-components.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size-components"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target size-components"
 .PHONY : CMakeFiles/size-components.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/size-components.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/size-components.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/size-components.dir/rule
 
 # Convenience name for target.
@@ -2059,14 +2059,14 @@ CMakeFiles/size-components.dir/clean:
 CMakeFiles/uf2-app.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uf2-app.dir\build.make CMakeFiles/uf2-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uf2-app.dir\build.make CMakeFiles/uf2-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target uf2-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target uf2-app"
 .PHONY : CMakeFiles/uf2-app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uf2-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/uf2-app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/uf2-app.dir/rule
 
 # Convenience name for target.
@@ -2082,18 +2082,18 @@ CMakeFiles/uf2-app.dir/clean:
 # Target rules for target CMakeFiles/uf2.dir
 
 # All Build rule for target.
-CMakeFiles/uf2.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/uf2.dir/all: CMakeFiles/gen_project_binary.dir/all
+CMakeFiles/uf2.dir/all: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uf2.dir\build.make CMakeFiles/uf2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\uf2.dir\build.make CMakeFiles/uf2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target uf2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target uf2"
 .PHONY : CMakeFiles/uf2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uf2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/uf2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/uf2.dir/rule
 
 # Convenience name for target.
@@ -2112,14 +2112,14 @@ CMakeFiles/uf2.dir/clean:
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all: esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_pm\CMakeFiles\__idf_esp_pm.dir\build.make esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_pm\CMakeFiles\__idf_esp_pm.dir\build.make esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=21 "Built target __idf_esp_pm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=21 "Built target __idf_esp_pm"
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/rule
 
 # Convenience name for target.
@@ -2138,14 +2138,14 @@ esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/clean:
 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\CMakeFiles\__idf_mbedtls.dir\build.make esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\CMakeFiles\__idf_mbedtls.dir\build.make esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=61 "Built target __idf_mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=61 "Built target __idf_mbedtls"
 .PHONY : esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/rule
 
 # Convenience name for target.
@@ -2164,14 +2164,14 @@ esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/clean:
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\CMakeFiles\custom_bundle.dir\build.make esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\CMakeFiles\custom_bundle.dir\build.make esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target custom_bundle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target custom_bundle"
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/rule
 
 # Convenience name for target.
@@ -2190,14 +2190,14 @@ esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/clean:
 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\CMakeFiles\apidoc.dir\build.make esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\CMakeFiles\apidoc.dir\build.make esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target apidoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target apidoc"
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/rule
 
 # Convenience name for target.
@@ -2216,14 +2216,14 @@ esp-idf/mbedtls/mbedtls/CMakeFiles/apidoc.dir/clean:
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedcrypto.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedcrypto.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=91,92,93,94,95,96,97 "Built target mbedcrypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=91,92,93,94,95,96,97 "Built target mbedcrypto"
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rule
 
 # Convenience name for target.
@@ -2242,14 +2242,14 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/clean:
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all: esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedx509.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedx509.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=99 "Built target mbedx509"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=99 "Built target mbedx509"
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 58
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/rule
 
 # Convenience name for target.
@@ -2268,14 +2268,14 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/clean:
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\lib.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\lib.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target lib"
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/rule
 
 # Convenience name for target.
@@ -2294,14 +2294,14 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/lib.dir/clean:
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all: esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedtls.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedtls.dir\build.make esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=98 "Built target mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=98 "Built target mbedtls"
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 57
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -2320,14 +2320,14 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/clean:
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_test_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_test_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_test_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_test_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_test_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_test_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_test_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_test_table.dir/rule
 
 # Convenience name for target.
@@ -2346,14 +2346,14 @@ esp-idf/efuse/CMakeFiles/efuse_test_table.dir/clean:
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\__idf_efuse.dir\build.make esp-idf/efuse/CMakeFiles/__idf_efuse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=11 "Built target __idf_efuse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=11 "Built target __idf_efuse"
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 56
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/__idf_efuse.dir/rule
 
 # Convenience name for target.
@@ -2372,14 +2372,14 @@ esp-idf/efuse/CMakeFiles/__idf_efuse.dir/clean:
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_common_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_common_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_common_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_common_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
 
 # Convenience name for target.
@@ -2398,14 +2398,14 @@ esp-idf/efuse/CMakeFiles/efuse_common_table.dir/clean:
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_custom_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\efuse_custom_table.dir\build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_custom_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target efuse_custom_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
 
 # Convenience name for target.
@@ -2424,14 +2424,14 @@ esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/clean:
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\show_efuse_table.dir\build.make esp-idf/efuse/CMakeFiles/show_efuse_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\efuse\CMakeFiles\show_efuse_table.dir\build.make esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target show_efuse_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target show_efuse_table"
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/efuse/CMakeFiles/show_efuse_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/show_efuse_table.dir/rule
 
 # Convenience name for target.
@@ -2450,14 +2450,14 @@ esp-idf/efuse/CMakeFiles/show_efuse_table.dir/clean:
 esp-idf/partition_table/CMakeFiles/partition_table.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target partition_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target partition_table"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/partition_table/CMakeFiles/partition_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/partition_table/CMakeFiles/partition_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table.dir/rule
 
 # Convenience name for target.
@@ -2476,14 +2476,14 @@ esp-idf/partition_table/CMakeFiles/partition_table.dir/clean:
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table_bin.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table_bin.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=100 "Built target partition_table_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=100 "Built target partition_table_bin"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/rule
 
 # Convenience name for target.
@@ -2502,14 +2502,14 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table-flash.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\partition_table-flash.dir\build.make esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target partition_table-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target partition_table-flash"
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/rule
 
 # Convenience name for target.
@@ -2528,14 +2528,14 @@ esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean:
 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\encrypted-partition_table-flash.dir\build.make esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\partition_table\CMakeFiles\encrypted-partition_table-flash.dir\build.make esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-partition_table-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-partition_table-flash"
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/rule
 
 # Convenience name for target.
@@ -2554,14 +2554,14 @@ esp-idf/partition_table/CMakeFiles/encrypted-partition_table-flash.dir/clean:
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all: esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\app_update\CMakeFiles\__idf_app_update.dir\build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\app_update\CMakeFiles\__idf_app_update.dir\build.make esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=1 "Built target __idf_app_update"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=1 "Built target __idf_app_update"
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/rule
 
 # Convenience name for target.
@@ -2580,14 +2580,14 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/clean:
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all: esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader_support\CMakeFiles\__idf_bootloader_support.dir\build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader_support\CMakeFiles\__idf_bootloader_support.dir\build.make esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=2 "Built target __idf_bootloader_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=2,3 "Built target __idf_bootloader_support"
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/rule
 
 # Convenience name for target.
@@ -2606,14 +2606,14 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/clean:
 esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/all: esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_ipc\CMakeFiles\__idf_esp_ipc.dir\build.make esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_ipc\CMakeFiles\__idf_esp_ipc.dir\build.make esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_ipc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_ipc"
 .PHONY : esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/rule
 
 # Convenience name for target.
@@ -2632,14 +2632,14 @@ esp-idf/esp_ipc/CMakeFiles/__idf_esp_ipc.dir/clean:
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all: esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\spi_flash\CMakeFiles\__idf_spi_flash.dir\build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\spi_flash\CMakeFiles\__idf_spi_flash.dir\build.make esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=74 "Built target __idf_spi_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target __idf_spi_flash"
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/rule
 
 # Convenience name for target.
@@ -2658,14 +2658,14 @@ esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/clean:
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all: esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\nvs_flash\CMakeFiles\__idf_nvs_flash.dir\build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\nvs_flash\CMakeFiles\__idf_nvs_flash.dir\build.make esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target __idf_nvs_flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=66 "Built target __idf_nvs_flash"
 .PHONY : esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 53
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule
 
 # Convenience name for target.
@@ -2684,14 +2684,14 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/clean:
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all: esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=70 "Built target __idf_pthread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=70 "Built target __idf_pthread"
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 49
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
 
 # Convenience name for target.
@@ -2710,14 +2710,14 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/clean:
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all: esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_gdbstub\CMakeFiles\__idf_esp_gdbstub.dir\build.make esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_gdbstub\CMakeFiles\__idf_esp_gdbstub.dir\build.make esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=16 "Built target __idf_esp_gdbstub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=16 "Built target __idf_esp_gdbstub"
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule
 
 # Convenience name for target.
@@ -2736,14 +2736,14 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/clean:
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all: esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_system\CMakeFiles\__idf_esp_system.dir\build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_system\CMakeFiles\__idf_esp_system.dir\build.make esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=23 "Built target __idf_esp_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=23 "Built target __idf_esp_system"
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/rule
 
 # Convenience name for target.
@@ -2762,14 +2762,14 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/clean:
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all: esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_rom\CMakeFiles\__idf_esp_rom.dir\build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_rom\CMakeFiles\__idf_esp_rom.dir\build.make esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_rom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_rom"
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/rule
 
 # Convenience name for target.
@@ -2788,14 +2788,14 @@ esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/clean:
 esp-idf/hal/CMakeFiles/__idf_hal.dir/all: esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\hal\CMakeFiles\__idf_hal.dir\build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\hal\CMakeFiles\__idf_hal.dir\build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37 "Built target __idf_hal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37 "Built target __idf_hal"
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 
 # Convenience name for target.
@@ -2814,14 +2814,14 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/clean:
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\vfs\CMakeFiles\__idf_vfs.dir\build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\vfs\CMakeFiles\__idf_vfs.dir\build.make esp-idf/vfs/CMakeFiles/__idf_vfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_vfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_vfs"
 .PHONY : esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/vfs/CMakeFiles/__idf_vfs.dir/rule
 
 # Convenience name for target.
@@ -2840,14 +2840,14 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/clean:
 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all: esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_eth\CMakeFiles\__idf_esp_eth.dir\build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_eth\CMakeFiles\__idf_esp_eth.dir\build.make esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=14 "Built target __idf_esp_eth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=15 "Built target __idf_esp_eth"
 .PHONY : esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/rule
 
 # Convenience name for target.
@@ -2866,14 +2866,14 @@ esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/clean:
 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/all: esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\tcpip_adapter\CMakeFiles\__idf_tcpip_adapter.dir\build.make esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_tcpip_adapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_tcpip_adapter"
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/rule
 
 # Convenience name for target.
@@ -2892,14 +2892,14 @@ esp-idf/tcpip_adapter/CMakeFiles/__idf_tcpip_adapter.dir/clean:
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all: esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=20 "Built target __idf_esp_netif"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=20 "Built target __idf_esp_netif"
 .PHONY : esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 
 # Convenience name for target.
@@ -2918,14 +2918,14 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/clean:
 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all: esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_event\CMakeFiles\__idf_esp_event.dir\build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_event\CMakeFiles\__idf_esp_event.dir\build.make esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=15 "Built target __idf_esp_event"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_event"
 .PHONY : esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
 
 # Convenience name for target.
@@ -2944,14 +2944,14 @@ esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/clean:
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all: esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\wpa_supplicant\CMakeFiles\__idf_wpa_supplicant.dir\build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\wpa_supplicant\CMakeFiles\__idf_wpa_supplicant.dir\build.make esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=80,81,82,83,84,85,86,87,88 "Built target __idf_wpa_supplicant"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=80,81,82,83,84,85,86,87 "Built target __idf_wpa_supplicant"
 .PHONY : esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule
 
 # Convenience name for target.
@@ -2970,14 +2970,14 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/clean:
 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all: esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_wifi\CMakeFiles\__idf_esp_wifi.dir\build.make esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=25 "Built target __idf_esp_wifi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=25 "Built target __idf_esp_wifi"
 .PHONY : esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
 
 # Convenience name for target.
@@ -2996,14 +2996,14 @@ esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/clean:
 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all: esp-idf/log/CMakeFiles/__idf_log.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\lwip\CMakeFiles\__idf_lwip.dir\build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\lwip\CMakeFiles\__idf_lwip.dir\build.make esp-idf/lwip/CMakeFiles/__idf_lwip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59 "Built target __idf_lwip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59 "Built target __idf_lwip"
 .PHONY : esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule
 
 # Convenience name for target.
@@ -3022,14 +3022,14 @@ esp-idf/lwip/CMakeFiles/__idf_lwip.dir/clean:
 esp-idf/log/CMakeFiles/__idf_log.dir/all: esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\log\CMakeFiles\__idf_log.dir\build.make esp-idf/log/CMakeFiles/__idf_log.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\log\CMakeFiles\__idf_log.dir\build.make esp-idf/log/CMakeFiles/__idf_log.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_log"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_log"
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/log/CMakeFiles/__idf_log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/log/CMakeFiles/__idf_log.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/log/CMakeFiles/__idf_log.dir/rule
 
 # Convenience name for target.
@@ -3048,14 +3048,14 @@ esp-idf/log/CMakeFiles/__idf_log.dir/clean:
 esp-idf/heap/CMakeFiles/__idf_heap.dir/all: esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\heap\CMakeFiles\__idf_heap.dir\build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\heap\CMakeFiles\__idf_heap.dir\build.make esp-idf/heap/CMakeFiles/__idf_heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=38 "Built target __idf_heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=38 "Built target __idf_heap"
 .PHONY : esp-idf/heap/CMakeFiles/__idf_heap.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/heap/CMakeFiles/__idf_heap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/heap/CMakeFiles/__idf_heap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/heap/CMakeFiles/__idf_heap.dir/rule
 
 # Convenience name for target.
@@ -3074,14 +3074,14 @@ esp-idf/heap/CMakeFiles/__idf_heap.dir/clean:
 esp-idf/soc/CMakeFiles/__idf_soc.dir/all: esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=71,72,73 "Built target __idf_soc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target __idf_soc"
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 
 # Convenience name for target.
@@ -3100,14 +3100,14 @@ esp-idf/soc/CMakeFiles/__idf_soc.dir/clean:
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all: esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_hw_support\CMakeFiles\__idf_esp_hw_support.dir\build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_hw_support\CMakeFiles\__idf_esp_hw_support.dir\build.make esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target __idf_esp_hw_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=19 "Built target __idf_esp_hw_support"
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
 
 # Convenience name for target.
@@ -3126,14 +3126,14 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clean:
 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all: esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_ringbuf\CMakeFiles\__idf_esp_ringbuf.dir\build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_ringbuf\CMakeFiles\__idf_esp_ringbuf.dir\build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_ringbuf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_ringbuf"
 .PHONY : esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
 
 # Convenience name for target.
@@ -3152,14 +3152,14 @@ esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/clean:
 esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\driver\CMakeFiles\__idf_driver.dir\build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\driver\CMakeFiles\__idf_driver.dir\build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target __idf_driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target __idf_driver"
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/driver/CMakeFiles/__idf_driver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
 
 # Convenience name for target.
@@ -3178,14 +3178,14 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/clean:
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\xtensa\CMakeFiles\__idf_xtensa.dir\build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\xtensa\CMakeFiles\__idf_xtensa.dir\build.make esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=89 "Built target __idf_xtensa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=88 "Built target __idf_xtensa"
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/rule
 
 # Convenience name for target.
@@ -3204,14 +3204,14 @@ esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/clean:
 esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\espcoredump\CMakeFiles\__idf_espcoredump.dir\build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\espcoredump\CMakeFiles\__idf_espcoredump.dir\build.make esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=26 "Built target __idf_espcoredump"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=26 "Built target __idf_espcoredump"
 .PHONY : esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/rule
 
 # Convenience name for target.
@@ -3230,14 +3230,14 @@ esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/clean:
 esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all: esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\perfmon\CMakeFiles\__idf_perfmon.dir\build.make esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\perfmon\CMakeFiles\__idf_perfmon.dir\build.make esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_perfmon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_perfmon"
 .PHONY : esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/rule
 
 # Convenience name for target.
@@ -3256,14 +3256,14 @@ esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/clean:
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\esp32_linker_script.dir\build.make esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\esp32_linker_script.dir\build.make esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target esp32_linker_script"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=90 "Built target esp32_linker_script"
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/rule
 
 # Convenience name for target.
@@ -3281,40 +3281,40 @@ esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/clean:
 # All Build rule for target.
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
-esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\build.make esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\build.make esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __ldgen_output_esp32.project.ld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=89 "Built target __ldgen_output_esp32.project.ld"
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/rule
 
 # Convenience name for target.
@@ -3333,14 +3333,14 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean:
 esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__idf_esp32.dir\build.make esp-idf/esp32/CMakeFiles/__idf_esp32.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp32\CMakeFiles\__idf_esp32.dir\build.make esp-idf/esp32/CMakeFiles/__idf_esp32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=12 "Built target __idf_esp32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=12 "Built target __idf_esp32"
 .PHONY : esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp32/CMakeFiles/__idf_esp32.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp32/CMakeFiles/__idf_esp32.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp32/CMakeFiles/__idf_esp32.dir/rule
 
 # Convenience name for target.
@@ -3359,14 +3359,14 @@ esp-idf/esp32/CMakeFiles/__idf_esp32.dir/clean:
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all: esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=13 "Built target __idf_esp_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=14 "Built target __idf_esp_common"
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 
 # Convenience name for target.
@@ -3385,14 +3385,14 @@ esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/clean:
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_timer\CMakeFiles\__idf_esp_timer.dir\build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_timer\CMakeFiles\__idf_esp_timer.dir\build.make esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=24 "Built target __idf_esp_timer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=24 "Built target __idf_esp_timer"
 .PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
 
 # Convenience name for target.
@@ -3411,14 +3411,14 @@ esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/clean:
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\freertos\CMakeFiles\__idf_freertos.dir\build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\freertos\CMakeFiles\__idf_freertos.dir\build.make esp-idf/freertos/CMakeFiles/__idf_freertos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=33 "Built target __idf_freertos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=33 "Built target __idf_freertos"
 .PHONY : esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
 
 # Convenience name for target.
@@ -3437,14 +3437,14 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/clean:
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\newlib\CMakeFiles\__idf_newlib.dir\build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\newlib\CMakeFiles\__idf_newlib.dir\build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=63 "Built target __idf_newlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target __idf_newlib"
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/rule
 
 # Convenience name for target.
@@ -3463,14 +3463,14 @@ esp-idf/newlib/CMakeFiles/__idf_newlib.dir/clean:
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\cxx\CMakeFiles\__idf_cxx.dir\build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\cxx\CMakeFiles\__idf_cxx.dir\build.make esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=7 "Built target __idf_cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_cxx"
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule
 
 # Convenience name for target.
@@ -3489,14 +3489,14 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean:
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all: esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\app_trace\CMakeFiles\__idf_app_trace.dir\build.make esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_app_trace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_app_trace"
 .PHONY : esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/rule
 
 # Convenience name for target.
@@ -3515,14 +3515,14 @@ esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/clean:
 esp-idf/asio/CMakeFiles/__idf_asio.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\asio\CMakeFiles\__idf_asio.dir\build.make esp-idf/asio/CMakeFiles/__idf_asio.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\asio\CMakeFiles\__idf_asio.dir\build.make esp-idf/asio/CMakeFiles/__idf_asio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_asio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_asio"
 .PHONY : esp-idf/asio/CMakeFiles/__idf_asio.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/asio/CMakeFiles/__idf_asio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/asio/CMakeFiles/__idf_asio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/asio/CMakeFiles/__idf_asio.dir/rule
 
 # Convenience name for target.
@@ -3541,14 +3541,14 @@ esp-idf/asio/CMakeFiles/__idf_asio.dir/clean:
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/all: CMakeFiles/bootloader.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader\CMakeFiles\bootloader-flash.dir\build.make esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader\CMakeFiles\bootloader-flash.dir\build.make esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target bootloader-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target bootloader-flash"
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/rule
 
 # Convenience name for target.
@@ -3567,14 +3567,14 @@ esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/clean:
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader\CMakeFiles\encrypted-bootloader-flash.dir\build.make esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\bootloader\CMakeFiles\encrypted-bootloader-flash.dir\build.make esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-bootloader-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-bootloader-flash"
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/rule
 
 # Convenience name for target.
@@ -3593,14 +3593,14 @@ esp-idf/bootloader/CMakeFiles/encrypted-bootloader-flash.dir/clean:
 esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\cbor\CMakeFiles\__idf_cbor.dir\build.make esp-idf/cbor/CMakeFiles/__idf_cbor.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\cbor\CMakeFiles\__idf_cbor.dir\build.make esp-idf/cbor/CMakeFiles/__idf_cbor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target __idf_cbor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=4 "Built target __idf_cbor"
 .PHONY : esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/cbor/CMakeFiles/__idf_cbor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/cbor/CMakeFiles/__idf_cbor.dir/rule
 
 # Convenience name for target.
@@ -3619,14 +3619,14 @@ esp-idf/cbor/CMakeFiles/__idf_cbor.dir/clean:
 esp-idf/unity/CMakeFiles/__idf_unity.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\unity\CMakeFiles\__idf_unity.dir\build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\unity\CMakeFiles\__idf_unity.dir\build.make esp-idf/unity/CMakeFiles/__idf_unity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=77 "Built target __idf_unity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=77 "Built target __idf_unity"
 .PHONY : esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/unity/CMakeFiles/__idf_unity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/unity/CMakeFiles/__idf_unity.dir/rule
 
 # Convenience name for target.
@@ -3646,14 +3646,14 @@ esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_es
 esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\cmock\CMakeFiles\__idf_cmock.dir\build.make esp-idf/cmock/CMakeFiles/__idf_cmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\cmock\CMakeFiles\__idf_cmock.dir\build.make esp-idf/cmock/CMakeFiles/__idf_cmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_cmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_cmock"
 .PHONY : esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/cmock/CMakeFiles/__idf_cmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/cmock/CMakeFiles/__idf_cmock.dir/rule
 
 # Convenience name for target.
@@ -3672,14 +3672,14 @@ esp-idf/cmock/CMakeFiles/__idf_cmock.dir/clean:
 esp-idf/coap/CMakeFiles/__idf_coap.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\coap\CMakeFiles\__idf_coap.dir\build.make esp-idf/coap/CMakeFiles/__idf_coap.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\coap\CMakeFiles\__idf_coap.dir\build.make esp-idf/coap/CMakeFiles/__idf_coap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target __idf_coap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target __idf_coap"
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/coap/CMakeFiles/__idf_coap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/coap/CMakeFiles/__idf_coap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/coap/CMakeFiles/__idf_coap.dir/rule
 
 # Convenience name for target.
@@ -3698,14 +3698,14 @@ esp-idf/coap/CMakeFiles/__idf_coap.dir/clean:
 esp-idf/console/CMakeFiles/__idf_console.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\console\CMakeFiles\__idf_console.dir\build.make esp-idf/console/CMakeFiles/__idf_console.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\console\CMakeFiles\__idf_console.dir\build.make esp-idf/console/CMakeFiles/__idf_console.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_console"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=7 "Built target __idf_console"
 .PHONY : esp-idf/console/CMakeFiles/__idf_console.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/console/CMakeFiles/__idf_console.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/console/CMakeFiles/__idf_console.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/console/CMakeFiles/__idf_console.dir/rule
 
 # Convenience name for target.
@@ -3724,14 +3724,14 @@ esp-idf/console/CMakeFiles/__idf_console.dir/clean:
 esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all: esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\nghttp\CMakeFiles\__idf_nghttp.dir\build.make esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\nghttp\CMakeFiles\__idf_nghttp.dir\build.make esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target __idf_nghttp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target __idf_nghttp"
 .PHONY : esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/rule
 
 # Convenience name for target.
@@ -3750,14 +3750,14 @@ esp-idf/nghttp/CMakeFiles/__idf_nghttp.dir/clean:
 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all: esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp-tls\CMakeFiles\__idf_esp-tls.dir\build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp-tls\CMakeFiles\__idf_esp-tls.dir\build.make esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp-tls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp-tls"
 .PHONY : esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule
 
 # Convenience name for target.
@@ -3776,14 +3776,14 @@ esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/clean:
 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\build.make esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_adc_cal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=13 "Built target __idf_esp_adc_cal"
 .PHONY : esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/rule
 
 # Convenience name for target.
@@ -3802,14 +3802,14 @@ esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/clean:
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_hid\CMakeFiles\__idf_esp_hid.dir\build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_hid\CMakeFiles\__idf_esp_hid.dir\build.make esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_hid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_hid"
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/rule
 
 # Convenience name for target.
@@ -3828,14 +3828,14 @@ esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean:
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all: esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\tcp_transport\CMakeFiles\__idf_tcp_transport.dir\build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\tcp_transport\CMakeFiles\__idf_tcp_transport.dir\build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=76 "Built target __idf_tcp_transport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=76 "Built target __idf_tcp_transport"
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
 
 # Convenience name for target.
@@ -3854,14 +3854,14 @@ esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/clean:
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all: esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_http_client\CMakeFiles\__idf_esp_http_client.dir\build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_http_client\CMakeFiles\__idf_esp_http_client.dir\build.make esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_http_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=17 "Built target __idf_esp_http_client"
 .PHONY : esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/rule
 
 # Convenience name for target.
@@ -3880,14 +3880,14 @@ esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/clean:
 esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all: esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_http_server\CMakeFiles\__idf_esp_http_server.dir\build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_http_server\CMakeFiles\__idf_esp_http_server.dir\build.make esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=17 "Built target __idf_esp_http_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_http_server"
 .PHONY : esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/rule
 
 # Convenience name for target.
@@ -3906,14 +3906,14 @@ esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/clean:
 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all: esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_https_ota\CMakeFiles\__idf_esp_https_ota.dir\build.make esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_https_ota\CMakeFiles\__idf_esp_https_ota.dir\build.make esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_https_ota"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=18 "Built target __idf_esp_https_ota"
 .PHONY : esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/rule
 
 # Convenience name for target.
@@ -3932,14 +3932,14 @@ esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/clean:
 esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\protobuf-c\CMakeFiles\__idf_protobuf-c.dir\build.make esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\protobuf-c\CMakeFiles\__idf_protobuf-c.dir\build.make esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_protobuf-c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_protobuf-c"
 .PHONY : esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/rule
 
 # Convenience name for target.
@@ -3960,14 +3960,14 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/console/CMakeFiles
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\protocomm\CMakeFiles\__idf_protocomm.dir\build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\protocomm\CMakeFiles\__idf_protocomm.dir\build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=69 "Built target __idf_protocomm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=69 "Built target __idf_protocomm"
 .PHONY : esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/rule
 
 # Convenience name for target.
@@ -3987,14 +3987,14 @@ esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_
 esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mdns\CMakeFiles\__idf_mdns.dir\build.make esp-idf/mdns/CMakeFiles/__idf_mdns.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mdns\CMakeFiles\__idf_mdns.dir\build.make esp-idf/mdns/CMakeFiles/__idf_mdns.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_mdns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_mdns"
 .PHONY : esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mdns/CMakeFiles/__idf_mdns.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mdns/CMakeFiles/__idf_mdns.dir/rule
 
 # Convenience name for target.
@@ -4012,19 +4012,19 @@ esp-idf/mdns/CMakeFiles/__idf_mdns.dir/clean:
 # All Build rule for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_local_ctrl\CMakeFiles\__idf_esp_local_ctrl.dir\build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_local_ctrl\CMakeFiles\__idf_esp_local_ctrl.dir\build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
 .PHONY : esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/rule
 
 # Convenience name for target.
@@ -4043,14 +4043,14 @@ esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/clean:
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all: esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\sdmmc\CMakeFiles\__idf_sdmmc.dir\build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_sdmmc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_sdmmc"
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
 
 # Convenience name for target.
@@ -4069,14 +4069,14 @@ esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/clean:
 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/all: esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_serial_slave_link\CMakeFiles\__idf_esp_serial_slave_link.dir\build.make esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=22 "Built target __idf_esp_serial_slave_link"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=22 "Built target __idf_esp_serial_slave_link"
 .PHONY : esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/rule
 
 # Convenience name for target.
@@ -4095,14 +4095,14 @@ esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/clean:
 esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_websocket_client\CMakeFiles\__idf_esp_websocket_client.dir\build.make esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esp_websocket_client\CMakeFiles\__idf_esp_websocket_client.dir\build.make esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_websocket_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_esp_websocket_client"
 .PHONY : esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/rule
 
 # Convenience name for target.
@@ -4121,14 +4121,14 @@ esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/clean:
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/all: CMakeFiles/app.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\esptool_py\CMakeFiles\app-flash.dir\build.make esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esptool_py\CMakeFiles\app-flash.dir\build.make esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target app-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target app-flash"
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esptool_py/CMakeFiles/app-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/rule
 
 # Convenience name for target.
@@ -4147,14 +4147,14 @@ esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean:
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/all:
 	$(MAKE) $(MAKESILENT) -f esp-idf\esptool_py\CMakeFiles\encrypted-app-flash.dir\build.make esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\esptool_py\CMakeFiles\encrypted-app-flash.dir\build.make esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-app-flash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target encrypted-app-flash"
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/rule
 
 # Convenience name for target.
@@ -4173,14 +4173,14 @@ esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/clean:
 esp-idf/expat/CMakeFiles/__idf_expat.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\expat\CMakeFiles\__idf_expat.dir\build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\expat\CMakeFiles\__idf_expat.dir\build.make esp-idf/expat/CMakeFiles/__idf_expat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_expat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_expat"
 .PHONY : esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/expat/CMakeFiles/__idf_expat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/expat/CMakeFiles/__idf_expat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/expat/CMakeFiles/__idf_expat.dir/rule
 
 # Convenience name for target.
@@ -4199,14 +4199,14 @@ esp-idf/expat/CMakeFiles/__idf_expat.dir/clean:
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\wear_levelling\CMakeFiles\__idf_wear_levelling.dir\build.make esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=78 "Built target __idf_wear_levelling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=78 "Built target __idf_wear_levelling"
 .PHONY : esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/rule
 
 # Convenience name for target.
@@ -4226,14 +4226,14 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_es
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\build.make esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=27 "Built target __idf_fatfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=27 "Built target __idf_fatfs"
 .PHONY : esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/rule
 
 # Convenience name for target.
@@ -4252,14 +4252,14 @@ esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/clean:
 esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\freemodbus\CMakeFiles\__idf_freemodbus.dir\build.make esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\freemodbus\CMakeFiles\__idf_freemodbus.dir\build.make esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32 "Built target __idf_freemodbus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32 "Built target __idf_freemodbus"
 .PHONY : esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/rule
 
 # Convenience name for target.
@@ -4278,14 +4278,14 @@ esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/clean:
 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\jsmn\CMakeFiles\__idf_jsmn.dir\build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\jsmn\CMakeFiles\__idf_jsmn.dir\build.make esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_jsmn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_jsmn"
 .PHONY : esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/rule
 
 # Convenience name for target.
@@ -4304,14 +4304,14 @@ esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/clean:
 esp-idf/json/CMakeFiles/__idf_json.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\json\CMakeFiles\__idf_json.dir\build.make esp-idf/json/CMakeFiles/__idf_json.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\json\CMakeFiles\__idf_json.dir\build.make esp-idf/json/CMakeFiles/__idf_json.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_json"
 .PHONY : esp-idf/json/CMakeFiles/__idf_json.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/json/CMakeFiles/__idf_json.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/json/CMakeFiles/__idf_json.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/json/CMakeFiles/__idf_json.dir/rule
 
 # Convenience name for target.
@@ -4330,14 +4330,14 @@ esp-idf/json/CMakeFiles/__idf_json.dir/clean:
 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\build.make esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50 "Built target __idf_libsodium"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50 "Built target __idf_libsodium"
 .PHONY : esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 79
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/rule
 
 # Convenience name for target.
@@ -4356,14 +4356,14 @@ esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/clean:
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\mqtt\CMakeFiles\__idf_mqtt.dir\build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\mqtt\CMakeFiles\__idf_mqtt.dir\build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=62 "Built target __idf_mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_mqtt"
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/rule
 
 # Convenience name for target.
@@ -4382,14 +4382,14 @@ esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/clean:
 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\openssl\CMakeFiles\__idf_openssl.dir\build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\openssl\CMakeFiles\__idf_openssl.dir\build.make esp-idf/openssl/CMakeFiles/__idf_openssl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=68 "Built target __idf_openssl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target __idf_openssl"
 .PHONY : esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/openssl/CMakeFiles/__idf_openssl.dir/rule
 
 # Convenience name for target.
@@ -4408,14 +4408,14 @@ esp-idf/openssl/CMakeFiles/__idf_openssl.dir/clean:
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\spiffs\CMakeFiles\__idf_spiffs.dir\build.make esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\spiffs\CMakeFiles\__idf_spiffs.dir\build.make esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=75 "Built target __idf_spiffs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=75 "Built target __idf_spiffs"
 .PHONY : esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/rule
 
 # Convenience name for target.
@@ -4435,14 +4435,14 @@ esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bund
 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all: esp-idf/esp32/CMakeFiles/esp32_linker_script.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\ulp\CMakeFiles\__idf_ulp.dir\build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\ulp\CMakeFiles\__idf_ulp.dir\build.make esp-idf/ulp/CMakeFiles/__idf_ulp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_ulp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num= "Built target __idf_ulp"
 .PHONY : esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/ulp/CMakeFiles/__idf_ulp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/ulp/CMakeFiles/__idf_ulp.dir/rule
 
 # Convenience name for target.
@@ -4460,20 +4460,20 @@ esp-idf/ulp/CMakeFiles/__idf_ulp.dir/clean:
 # All Build rule for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\wifi_provisioning\CMakeFiles\__idf_wifi_provisioning.dir\build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\wifi_provisioning\CMakeFiles\__idf_wifi_provisioning.dir\build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=79 "Built target __idf_wifi_provisioning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=79 "Built target __idf_wifi_provisioning"
 .PHONY : esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 70
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/rule
 
 # Convenience name for target.
@@ -4491,39 +4491,39 @@ esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/clean:
 # All Build rule for target.
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/asio/CMakeFiles/__idf_asio.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/cbor/CMakeFiles/__idf_cbor.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/coap/CMakeFiles/__idf_coap.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_adc_cal/CMakeFiles/__idf_esp_adc_cal.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mdns/CMakeFiles/__idf_mdns.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/expat/CMakeFiles/__idf_expat.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_websocket_client/CMakeFiles/__idf_esp_websocket_client.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/freemodbus/CMakeFiles/__idf_freemodbus.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/jsmn/CMakeFiles/__idf_jsmn.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/libsodium/CMakeFiles/__idf_libsodium.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/openssl/CMakeFiles/__idf_openssl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=60 "Built target __idf_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=60 "Built target __idf_main"
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/main/CMakeFiles/__idf_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 98
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/CMakeFiles/__idf_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/rule
 
 # Convenience name for target.

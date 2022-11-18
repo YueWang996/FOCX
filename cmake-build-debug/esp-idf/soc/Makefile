@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\soc\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\soc\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_soc: esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 
 # fast build rule for target.
 __idf_soc/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
 .PHONY : __idf_soc/fast
 
 esp32/adc_periph.obj: esp32/adc_periph.c.obj
@@ -179,7 +179,7 @@ esp32/adc_periph.obj: esp32/adc_periph.c.obj
 
 # target to build an object file
 esp32/adc_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
 .PHONY : esp32/adc_periph.c.obj
 
 esp32/adc_periph.i: esp32/adc_periph.c.i
@@ -187,7 +187,7 @@ esp32/adc_periph.i: esp32/adc_periph.c.i
 
 # target to preprocess a source file
 esp32/adc_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.i
 .PHONY : esp32/adc_periph.c.i
 
 esp32/adc_periph.s: esp32/adc_periph.c.s
@@ -195,7 +195,7 @@ esp32/adc_periph.s: esp32/adc_periph.c.s
 
 # target to generate assembly for a file
 esp32/adc_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.s
 .PHONY : esp32/adc_periph.c.s
 
 esp32/dac_periph.obj: esp32/dac_periph.c.obj
@@ -203,7 +203,7 @@ esp32/dac_periph.obj: esp32/dac_periph.c.obj
 
 # target to build an object file
 esp32/dac_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
 .PHONY : esp32/dac_periph.c.obj
 
 esp32/dac_periph.i: esp32/dac_periph.c.i
@@ -211,7 +211,7 @@ esp32/dac_periph.i: esp32/dac_periph.c.i
 
 # target to preprocess a source file
 esp32/dac_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.i
 .PHONY : esp32/dac_periph.c.i
 
 esp32/dac_periph.s: esp32/dac_periph.c.s
@@ -219,7 +219,7 @@ esp32/dac_periph.s: esp32/dac_periph.c.s
 
 # target to generate assembly for a file
 esp32/dac_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.s
 .PHONY : esp32/dac_periph.c.s
 
 esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
@@ -227,7 +227,7 @@ esp32/gpio_periph.obj: esp32/gpio_periph.c.obj
 
 # target to build an object file
 esp32/gpio_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
 .PHONY : esp32/gpio_periph.c.obj
 
 esp32/gpio_periph.i: esp32/gpio_periph.c.i
@@ -235,7 +235,7 @@ esp32/gpio_periph.i: esp32/gpio_periph.c.i
 
 # target to preprocess a source file
 esp32/gpio_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.i
 .PHONY : esp32/gpio_periph.c.i
 
 esp32/gpio_periph.s: esp32/gpio_periph.c.s
@@ -243,7 +243,7 @@ esp32/gpio_periph.s: esp32/gpio_periph.c.s
 
 # target to generate assembly for a file
 esp32/gpio_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.s
 .PHONY : esp32/gpio_periph.c.s
 
 esp32/i2c_periph.obj: esp32/i2c_periph.c.obj
@@ -251,7 +251,7 @@ esp32/i2c_periph.obj: esp32/i2c_periph.c.obj
 
 # target to build an object file
 esp32/i2c_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
 .PHONY : esp32/i2c_periph.c.obj
 
 esp32/i2c_periph.i: esp32/i2c_periph.c.i
@@ -259,7 +259,7 @@ esp32/i2c_periph.i: esp32/i2c_periph.c.i
 
 # target to preprocess a source file
 esp32/i2c_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.i
 .PHONY : esp32/i2c_periph.c.i
 
 esp32/i2c_periph.s: esp32/i2c_periph.c.s
@@ -267,7 +267,7 @@ esp32/i2c_periph.s: esp32/i2c_periph.c.s
 
 # target to generate assembly for a file
 esp32/i2c_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.s
 .PHONY : esp32/i2c_periph.c.s
 
 esp32/i2s_periph.obj: esp32/i2s_periph.c.obj
@@ -275,7 +275,7 @@ esp32/i2s_periph.obj: esp32/i2s_periph.c.obj
 
 # target to build an object file
 esp32/i2s_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
 .PHONY : esp32/i2s_periph.c.obj
 
 esp32/i2s_periph.i: esp32/i2s_periph.c.i
@@ -283,7 +283,7 @@ esp32/i2s_periph.i: esp32/i2s_periph.c.i
 
 # target to preprocess a source file
 esp32/i2s_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.i
 .PHONY : esp32/i2s_periph.c.i
 
 esp32/i2s_periph.s: esp32/i2s_periph.c.s
@@ -291,7 +291,7 @@ esp32/i2s_periph.s: esp32/i2s_periph.c.s
 
 # target to generate assembly for a file
 esp32/i2s_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.s
 .PHONY : esp32/i2s_periph.c.s
 
 esp32/interrupts.obj: esp32/interrupts.c.obj
@@ -299,7 +299,7 @@ esp32/interrupts.obj: esp32/interrupts.c.obj
 
 # target to build an object file
 esp32/interrupts.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj
 .PHONY : esp32/interrupts.c.obj
 
 esp32/interrupts.i: esp32/interrupts.c.i
@@ -307,7 +307,7 @@ esp32/interrupts.i: esp32/interrupts.c.i
 
 # target to preprocess a source file
 esp32/interrupts.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.i
 .PHONY : esp32/interrupts.c.i
 
 esp32/interrupts.s: esp32/interrupts.c.s
@@ -315,7 +315,7 @@ esp32/interrupts.s: esp32/interrupts.c.s
 
 # target to generate assembly for a file
 esp32/interrupts.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.s
 .PHONY : esp32/interrupts.c.s
 
 esp32/ledc_periph.obj: esp32/ledc_periph.c.obj
@@ -323,7 +323,7 @@ esp32/ledc_periph.obj: esp32/ledc_periph.c.obj
 
 # target to build an object file
 esp32/ledc_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
 .PHONY : esp32/ledc_periph.c.obj
 
 esp32/ledc_periph.i: esp32/ledc_periph.c.i
@@ -331,7 +331,7 @@ esp32/ledc_periph.i: esp32/ledc_periph.c.i
 
 # target to preprocess a source file
 esp32/ledc_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.i
 .PHONY : esp32/ledc_periph.c.i
 
 esp32/ledc_periph.s: esp32/ledc_periph.c.s
@@ -339,7 +339,7 @@ esp32/ledc_periph.s: esp32/ledc_periph.c.s
 
 # target to generate assembly for a file
 esp32/ledc_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.s
 .PHONY : esp32/ledc_periph.c.s
 
 esp32/pcnt_periph.obj: esp32/pcnt_periph.c.obj
@@ -347,7 +347,7 @@ esp32/pcnt_periph.obj: esp32/pcnt_periph.c.obj
 
 # target to build an object file
 esp32/pcnt_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
 .PHONY : esp32/pcnt_periph.c.obj
 
 esp32/pcnt_periph.i: esp32/pcnt_periph.c.i
@@ -355,7 +355,7 @@ esp32/pcnt_periph.i: esp32/pcnt_periph.c.i
 
 # target to preprocess a source file
 esp32/pcnt_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.i
 .PHONY : esp32/pcnt_periph.c.i
 
 esp32/pcnt_periph.s: esp32/pcnt_periph.c.s
@@ -363,7 +363,7 @@ esp32/pcnt_periph.s: esp32/pcnt_periph.c.s
 
 # target to generate assembly for a file
 esp32/pcnt_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.s
 .PHONY : esp32/pcnt_periph.c.s
 
 esp32/rmt_periph.obj: esp32/rmt_periph.c.obj
@@ -371,7 +371,7 @@ esp32/rmt_periph.obj: esp32/rmt_periph.c.obj
 
 # target to build an object file
 esp32/rmt_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
 .PHONY : esp32/rmt_periph.c.obj
 
 esp32/rmt_periph.i: esp32/rmt_periph.c.i
@@ -379,7 +379,7 @@ esp32/rmt_periph.i: esp32/rmt_periph.c.i
 
 # target to preprocess a source file
 esp32/rmt_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.i
 .PHONY : esp32/rmt_periph.c.i
 
 esp32/rmt_periph.s: esp32/rmt_periph.c.s
@@ -387,7 +387,7 @@ esp32/rmt_periph.s: esp32/rmt_periph.c.s
 
 # target to generate assembly for a file
 esp32/rmt_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.s
 .PHONY : esp32/rmt_periph.c.s
 
 esp32/rtc_io_periph.obj: esp32/rtc_io_periph.c.obj
@@ -395,7 +395,7 @@ esp32/rtc_io_periph.obj: esp32/rtc_io_periph.c.obj
 
 # target to build an object file
 esp32/rtc_io_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
 .PHONY : esp32/rtc_io_periph.c.obj
 
 esp32/rtc_io_periph.i: esp32/rtc_io_periph.c.i
@@ -403,7 +403,7 @@ esp32/rtc_io_periph.i: esp32/rtc_io_periph.c.i
 
 # target to preprocess a source file
 esp32/rtc_io_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.i
 .PHONY : esp32/rtc_io_periph.c.i
 
 esp32/rtc_io_periph.s: esp32/rtc_io_periph.c.s
@@ -411,7 +411,7 @@ esp32/rtc_io_periph.s: esp32/rtc_io_periph.c.s
 
 # target to generate assembly for a file
 esp32/rtc_io_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.s
 .PHONY : esp32/rtc_io_periph.c.s
 
 esp32/sdio_slave_periph.obj: esp32/sdio_slave_periph.c.obj
@@ -419,7 +419,7 @@ esp32/sdio_slave_periph.obj: esp32/sdio_slave_periph.c.obj
 
 # target to build an object file
 esp32/sdio_slave_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
 .PHONY : esp32/sdio_slave_periph.c.obj
 
 esp32/sdio_slave_periph.i: esp32/sdio_slave_periph.c.i
@@ -427,7 +427,7 @@ esp32/sdio_slave_periph.i: esp32/sdio_slave_periph.c.i
 
 # target to preprocess a source file
 esp32/sdio_slave_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.i
 .PHONY : esp32/sdio_slave_periph.c.i
 
 esp32/sdio_slave_periph.s: esp32/sdio_slave_periph.c.s
@@ -435,7 +435,7 @@ esp32/sdio_slave_periph.s: esp32/sdio_slave_periph.c.s
 
 # target to generate assembly for a file
 esp32/sdio_slave_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.s
 .PHONY : esp32/sdio_slave_periph.c.s
 
 esp32/sdmmc_periph.obj: esp32/sdmmc_periph.c.obj
@@ -443,7 +443,7 @@ esp32/sdmmc_periph.obj: esp32/sdmmc_periph.c.obj
 
 # target to build an object file
 esp32/sdmmc_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
 .PHONY : esp32/sdmmc_periph.c.obj
 
 esp32/sdmmc_periph.i: esp32/sdmmc_periph.c.i
@@ -451,7 +451,7 @@ esp32/sdmmc_periph.i: esp32/sdmmc_periph.c.i
 
 # target to preprocess a source file
 esp32/sdmmc_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.i
 .PHONY : esp32/sdmmc_periph.c.i
 
 esp32/sdmmc_periph.s: esp32/sdmmc_periph.c.s
@@ -459,7 +459,7 @@ esp32/sdmmc_periph.s: esp32/sdmmc_periph.c.s
 
 # target to generate assembly for a file
 esp32/sdmmc_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.s
 .PHONY : esp32/sdmmc_periph.c.s
 
 esp32/sigmadelta_periph.obj: esp32/sigmadelta_periph.c.obj
@@ -467,7 +467,7 @@ esp32/sigmadelta_periph.obj: esp32/sigmadelta_periph.c.obj
 
 # target to build an object file
 esp32/sigmadelta_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.obj
 .PHONY : esp32/sigmadelta_periph.c.obj
 
 esp32/sigmadelta_periph.i: esp32/sigmadelta_periph.c.i
@@ -475,7 +475,7 @@ esp32/sigmadelta_periph.i: esp32/sigmadelta_periph.c.i
 
 # target to preprocess a source file
 esp32/sigmadelta_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.i
 .PHONY : esp32/sigmadelta_periph.c.i
 
 esp32/sigmadelta_periph.s: esp32/sigmadelta_periph.c.s
@@ -483,7 +483,7 @@ esp32/sigmadelta_periph.s: esp32/sigmadelta_periph.c.s
 
 # target to generate assembly for a file
 esp32/sigmadelta_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sigmadelta_periph.c.s
 .PHONY : esp32/sigmadelta_periph.c.s
 
 esp32/soc_memory_layout.obj: esp32/soc_memory_layout.c.obj
@@ -491,7 +491,7 @@ esp32/soc_memory_layout.obj: esp32/soc_memory_layout.c.obj
 
 # target to build an object file
 esp32/soc_memory_layout.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.obj
 .PHONY : esp32/soc_memory_layout.c.obj
 
 esp32/soc_memory_layout.i: esp32/soc_memory_layout.c.i
@@ -499,7 +499,7 @@ esp32/soc_memory_layout.i: esp32/soc_memory_layout.c.i
 
 # target to preprocess a source file
 esp32/soc_memory_layout.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.i
 .PHONY : esp32/soc_memory_layout.c.i
 
 esp32/soc_memory_layout.s: esp32/soc_memory_layout.c.s
@@ -507,7 +507,7 @@ esp32/soc_memory_layout.s: esp32/soc_memory_layout.c.s
 
 # target to generate assembly for a file
 esp32/soc_memory_layout.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/soc_memory_layout.c.s
 .PHONY : esp32/soc_memory_layout.c.s
 
 esp32/spi_periph.obj: esp32/spi_periph.c.obj
@@ -515,7 +515,7 @@ esp32/spi_periph.obj: esp32/spi_periph.c.obj
 
 # target to build an object file
 esp32/spi_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
 .PHONY : esp32/spi_periph.c.obj
 
 esp32/spi_periph.i: esp32/spi_periph.c.i
@@ -523,7 +523,7 @@ esp32/spi_periph.i: esp32/spi_periph.c.i
 
 # target to preprocess a source file
 esp32/spi_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.i
 .PHONY : esp32/spi_periph.c.i
 
 esp32/spi_periph.s: esp32/spi_periph.c.s
@@ -531,7 +531,7 @@ esp32/spi_periph.s: esp32/spi_periph.c.s
 
 # target to generate assembly for a file
 esp32/spi_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.s
 .PHONY : esp32/spi_periph.c.s
 
 esp32/timer_periph.obj: esp32/timer_periph.c.obj
@@ -539,7 +539,7 @@ esp32/timer_periph.obj: esp32/timer_periph.c.obj
 
 # target to build an object file
 esp32/timer_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
 .PHONY : esp32/timer_periph.c.obj
 
 esp32/timer_periph.i: esp32/timer_periph.c.i
@@ -547,7 +547,7 @@ esp32/timer_periph.i: esp32/timer_periph.c.i
 
 # target to preprocess a source file
 esp32/timer_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.i
 .PHONY : esp32/timer_periph.c.i
 
 esp32/timer_periph.s: esp32/timer_periph.c.s
@@ -555,7 +555,7 @@ esp32/timer_periph.s: esp32/timer_periph.c.s
 
 # target to generate assembly for a file
 esp32/timer_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.s
 .PHONY : esp32/timer_periph.c.s
 
 esp32/touch_sensor_periph.obj: esp32/touch_sensor_periph.c.obj
@@ -563,7 +563,7 @@ esp32/touch_sensor_periph.obj: esp32/touch_sensor_periph.c.obj
 
 # target to build an object file
 esp32/touch_sensor_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj
 .PHONY : esp32/touch_sensor_periph.c.obj
 
 esp32/touch_sensor_periph.i: esp32/touch_sensor_periph.c.i
@@ -571,7 +571,7 @@ esp32/touch_sensor_periph.i: esp32/touch_sensor_periph.c.i
 
 # target to preprocess a source file
 esp32/touch_sensor_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.i
 .PHONY : esp32/touch_sensor_periph.c.i
 
 esp32/touch_sensor_periph.s: esp32/touch_sensor_periph.c.s
@@ -579,7 +579,7 @@ esp32/touch_sensor_periph.s: esp32/touch_sensor_periph.c.s
 
 # target to generate assembly for a file
 esp32/touch_sensor_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.s
 .PHONY : esp32/touch_sensor_periph.c.s
 
 esp32/uart_periph.obj: esp32/uart_periph.c.obj
@@ -587,7 +587,7 @@ esp32/uart_periph.obj: esp32/uart_periph.c.obj
 
 # target to build an object file
 esp32/uart_periph.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
 .PHONY : esp32/uart_periph.c.obj
 
 esp32/uart_periph.i: esp32/uart_periph.c.i
@@ -595,7 +595,7 @@ esp32/uart_periph.i: esp32/uart_periph.c.i
 
 # target to preprocess a source file
 esp32/uart_periph.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.i
 .PHONY : esp32/uart_periph.c.i
 
 esp32/uart_periph.s: esp32/uart_periph.c.s
@@ -603,7 +603,7 @@ esp32/uart_periph.s: esp32/uart_periph.c.s
 
 # target to generate assembly for a file
 esp32/uart_periph.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.s
 .PHONY : esp32/uart_periph.c.s
 
 lldesc.obj: lldesc.c.obj
@@ -611,7 +611,7 @@ lldesc.obj: lldesc.c.obj
 
 # target to build an object file
 lldesc.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj
 .PHONY : lldesc.c.obj
 
 lldesc.i: lldesc.c.i
@@ -619,7 +619,7 @@ lldesc.i: lldesc.c.i
 
 # target to preprocess a source file
 lldesc.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.i
 .PHONY : lldesc.c.i
 
 lldesc.s: lldesc.c.s
@@ -627,7 +627,7 @@ lldesc.s: lldesc.c.s
 
 # target to generate assembly for a file
 lldesc.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.s
 .PHONY : lldesc.c.s
 
 memory_layout_utils.obj: memory_layout_utils.c.obj
@@ -635,7 +635,7 @@ memory_layout_utils.obj: memory_layout_utils.c.obj
 
 # target to build an object file
 memory_layout_utils.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.obj
 .PHONY : memory_layout_utils.c.obj
 
 memory_layout_utils.i: memory_layout_utils.c.i
@@ -643,7 +643,7 @@ memory_layout_utils.i: memory_layout_utils.c.i
 
 # target to preprocess a source file
 memory_layout_utils.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.i
 .PHONY : memory_layout_utils.c.i
 
 memory_layout_utils.s: memory_layout_utils.c.s
@@ -651,7 +651,7 @@ memory_layout_utils.s: memory_layout_utils.c.s
 
 # target to generate assembly for a file
 memory_layout_utils.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/memory_layout_utils.c.s
 .PHONY : memory_layout_utils.c.s
 
 soc_include_legacy_warn.obj: soc_include_legacy_warn.c.obj
@@ -659,7 +659,7 @@ soc_include_legacy_warn.obj: soc_include_legacy_warn.c.obj
 
 # target to build an object file
 soc_include_legacy_warn.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.obj
 .PHONY : soc_include_legacy_warn.c.obj
 
 soc_include_legacy_warn.i: soc_include_legacy_warn.c.i
@@ -667,7 +667,7 @@ soc_include_legacy_warn.i: soc_include_legacy_warn.c.i
 
 # target to preprocess a source file
 soc_include_legacy_warn.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.i
 .PHONY : soc_include_legacy_warn.c.i
 
 soc_include_legacy_warn.s: soc_include_legacy_warn.c.s
@@ -675,7 +675,7 @@ soc_include_legacy_warn.s: soc_include_legacy_warn.c.s
 
 # target to generate assembly for a file
 soc_include_legacy_warn.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\soc\CMakeFiles\__idf_soc.dir\build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/soc_include_legacy_warn.c.s
 .PHONY : soc_include_legacy_warn.c.s
 
 # Help Target
@@ -765,6 +765,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 # Utility rule file for menuconfig.
 
@@ -66,11 +66,11 @@ include CMakeFiles/menuconfig.dir/compiler_depend.make
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config.env
-	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --sdkconfig-rename C:/Users/Justin/esp/esp-idf/sdkconfig.rename --config C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig
+	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/config.env
+	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --sdkconfig-rename C:/Users/Justin/esp/esp-idf/sdkconfig.rename --config C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig
 	python C:/Users/Justin/esp/esp-idf/tools/check_term.py
-	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E env COMPONENT_KCONFIGS_SOURCE_FILE=C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig IDF_TARGET=esp32 IDF_ENV_FPGA= python -m menuconfig C:/Users/Justin/esp/esp-idf/Kconfig
-	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --sdkconfig-rename C:/Users/Justin/esp/esp-idf/sdkconfig.rename --config C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig
+	"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E env COMPONENT_KCONFIGS_SOURCE_FILE=C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig IDF_TARGET=esp32 IDF_ENV_FPGA= python -m menuconfig C:/Users/Justin/esp/esp-idf/Kconfig
+	python C:/Users/Justin/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --sdkconfig-rename C:/Users/Justin/esp/esp-idf/sdkconfig.rename --config C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
@@ -85,6 +85,6 @@ CMakeFiles/menuconfig.dir/clean:
 .PHONY : CMakeFiles/menuconfig.dir/clean
 
 CMakeFiles/menuconfig.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5 C:\AllFiles\programming\MachineDog\FocX_v_0_5 C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles\menuconfig.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5_5 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles\menuconfig.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/menuconfig.dir/depend
 

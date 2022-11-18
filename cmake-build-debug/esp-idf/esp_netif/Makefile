@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp_netif\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp_netif\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 .PHONY : esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_esp_netif: esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
 
 # fast build rule for target.
 __idf_esp_netif/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/build
 .PHONY : __idf_esp_netif/fast
 
 esp_netif_defaults.obj: esp_netif_defaults.c.obj
@@ -179,7 +179,7 @@ esp_netif_defaults.obj: esp_netif_defaults.c.obj
 
 # target to build an object file
 esp_netif_defaults.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
 .PHONY : esp_netif_defaults.c.obj
 
 esp_netif_defaults.i: esp_netif_defaults.c.i
@@ -187,7 +187,7 @@ esp_netif_defaults.i: esp_netif_defaults.c.i
 
 # target to preprocess a source file
 esp_netif_defaults.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.i
 .PHONY : esp_netif_defaults.c.i
 
 esp_netif_defaults.s: esp_netif_defaults.c.s
@@ -195,7 +195,7 @@ esp_netif_defaults.s: esp_netif_defaults.c.s
 
 # target to generate assembly for a file
 esp_netif_defaults.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.s
 .PHONY : esp_netif_defaults.c.s
 
 esp_netif_handlers.obj: esp_netif_handlers.c.obj
@@ -203,7 +203,7 @@ esp_netif_handlers.obj: esp_netif_handlers.c.obj
 
 # target to build an object file
 esp_netif_handlers.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
 .PHONY : esp_netif_handlers.c.obj
 
 esp_netif_handlers.i: esp_netif_handlers.c.i
@@ -211,7 +211,7 @@ esp_netif_handlers.i: esp_netif_handlers.c.i
 
 # target to preprocess a source file
 esp_netif_handlers.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.i
 .PHONY : esp_netif_handlers.c.i
 
 esp_netif_handlers.s: esp_netif_handlers.c.s
@@ -219,7 +219,7 @@ esp_netif_handlers.s: esp_netif_handlers.c.s
 
 # target to generate assembly for a file
 esp_netif_handlers.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.s
 .PHONY : esp_netif_handlers.c.s
 
 esp_netif_objects.obj: esp_netif_objects.c.obj
@@ -227,7 +227,7 @@ esp_netif_objects.obj: esp_netif_objects.c.obj
 
 # target to build an object file
 esp_netif_objects.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
 .PHONY : esp_netif_objects.c.obj
 
 esp_netif_objects.i: esp_netif_objects.c.i
@@ -235,7 +235,7 @@ esp_netif_objects.i: esp_netif_objects.c.i
 
 # target to preprocess a source file
 esp_netif_objects.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.i
 .PHONY : esp_netif_objects.c.i
 
 esp_netif_objects.s: esp_netif_objects.c.s
@@ -243,7 +243,7 @@ esp_netif_objects.s: esp_netif_objects.c.s
 
 # target to generate assembly for a file
 esp_netif_objects.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.s
 .PHONY : esp_netif_objects.c.s
 
 loopback/esp_netif_loopback.obj: loopback/esp_netif_loopback.c.obj
@@ -251,7 +251,7 @@ loopback/esp_netif_loopback.obj: loopback/esp_netif_loopback.c.obj
 
 # target to build an object file
 loopback/esp_netif_loopback.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.obj
 .PHONY : loopback/esp_netif_loopback.c.obj
 
 loopback/esp_netif_loopback.i: loopback/esp_netif_loopback.c.i
@@ -259,7 +259,7 @@ loopback/esp_netif_loopback.i: loopback/esp_netif_loopback.c.i
 
 # target to preprocess a source file
 loopback/esp_netif_loopback.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.i
 .PHONY : loopback/esp_netif_loopback.c.i
 
 loopback/esp_netif_loopback.s: loopback/esp_netif_loopback.c.s
@@ -267,7 +267,7 @@ loopback/esp_netif_loopback.s: loopback/esp_netif_loopback.c.s
 
 # target to generate assembly for a file
 loopback/esp_netif_loopback.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/loopback/esp_netif_loopback.c.s
 .PHONY : loopback/esp_netif_loopback.c.s
 
 lwip/esp_netif_lwip.obj: lwip/esp_netif_lwip.c.obj
@@ -275,7 +275,7 @@ lwip/esp_netif_lwip.obj: lwip/esp_netif_lwip.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
 .PHONY : lwip/esp_netif_lwip.c.obj
 
 lwip/esp_netif_lwip.i: lwip/esp_netif_lwip.c.i
@@ -283,7 +283,7 @@ lwip/esp_netif_lwip.i: lwip/esp_netif_lwip.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.i
 .PHONY : lwip/esp_netif_lwip.c.i
 
 lwip/esp_netif_lwip.s: lwip/esp_netif_lwip.c.s
@@ -291,7 +291,7 @@ lwip/esp_netif_lwip.s: lwip/esp_netif_lwip.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.s
 .PHONY : lwip/esp_netif_lwip.c.s
 
 lwip/esp_netif_lwip_defaults.obj: lwip/esp_netif_lwip_defaults.c.obj
@@ -299,7 +299,7 @@ lwip/esp_netif_lwip_defaults.obj: lwip/esp_netif_lwip_defaults.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip_defaults.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
 .PHONY : lwip/esp_netif_lwip_defaults.c.obj
 
 lwip/esp_netif_lwip_defaults.i: lwip/esp_netif_lwip_defaults.c.i
@@ -307,7 +307,7 @@ lwip/esp_netif_lwip_defaults.i: lwip/esp_netif_lwip_defaults.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip_defaults.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.i
 .PHONY : lwip/esp_netif_lwip_defaults.c.i
 
 lwip/esp_netif_lwip_defaults.s: lwip/esp_netif_lwip_defaults.c.s
@@ -315,7 +315,7 @@ lwip/esp_netif_lwip_defaults.s: lwip/esp_netif_lwip_defaults.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip_defaults.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.s
 .PHONY : lwip/esp_netif_lwip_defaults.c.s
 
 lwip/esp_netif_lwip_ppp.obj: lwip/esp_netif_lwip_ppp.c.obj
@@ -323,7 +323,7 @@ lwip/esp_netif_lwip_ppp.obj: lwip/esp_netif_lwip_ppp.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip_ppp.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.obj
 .PHONY : lwip/esp_netif_lwip_ppp.c.obj
 
 lwip/esp_netif_lwip_ppp.i: lwip/esp_netif_lwip_ppp.c.i
@@ -331,7 +331,7 @@ lwip/esp_netif_lwip_ppp.i: lwip/esp_netif_lwip_ppp.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip_ppp.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.i
 .PHONY : lwip/esp_netif_lwip_ppp.c.i
 
 lwip/esp_netif_lwip_ppp.s: lwip/esp_netif_lwip_ppp.c.s
@@ -339,7 +339,7 @@ lwip/esp_netif_lwip_ppp.s: lwip/esp_netif_lwip_ppp.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip_ppp.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_ppp.c.s
 .PHONY : lwip/esp_netif_lwip_ppp.c.s
 
 lwip/esp_netif_lwip_slip.obj: lwip/esp_netif_lwip_slip.c.obj
@@ -347,7 +347,7 @@ lwip/esp_netif_lwip_slip.obj: lwip/esp_netif_lwip_slip.c.obj
 
 # target to build an object file
 lwip/esp_netif_lwip_slip.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.obj
 .PHONY : lwip/esp_netif_lwip_slip.c.obj
 
 lwip/esp_netif_lwip_slip.i: lwip/esp_netif_lwip_slip.c.i
@@ -355,7 +355,7 @@ lwip/esp_netif_lwip_slip.i: lwip/esp_netif_lwip_slip.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_lwip_slip.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.i
 .PHONY : lwip/esp_netif_lwip_slip.c.i
 
 lwip/esp_netif_lwip_slip.s: lwip/esp_netif_lwip_slip.c.s
@@ -363,7 +363,7 @@ lwip/esp_netif_lwip_slip.s: lwip/esp_netif_lwip_slip.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_lwip_slip.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_slip.c.s
 .PHONY : lwip/esp_netif_lwip_slip.c.s
 
 lwip/esp_netif_sta_list.obj: lwip/esp_netif_sta_list.c.obj
@@ -371,7 +371,7 @@ lwip/esp_netif_sta_list.obj: lwip/esp_netif_sta_list.c.obj
 
 # target to build an object file
 lwip/esp_netif_sta_list.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.obj
 .PHONY : lwip/esp_netif_sta_list.c.obj
 
 lwip/esp_netif_sta_list.i: lwip/esp_netif_sta_list.c.i
@@ -379,7 +379,7 @@ lwip/esp_netif_sta_list.i: lwip/esp_netif_sta_list.c.i
 
 # target to preprocess a source file
 lwip/esp_netif_sta_list.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.i
 .PHONY : lwip/esp_netif_sta_list.c.i
 
 lwip/esp_netif_sta_list.s: lwip/esp_netif_sta_list.c.s
@@ -387,7 +387,7 @@ lwip/esp_netif_sta_list.s: lwip/esp_netif_sta_list.c.s
 
 # target to generate assembly for a file
 lwip/esp_netif_sta_list.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_netif\CMakeFiles\__idf_esp_netif.dir\build.make esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sta_list.c.s
 .PHONY : lwip/esp_netif_sta_list.c.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

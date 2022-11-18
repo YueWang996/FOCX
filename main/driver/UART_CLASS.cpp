@@ -26,9 +26,10 @@ void UART_CLASS::init() {
     uart_set_pin(UART_NUMBER, TX_PIN, RX_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
 }
 
-int UART_CLASS::uart_send(const char *data) {
-    const int data_len = strlen(data);
+int UART_CLASS::uart_send(const unsigned char *data, int data_len) {
+    //const int data_len = strlen(reinterpret_cast<const char *>(data));
     const int txBytes = uart_write_bytes(UART_NUMBER, data, data_len);
+    uart_flush(UART_NUMBER);
     return txBytes;
 }
 
@@ -38,7 +39,7 @@ size_t UART_CLASS::uart_available() {
     return size;
 }
 
-int UART_CLASS::uart_read(char *s, int len) {
+int UART_CLASS::uart_read(uint8_t *s, int len) {
     char *data = (char *) pvPortMalloc(RX_BUF_SIZE+1);
     const int rxBytes = uart_read_bytes(UART_NUMBER, data, RX_BUF_SIZE * 2, 20 / portTICK_RATE_MS);
     if(rxBytes > 0) {
@@ -46,7 +47,7 @@ int UART_CLASS::uart_read(char *s, int len) {
 
         // reset string
         memset(s,'\0',sizeof(char) * len);
-        strncat(s, data, len);
+        strncat(reinterpret_cast<char *>(s), data, len);
 
         //uart_flush(UART_NUMBER);
         return 1;

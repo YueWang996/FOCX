@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/Justin/esp/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

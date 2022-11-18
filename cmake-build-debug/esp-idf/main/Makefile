@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\main\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\main\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/main/CMakeFiles/__idf_main.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/CMakeFiles/__idf_main.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/main/CMakeFiles/__idf_main.dir/rule
 .PHONY : esp-idf/main/CMakeFiles/__idf_main.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_main: esp-idf/main/CMakeFiles/__idf_main.dir/rule
 
 # fast build rule for target.
 __idf_main/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
 FOC/FOC.obj: FOC/FOC.cpp.obj
@@ -179,7 +179,7 @@ FOC/FOC.obj: FOC/FOC.cpp.obj
 
 # target to build an object file
 FOC/FOC.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.obj
 .PHONY : FOC/FOC.cpp.obj
 
 FOC/FOC.i: FOC/FOC.cpp.i
@@ -187,7 +187,7 @@ FOC/FOC.i: FOC/FOC.cpp.i
 
 # target to preprocess a source file
 FOC/FOC.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.i
 .PHONY : FOC/FOC.cpp.i
 
 FOC/FOC.s: FOC/FOC.cpp.s
@@ -195,7 +195,7 @@ FOC/FOC.s: FOC/FOC.cpp.s
 
 # target to generate assembly for a file
 FOC/FOC.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/FOC.cpp.s
 .PHONY : FOC/FOC.cpp.s
 
 FOC/LowPass.obj: FOC/LowPass.cpp.obj
@@ -203,7 +203,7 @@ FOC/LowPass.obj: FOC/LowPass.cpp.obj
 
 # target to build an object file
 FOC/LowPass.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.obj
 .PHONY : FOC/LowPass.cpp.obj
 
 FOC/LowPass.i: FOC/LowPass.cpp.i
@@ -211,7 +211,7 @@ FOC/LowPass.i: FOC/LowPass.cpp.i
 
 # target to preprocess a source file
 FOC/LowPass.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.i
 .PHONY : FOC/LowPass.cpp.i
 
 FOC/LowPass.s: FOC/LowPass.cpp.s
@@ -219,7 +219,7 @@ FOC/LowPass.s: FOC/LowPass.cpp.s
 
 # target to generate assembly for a file
 FOC/LowPass.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/LowPass.cpp.s
 .PHONY : FOC/LowPass.cpp.s
 
 FOC/foc_utilities.obj: FOC/foc_utilities.cpp.obj
@@ -227,7 +227,7 @@ FOC/foc_utilities.obj: FOC/foc_utilities.cpp.obj
 
 # target to build an object file
 FOC/foc_utilities.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.obj
 .PHONY : FOC/foc_utilities.cpp.obj
 
 FOC/foc_utilities.i: FOC/foc_utilities.cpp.i
@@ -235,7 +235,7 @@ FOC/foc_utilities.i: FOC/foc_utilities.cpp.i
 
 # target to preprocess a source file
 FOC/foc_utilities.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.i
 .PHONY : FOC/foc_utilities.cpp.i
 
 FOC/foc_utilities.s: FOC/foc_utilities.cpp.s
@@ -243,111 +243,15 @@ FOC/foc_utilities.s: FOC/foc_utilities.cpp.s
 
 # target to generate assembly for a file
 FOC/foc_utilities.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/FOC/foc_utilities.cpp.s
 .PHONY : FOC/foc_utilities.cpp.s
-
-driver/BoardStateMonitor.obj: driver/BoardStateMonitor.cpp.obj
-.PHONY : driver/BoardStateMonitor.obj
-
-# target to build an object file
-driver/BoardStateMonitor.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.obj
-.PHONY : driver/BoardStateMonitor.cpp.obj
-
-driver/BoardStateMonitor.i: driver/BoardStateMonitor.cpp.i
-.PHONY : driver/BoardStateMonitor.i
-
-# target to preprocess a source file
-driver/BoardStateMonitor.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.i
-.PHONY : driver/BoardStateMonitor.cpp.i
-
-driver/BoardStateMonitor.s: driver/BoardStateMonitor.cpp.s
-.PHONY : driver/BoardStateMonitor.s
-
-# target to generate assembly for a file
-driver/BoardStateMonitor.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/BoardStateMonitor.cpp.s
-.PHONY : driver/BoardStateMonitor.cpp.s
-
-driver/CAN/CAN.obj: driver/CAN/CAN.c.obj
-.PHONY : driver/CAN/CAN.obj
-
-# target to build an object file
-driver/CAN/CAN.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.obj
-.PHONY : driver/CAN/CAN.c.obj
-
-driver/CAN/CAN.i: driver/CAN/CAN.c.i
-.PHONY : driver/CAN/CAN.i
-
-# target to preprocess a source file
-driver/CAN/CAN.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.i
-.PHONY : driver/CAN/CAN.c.i
-
-driver/CAN/CAN.s: driver/CAN/CAN.c.s
-.PHONY : driver/CAN/CAN.s
-
-# target to generate assembly for a file
-driver/CAN/CAN.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/CAN.c.s
-.PHONY : driver/CAN/CAN.c.s
-
-driver/CAN/ESP32CAN.obj: driver/CAN/ESP32CAN.cpp.obj
-.PHONY : driver/CAN/ESP32CAN.obj
-
-# target to build an object file
-driver/CAN/ESP32CAN.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.obj
-.PHONY : driver/CAN/ESP32CAN.cpp.obj
-
-driver/CAN/ESP32CAN.i: driver/CAN/ESP32CAN.cpp.i
-.PHONY : driver/CAN/ESP32CAN.i
-
-# target to preprocess a source file
-driver/CAN/ESP32CAN.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.i
-.PHONY : driver/CAN/ESP32CAN.cpp.i
-
-driver/CAN/ESP32CAN.s: driver/CAN/ESP32CAN.cpp.s
-.PHONY : driver/CAN/ESP32CAN.s
-
-# target to generate assembly for a file
-driver/CAN/ESP32CAN.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CAN/ESP32CAN.cpp.s
-.PHONY : driver/CAN/ESP32CAN.cpp.s
-
-driver/CANCommunication.obj: driver/CANCommunication.cpp.obj
-.PHONY : driver/CANCommunication.obj
-
-# target to build an object file
-driver/CANCommunication.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.obj
-.PHONY : driver/CANCommunication.cpp.obj
-
-driver/CANCommunication.i: driver/CANCommunication.cpp.i
-.PHONY : driver/CANCommunication.i
-
-# target to preprocess a source file
-driver/CANCommunication.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.i
-.PHONY : driver/CANCommunication.cpp.i
-
-driver/CANCommunication.s: driver/CANCommunication.cpp.s
-.PHONY : driver/CANCommunication.s
-
-# target to generate assembly for a file
-driver/CANCommunication.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/CANCommunication.cpp.s
-.PHONY : driver/CANCommunication.cpp.s
 
 driver/MotorControlPWM.obj: driver/MotorControlPWM.cpp.obj
 .PHONY : driver/MotorControlPWM.obj
 
 # target to build an object file
 driver/MotorControlPWM.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.obj
 .PHONY : driver/MotorControlPWM.cpp.obj
 
 driver/MotorControlPWM.i: driver/MotorControlPWM.cpp.i
@@ -355,7 +259,7 @@ driver/MotorControlPWM.i: driver/MotorControlPWM.cpp.i
 
 # target to preprocess a source file
 driver/MotorControlPWM.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.i
 .PHONY : driver/MotorControlPWM.cpp.i
 
 driver/MotorControlPWM.s: driver/MotorControlPWM.cpp.s
@@ -363,7 +267,7 @@ driver/MotorControlPWM.s: driver/MotorControlPWM.cpp.s
 
 # target to generate assembly for a file
 driver/MotorControlPWM.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/MotorControlPWM.cpp.s
 .PHONY : driver/MotorControlPWM.cpp.s
 
 driver/SPI_CLASS.obj: driver/SPI_CLASS.cpp.obj
@@ -371,7 +275,7 @@ driver/SPI_CLASS.obj: driver/SPI_CLASS.cpp.obj
 
 # target to build an object file
 driver/SPI_CLASS.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.obj
 .PHONY : driver/SPI_CLASS.cpp.obj
 
 driver/SPI_CLASS.i: driver/SPI_CLASS.cpp.i
@@ -379,7 +283,7 @@ driver/SPI_CLASS.i: driver/SPI_CLASS.cpp.i
 
 # target to preprocess a source file
 driver/SPI_CLASS.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.i
 .PHONY : driver/SPI_CLASS.cpp.i
 
 driver/SPI_CLASS.s: driver/SPI_CLASS.cpp.s
@@ -387,7 +291,7 @@ driver/SPI_CLASS.s: driver/SPI_CLASS.cpp.s
 
 # target to generate assembly for a file
 driver/SPI_CLASS.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/SPI_CLASS.cpp.s
 .PHONY : driver/SPI_CLASS.cpp.s
 
 driver/UART_CLASS.obj: driver/UART_CLASS.cpp.obj
@@ -395,7 +299,7 @@ driver/UART_CLASS.obj: driver/UART_CLASS.cpp.obj
 
 # target to build an object file
 driver/UART_CLASS.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.obj
 .PHONY : driver/UART_CLASS.cpp.obj
 
 driver/UART_CLASS.i: driver/UART_CLASS.cpp.i
@@ -403,7 +307,7 @@ driver/UART_CLASS.i: driver/UART_CLASS.cpp.i
 
 # target to preprocess a source file
 driver/UART_CLASS.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.i
 .PHONY : driver/UART_CLASS.cpp.i
 
 driver/UART_CLASS.s: driver/UART_CLASS.cpp.s
@@ -411,7 +315,7 @@ driver/UART_CLASS.s: driver/UART_CLASS.cpp.s
 
 # target to generate assembly for a file
 driver/UART_CLASS.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/driver/UART_CLASS.cpp.s
 .PHONY : driver/UART_CLASS.cpp.s
 
 main.obj: main.cpp.obj
@@ -419,7 +323,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -427,7 +331,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -435,7 +339,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 sensor/Tle5012b/TLE5012B.obj: sensor/Tle5012b/TLE5012B.cpp.obj
@@ -443,7 +347,7 @@ sensor/Tle5012b/TLE5012B.obj: sensor/Tle5012b/TLE5012B.cpp.obj
 
 # target to build an object file
 sensor/Tle5012b/TLE5012B.cpp.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.obj
 .PHONY : sensor/Tle5012b/TLE5012B.cpp.obj
 
 sensor/Tle5012b/TLE5012B.i: sensor/Tle5012b/TLE5012B.cpp.i
@@ -451,7 +355,7 @@ sensor/Tle5012b/TLE5012B.i: sensor/Tle5012b/TLE5012B.cpp.i
 
 # target to preprocess a source file
 sensor/Tle5012b/TLE5012B.cpp.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.i
 .PHONY : sensor/Tle5012b/TLE5012B.cpp.i
 
 sensor/Tle5012b/TLE5012B.s: sensor/Tle5012b/TLE5012B.cpp.s
@@ -459,7 +363,7 @@ sensor/Tle5012b/TLE5012B.s: sensor/Tle5012b/TLE5012B.cpp.s
 
 # target to generate assembly for a file
 sensor/Tle5012b/TLE5012B.cpp.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\main\CMakeFiles\__idf_main.dir\build.make esp-idf/main/CMakeFiles/__idf_main.dir/sensor/Tle5012b/TLE5012B.cpp.s
 .PHONY : sensor/Tle5012b/TLE5012B.cpp.s
 
 # Help Target
@@ -484,18 +388,6 @@ help:
 	@echo ... FOC/foc_utilities.obj
 	@echo ... FOC/foc_utilities.i
 	@echo ... FOC/foc_utilities.s
-	@echo ... driver/BoardStateMonitor.obj
-	@echo ... driver/BoardStateMonitor.i
-	@echo ... driver/BoardStateMonitor.s
-	@echo ... driver/CAN/CAN.obj
-	@echo ... driver/CAN/CAN.i
-	@echo ... driver/CAN/CAN.s
-	@echo ... driver/CAN/ESP32CAN.obj
-	@echo ... driver/CAN/ESP32CAN.i
-	@echo ... driver/CAN/ESP32CAN.s
-	@echo ... driver/CANCommunication.obj
-	@echo ... driver/CANCommunication.i
-	@echo ... driver/CANCommunication.s
 	@echo ... driver/MotorControlPWM.obj
 	@echo ... driver/MotorControlPWM.i
 	@echo ... driver/MotorControlPWM.s
@@ -522,6 +414,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

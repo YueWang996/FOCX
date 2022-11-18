@@ -13,9 +13,9 @@ class UART_CLASS {
 public:
     UART_CLASS();
     void init();
-    int uart_send(const char *data);
+    int uart_send(const unsigned char *data, int data_len);
     size_t uart_available();
-    int uart_read(char *s, int len);
+    int uart_read(unsigned char *s, int len);
 private:
     uart_config_t uartConfig;
 };

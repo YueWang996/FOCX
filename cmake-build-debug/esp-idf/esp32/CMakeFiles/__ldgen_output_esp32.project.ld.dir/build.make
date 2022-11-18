@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 # Utility rule file for __ldgen_output_esp32.project.ld.
 
@@ -162,9 +162,9 @@ esp-idf/esp32/ld/esp32.project.ld: esp-idf/spiffs/libspiffs.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/ulp/libulp.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/wifi_provisioning/libwifi_provisioning.a
 esp-idf/esp32/ld/esp32.project.ld: esp-idf/main/libmain.a
-esp-idf/esp32/ld/esp32.project.ld: C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 && python C:/Users/Justin/esp/esp-idf/tools/ldgen/ldgen.py --config C:/AllFiles/programming/MachineDog/FocX_v_0_5/sdkconfig --fragments C:/Users/Justin/esp/esp-idf/components/esp_pm/linker.lf	C:/Users/Justin/esp/esp-idf/components/spi_flash/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_gdbstub/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_system/linker.lf	C:/Users/Justin/esp/esp-idf/components/hal/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_event/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_wifi/linker.lf	C:/Users/Justin/esp/esp-idf/components/lwip/linker.lf	C:/Users/Justin/esp/esp-idf/components/log/linker.lf	C:/Users/Justin/esp/esp-idf/components/heap/linker.lf	C:/Users/Justin/esp/esp-idf/components/soc/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_hw_support/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/linker.lf	C:/Users/Justin/esp/esp-idf/components/driver/linker.lf	C:/Users/Justin/esp/esp-idf/components/xtensa/linker.lf	C:/Users/Justin/esp/esp-idf/components/espcoredump/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp32/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32_fragments.lf	C:/Users/Justin/esp/esp-idf/components/esp_common/linker.lf	C:/Users/Justin/esp/esp-idf/components/freertos/linker.lf	C:/Users/Justin/esp/esp-idf/components/newlib/newlib.lf	C:/Users/Justin/esp/esp-idf/components/app_trace/linker.lf	C:/Users/Justin/esp/esp-idf/components/bt/linker.lf --input C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32.project.ld.in --output C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/esp-idf/esp32/ld/esp32.project.ld --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/config.env --libraries-file C:/AllFiles/programming/MachineDog/FocX_v_0_5/cmake-build-debug/ldgen_libraries --objdump C:/Users/Justin/esp/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe
+esp-idf/esp32/ld/esp32.project.ld: C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ld/esp32.project.ld"
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 && python C:/Users/Justin/esp/esp-idf/tools/ldgen/ldgen.py --config C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/sdkconfig --fragments C:/Users/Justin/esp/esp-idf/components/esp_pm/linker.lf	C:/Users/Justin/esp/esp-idf/components/spi_flash/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_gdbstub/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_system/linker.lf	C:/Users/Justin/esp/esp-idf/components/hal/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_event/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_wifi/linker.lf	C:/Users/Justin/esp/esp-idf/components/lwip/linker.lf	C:/Users/Justin/esp/esp-idf/components/log/linker.lf	C:/Users/Justin/esp/esp-idf/components/heap/linker.lf	C:/Users/Justin/esp/esp-idf/components/soc/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_hw_support/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp_ringbuf/linker.lf	C:/Users/Justin/esp/esp-idf/components/driver/linker.lf	C:/Users/Justin/esp/esp-idf/components/xtensa/linker.lf	C:/Users/Justin/esp/esp-idf/components/espcoredump/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp32/linker.lf	C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32_fragments.lf	C:/Users/Justin/esp/esp-idf/components/esp_common/linker.lf	C:/Users/Justin/esp/esp-idf/components/freertos/linker.lf	C:/Users/Justin/esp/esp-idf/components/newlib/newlib.lf	C:/Users/Justin/esp/esp-idf/components/app_trace/linker.lf	C:/Users/Justin/esp/esp-idf/components/bt/linker.lf --input C:/Users/Justin/esp/esp-idf/components/esp32/ld/esp32.project.ld.in --output C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/esp-idf/esp32/ld/esp32.project.ld --kconfig C:/Users/Justin/esp/esp-idf/Kconfig --env-file C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/config.env --libraries-file C:/AllFiles/programming/MachineDog/FocX_v_0_5_5/cmake-build-debug/ldgen_libraries --objdump C:/Users/Justin/esp/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-objdump.exe
 
 __ldgen_output_esp32.project.ld: esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld
 __ldgen_output_esp32.project.ld: esp-idf/esp32/ld/esp32.project.ld
@@ -176,10 +176,10 @@ esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build: __ldgen_outp
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/build
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\__ldgen_output_esp32.project.ld.dir\cmake_clean.cmake
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 && $(CMAKE_COMMAND) -P CMakeFiles\__ldgen_output_esp32.project.ld.dir\cmake_clean.cmake
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/clean
 
 esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5 C:\Users\Justin\esp\esp-idf\components\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\AllFiles\programming\MachineDog\FocX_v_0_5_5 C:\Users\Justin\esp\esp-idf\components\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32 C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp32\CMakeFiles\__ldgen_output_esp32.project.ld.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp32/CMakeFiles/__ldgen_output_esp32.project.ld.dir/depend
 

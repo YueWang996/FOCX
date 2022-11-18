@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\esp_common\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\esp_common\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 .PHONY : esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_esp_common: esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/rule
 
 # fast build rule for target.
 __idf_esp_common/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/build
 .PHONY : __idf_esp_common/fast
 
 src/brownout.obj: src/brownout.c.obj
@@ -179,7 +179,7 @@ src/brownout.obj: src/brownout.c.obj
 
 # target to build an object file
 src/brownout.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.obj
 .PHONY : src/brownout.c.obj
 
 src/brownout.i: src/brownout.c.i
@@ -187,7 +187,7 @@ src/brownout.i: src/brownout.c.i
 
 # target to preprocess a source file
 src/brownout.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.i
 .PHONY : src/brownout.c.i
 
 src/brownout.s: src/brownout.c.s
@@ -195,7 +195,7 @@ src/brownout.s: src/brownout.c.s
 
 # target to generate assembly for a file
 src/brownout.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/brownout.c.s
 .PHONY : src/brownout.c.s
 
 src/dbg_stubs.obj: src/dbg_stubs.c.obj
@@ -203,7 +203,7 @@ src/dbg_stubs.obj: src/dbg_stubs.c.obj
 
 # target to build an object file
 src/dbg_stubs.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.obj
 .PHONY : src/dbg_stubs.c.obj
 
 src/dbg_stubs.i: src/dbg_stubs.c.i
@@ -211,7 +211,7 @@ src/dbg_stubs.i: src/dbg_stubs.c.i
 
 # target to preprocess a source file
 src/dbg_stubs.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.i
 .PHONY : src/dbg_stubs.c.i
 
 src/dbg_stubs.s: src/dbg_stubs.c.s
@@ -219,7 +219,7 @@ src/dbg_stubs.s: src/dbg_stubs.c.s
 
 # target to generate assembly for a file
 src/dbg_stubs.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/dbg_stubs.c.s
 .PHONY : src/dbg_stubs.c.s
 
 src/esp_err.obj: src/esp_err.c.obj
@@ -227,7 +227,7 @@ src/esp_err.obj: src/esp_err.c.obj
 
 # target to build an object file
 src/esp_err.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.obj
 .PHONY : src/esp_err.c.obj
 
 src/esp_err.i: src/esp_err.c.i
@@ -235,7 +235,7 @@ src/esp_err.i: src/esp_err.c.i
 
 # target to preprocess a source file
 src/esp_err.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.i
 .PHONY : src/esp_err.c.i
 
 src/esp_err.s: src/esp_err.c.s
@@ -243,7 +243,7 @@ src/esp_err.s: src/esp_err.c.s
 
 # target to generate assembly for a file
 src/esp_err.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err.c.s
 .PHONY : src/esp_err.c.s
 
 src/esp_err_to_name.obj: src/esp_err_to_name.c.obj
@@ -251,7 +251,7 @@ src/esp_err_to_name.obj: src/esp_err_to_name.c.obj
 
 # target to build an object file
 src/esp_err_to_name.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
 .PHONY : src/esp_err_to_name.c.obj
 
 src/esp_err_to_name.i: src/esp_err_to_name.c.i
@@ -259,7 +259,7 @@ src/esp_err_to_name.i: src/esp_err_to_name.c.i
 
 # target to preprocess a source file
 src/esp_err_to_name.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.i
 .PHONY : src/esp_err_to_name.c.i
 
 src/esp_err_to_name.s: src/esp_err_to_name.c.s
@@ -267,7 +267,7 @@ src/esp_err_to_name.s: src/esp_err_to_name.c.s
 
 # target to generate assembly for a file
 src/esp_err_to_name.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.s
 .PHONY : src/esp_err_to_name.c.s
 
 src/freertos_hooks.obj: src/freertos_hooks.c.obj
@@ -275,7 +275,7 @@ src/freertos_hooks.obj: src/freertos_hooks.c.obj
 
 # target to build an object file
 src/freertos_hooks.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.obj
 .PHONY : src/freertos_hooks.c.obj
 
 src/freertos_hooks.i: src/freertos_hooks.c.i
@@ -283,7 +283,7 @@ src/freertos_hooks.i: src/freertos_hooks.c.i
 
 # target to preprocess a source file
 src/freertos_hooks.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.i
 .PHONY : src/freertos_hooks.c.i
 
 src/freertos_hooks.s: src/freertos_hooks.c.s
@@ -291,7 +291,7 @@ src/freertos_hooks.s: src/freertos_hooks.c.s
 
 # target to generate assembly for a file
 src/freertos_hooks.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/freertos_hooks.c.s
 .PHONY : src/freertos_hooks.c.s
 
 src/int_wdt.obj: src/int_wdt.c.obj
@@ -299,7 +299,7 @@ src/int_wdt.obj: src/int_wdt.c.obj
 
 # target to build an object file
 src/int_wdt.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.obj
 .PHONY : src/int_wdt.c.obj
 
 src/int_wdt.i: src/int_wdt.c.i
@@ -307,7 +307,7 @@ src/int_wdt.i: src/int_wdt.c.i
 
 # target to preprocess a source file
 src/int_wdt.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.i
 .PHONY : src/int_wdt.c.i
 
 src/int_wdt.s: src/int_wdt.c.s
@@ -315,7 +315,7 @@ src/int_wdt.s: src/int_wdt.c.s
 
 # target to generate assembly for a file
 src/int_wdt.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/int_wdt.c.s
 .PHONY : src/int_wdt.c.s
 
 src/mac_addr.obj: src/mac_addr.c.obj
@@ -323,7 +323,7 @@ src/mac_addr.obj: src/mac_addr.c.obj
 
 # target to build an object file
 src/mac_addr.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.obj
 .PHONY : src/mac_addr.c.obj
 
 src/mac_addr.i: src/mac_addr.c.i
@@ -331,7 +331,7 @@ src/mac_addr.i: src/mac_addr.c.i
 
 # target to preprocess a source file
 src/mac_addr.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.i
 .PHONY : src/mac_addr.c.i
 
 src/mac_addr.s: src/mac_addr.c.s
@@ -339,7 +339,7 @@ src/mac_addr.s: src/mac_addr.c.s
 
 # target to generate assembly for a file
 src/mac_addr.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/mac_addr.c.s
 .PHONY : src/mac_addr.c.s
 
 src/stack_check.obj: src/stack_check.c.obj
@@ -347,7 +347,7 @@ src/stack_check.obj: src/stack_check.c.obj
 
 # target to build an object file
 src/stack_check.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.obj
 .PHONY : src/stack_check.c.obj
 
 src/stack_check.i: src/stack_check.c.i
@@ -355,7 +355,7 @@ src/stack_check.i: src/stack_check.c.i
 
 # target to preprocess a source file
 src/stack_check.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.i
 .PHONY : src/stack_check.c.i
 
 src/stack_check.s: src/stack_check.c.s
@@ -363,7 +363,7 @@ src/stack_check.s: src/stack_check.c.s
 
 # target to generate assembly for a file
 src/stack_check.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/stack_check.c.s
 .PHONY : src/stack_check.c.s
 
 src/task_wdt.obj: src/task_wdt.c.obj
@@ -371,7 +371,7 @@ src/task_wdt.obj: src/task_wdt.c.obj
 
 # target to build an object file
 src/task_wdt.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.obj
 .PHONY : src/task_wdt.c.obj
 
 src/task_wdt.i: src/task_wdt.c.i
@@ -379,7 +379,7 @@ src/task_wdt.i: src/task_wdt.c.i
 
 # target to preprocess a source file
 src/task_wdt.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.i
 .PHONY : src/task_wdt.c.i
 
 src/task_wdt.s: src/task_wdt.c.s
@@ -387,7 +387,7 @@ src/task_wdt.s: src/task_wdt.c.s
 
 # target to generate assembly for a file
 src/task_wdt.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\esp_common\CMakeFiles\__idf_esp_common.dir\build.make esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/task_wdt.c.s
 .PHONY : src/task_wdt.c.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

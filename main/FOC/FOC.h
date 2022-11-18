@@ -92,13 +92,22 @@ public:
     FOC_MODE mode = FOC_MODE::Torque;
 
     /// Low-pass filters
-    LowPass<2> id_lp = LowPass<2>(5, 1886, true);   // Second order low-pass filter
-    LowPass<2> iq_lp = LowPass<2>(5, 1886, true);
-    LowPass<2> angle_lp = LowPass<2>(2, 1886, true);
+    LowPass<2> ch1_id_lp = LowPass<2>(3, 1886, true);   // Second order low-pass filter
+    LowPass<2> ch1_iq_lp = LowPass<2>(3, 1886, true);
+    //LowPass<2> ch1_angle_lp = LowPass<2>(2, 1886, true);
+    LowPass<2> ch1_velocity_lp = LowPass<2>(2, 1886, true);
+
+    LowPass<2> ch2_id_lp = LowPass<2>(3, 1886, true);   // Second order low-pass filter
+    LowPass<2> ch2_iq_lp = LowPass<2>(3, 1886, true);
+    //LowPass<2> ch2_angle_lp = LowPass<2>(2, 1886, true);
+    LowPass<2> ch2_velocity_lp = LowPass<2>(2, 1886, true);
 
     /// Foc current and voltage
     PhaseVoltage phaseVoltage;
     float id, iq;
+
+    /// Pointer to magnetic sensor
+    TLE5012B *tle5012B;
 
     /// Magnetic sensor variables
     float angle;
@@ -114,9 +123,6 @@ private:
     /// Channel to use
     Channel channel;
 
-    /// Pointer to magnetic sensor
-    TLE5012B *tle5012B;
-
     /// Clarke and Park transform. It will read two of three phase voltage
     /// and then calculate phase currents and convert them to DQ current
     void ClarkeParkTransform();
@@ -131,7 +137,7 @@ private:
     /// Power supply arameters
     float Vdc;
     float Vlimit;
-    float Valign = 0.8;
+    float Valign = 0.5;
 
 };
 

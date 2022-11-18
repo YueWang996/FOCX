@@ -21,8 +21,8 @@ void FOC::setPWMPins(uint8_t ch1_u, uint8_t ch1_v, uint8_t ch1_w) {
         //motorControlPwm->setChannel2Pins(motorControlPwm->channel2);
     }
 #else
-    motorControlPwm->channel1 = {.p1 = ch1_u, .p2 = ch1_v, .p3 = ch1_w};
-    motorControlPwm->setChannel1Pins(motorControlPwm->channel1);
+    //motorControlPwm->channel1 = {.p1 = ch1_u, .p2 = ch1_v, .p3 = ch1_w};
+    //motorControlPwm->setChannel1Pins(motorControlPwm->channel1);
 #endif
 }
 
@@ -184,15 +184,18 @@ void FOC::ClarkeParkTransform() {
 #ifdef ENABLE_2_CHANNEL_PWM
     if(channel == Channel::CH1) {
         phaseVoltage = motorControlPwm->getADCVoltageCH1();
+        phaseVoltage.U = ch1_id_lp.filter(phaseVoltage.U);
+        phaseVoltage.V = ch1_iq_lp.filter(phaseVoltage.V);
     } else {
         phaseVoltage = motorControlPwm->getADCVoltageCH2();
+        phaseVoltage.U = ch2_id_lp.filter(phaseVoltage.U);
+        phaseVoltage.V = ch2_iq_lp.filter(phaseVoltage.V);
     }
 #else
     phaseVoltage = motorControlPwm->getADCVoltageCH1();
+    phaseVoltage.U = ch1_id_lp.filter(phaseVoltage.U);
+    phaseVoltage.V = ch1_iq_lp.filter(phaseVoltage.V);
 #endif
-
-    phaseVoltage.U = id_lp.filter(phaseVoltage.U);
-    phaseVoltage.V = iq_lp.filter(phaseVoltage.V);
 
     // Clarke transform
     float i_alpha = CH1_VOLTAGE2CURRENT(phaseVoltage.U);
@@ -202,20 +205,16 @@ void FOC::ClarkeParkTransform() {
     // Park transform
     id = i_alpha * cosVal + i_beta * sinVal;
     iq = i_beta * cosVal - i_alpha * sinVal;
-    //id = LPF(id, lpf_last_id, lpf_ratio_id);
-    //iq = LPF(iq, lpf_last_iq, lpf_ratio_iq);
-    //lpf_last_id = id;
-    //lpf_last_iq = iq;
-    //id = id_lp.filter(id);
-    //iq = iq_lp.filter(iq);
 }
 
 void FOC::motorStart() {
+    getVelocity();
     switch (mode) {
         case Torque: {
             // Get electrical angle
             getEAngle();
             //angle = LPF(angle, lpf_last_angle, lpf_ratio_angle);
+            realAngle = (float) tle5012B->getAngleValue() * direction;
             angle = roundf(angle * 100) / 100;
             //printf("angle%d: %f\n", channel, angle);
             cosVal = fast_cos(angle);
@@ -225,14 +224,8 @@ void FOC::motorStart() {
             ClarkeParkTransform();
 
             // Current loop PID;
-            float vd = PIDController(idPID, -id);
+            float vd = PIDController(idPID,-id);
             float vq = PIDController(iqPID, target - iq);
-            //float vq = PIDController(iqPID, 0);
-
-            //printf("VoltageCH%d: U:%.2f,V:%.2f\n", channel, phaseVoltage.U, phaseVoltage.V);
-            //printf("VoltageCH%d: id:%.2f,iq:%.2f\n", channel, id, iq);
-            //printf("vd:%f,vq:%f\n", vd, vq);
-            //printf("CH%dTargetVq:%f\n", channel, vq);
 
             svpwm(vq, vd);
             break;
@@ -240,11 +233,16 @@ void FOC::motorStart() {
         case Velocity: {
             getEAngle();
             getVelocity();
+            angle = roundf(angle * 100) / 100;
             cosVal = fast_cos(angle);
             sinVal = fast_sin(angle);
             ClarkeParkTransform();
 
-            velocity = angle_lp.filter(velocity);
+            if(channel == Channel::CH1) {
+                velocity = ch1_velocity_lp.filter(velocity);
+            } else {
+                velocity = ch2_velocity_lp.filter(velocity);
+            }
             float target_iq = PIDController(velocityPID, target - velocity);
             float vd = PIDController(idPID, -id);
             float vq = PIDController(iqPID, target_iq - iq);
@@ -253,25 +251,27 @@ void FOC::motorStart() {
             break;
         }
         case Position: {
-            //tle5012B->update();
-            //realAngle = (float) tle5012B->getAngleValue();
-            //realAngle = roundf(realAngle * 100) / 100;
-            //realAngle = LPF(realAngle, lpf_last_angle, lpf_ratio_angle);
-            //realAngle = angle_lp.filter(realAngle);
-            //angle = normalise_angle((float) (pole_pares * direction) * realAngle - zero_electrical_angle);
-            //cosVal = fast_cos(angle);
-            //sinVal = fast_sin(angle);
-            //lpf_last_angle = realAngle;
-
             getEAngle();
+
             realAngle = (float) tle5012B->getAngleValue() * direction;
+            angle = roundf(angle * 100) / 100;
+            realAngle = roundf(realAngle * 100) / 100;
 
             cosVal = fast_cos(angle);
             sinVal = fast_sin(angle);
 
             ClarkeParkTransform();
 
-            float target_iq = PIDController(positionPID, target - realAngle);
+            float target_iq;
+#ifdef ENABLE_2_CHANNEL_PWM
+            if(channel == Channel::CH1) {
+                target_iq = PIDController(positionPID, (target/* * CH1_TARGET_DIR + CH1_REAL_ANGLE_OFFSET*/) - realAngle);
+            } else {
+                target_iq = PIDController(positionPID, (target/* * CH2_TARGET_DIR + CH2_REAL_ANGLE_OFFSET*/) - realAngle);
+            }
+#else
+            target_iq = PIDController(positionPID, (target/* * CH1_TARGET_DIR + CH1_REAL_ANGLE_OFFSET*/) - realAngle);
+#endif
 
             // Current loop PID;
             float vd = PIDController(idPID, -id);
@@ -289,42 +289,57 @@ void FOC::alignElectricalAngle() {
     /** This piece of code is finding zero electrical angle and sensor direction.
      *  If these two parameters are already known, we don't really need this code.
      */
+    if(IF_ALIGN_E_ANGLE) {
+        // Find sensor direction
+        tle5012B->update();
+        float temp_angle = tle5012B->getAngleValue();
+        for (int i = 0; i <= 500; i++) {
+            float a = _3PI_2 + _2PI * i / 500.0f;
+            cosVal = fast_cos(a);
+            sinVal = fast_sin(a);
+            svpwm(Valign, 0);
+            //spwm(Valign, 0, a);
+            //delay_clock(240*1000);
+            vTaskDelay(3 / portTICK_PERIOD_MS);
+        }
+        tle5012B->update();
+        if (tle5012B->getAngleValue() > temp_angle) direction = SensorDirection::CW;
+        else direction = SensorDirection::CCW;
+        for (int i = 500; i >= 0; i--) {
+            float a = _3PI_2 + _2PI * i / 500.0f;
+            cosVal = fast_cos(a);
+            sinVal = fast_sin(a);
+            svpwm(Valign, 0);
+            //spwm(Valign, 0, a);
+            //delay_clock(240*1000);
+            vTaskDelay(3 / portTICK_PERIOD_MS);
+        }
 
-    // Find sensor direction
-    tle5012B->update();
-    float temp_angle = tle5012B->getAngleValue();
-    for (int i = 0; i <= 500; i++) {
-        float a = _3PI_2 + _2PI * i / 500.0f;
-        cosVal = fast_cos(a);
-        sinVal = fast_sin(a);
+        // Align mechanical angle and electrical angle
+        cosVal = fast_cos(_3PI_2);
+        sinVal = fast_sin(_3PI_2);
         svpwm(Valign, 0);
-        //spwm(Valign, 0, a);
-        //delay_clock(240*1000);
-        vTaskDelay(3 / portTICK_PERIOD_MS);
+        //spwm(Valign, 0, _3PI_2);
+        vTaskDelay(200 / portTICK_PERIOD_MS);
+        tle5012B->update();
+        zero_electrical_angle = 0;
+        getEAngle();    // update angle value
+        zero_electrical_angle = angle;
+    } else {
+#ifdef ENABLE_2_CHANNEL_PWM
+        if(channel == Channel::CH1) {
+            zero_electrical_angle = CH1_ZERO_ELECTRICAL_ANGLE;
+            direction = CH1_SENSOR_DIRECTION;
+        } else {
+            zero_electrical_angle = CH2_ZERO_ELECTRICAL_ANGLE;
+            direction = CH2_SENSOR_DIRECTION;
+        }
+        tle5012B->update();
+#else
+        zero_electrical_angle = CH1_ZERO_ELECTRICAL_ANGLE;
+        tle5012B->update();
+#endif
     }
-    tle5012B->update();
-    if (tle5012B->getAngleValue() > temp_angle) direction = SensorDirection::CW;
-    else direction = SensorDirection::CCW;
-    for (int i = 500; i >= 0; i--) {
-        float a = _3PI_2 + _2PI * i / 500.0f;
-        cosVal = fast_cos(a);
-        sinVal = fast_sin(a);
-        svpwm(Valign, 0);
-        //spwm(Valign, 0, a);
-        //delay_clock(240*1000);
-        vTaskDelay(3 / portTICK_PERIOD_MS);
-    }
-
-    // Align mechanical angle and electrical angle
-    cosVal = fast_cos(_3PI_2);
-    sinVal = fast_sin(_3PI_2);
-    svpwm(Valign, 0);
-    //spwm(Valign, 0, _3PI_2);
-    vTaskDelay(200 / portTICK_PERIOD_MS);
-    tle5012B->update();
-    zero_electrical_angle = 0;
-    getEAngle();    // update angle value
-    zero_electrical_angle = angle;
 
 
 #ifdef ENABLE_2_CHANNEL_PWM
@@ -333,9 +348,19 @@ void FOC::alignElectricalAngle() {
         //zero_electrical_angle = CH1_ZERO_ELECTRICAL_ANGLE;
         //direction = CH1_SENSOR_DIRECTION;
     } else {
+        //float a = 0;
+        //Valign = 2.6;
+        //while(1) {
+        //    cosVal = fast_cos(a);
+        //    sinVal = fast_sin(a);
+        //    svpwm(Valign, 0);
+        //    vTaskDelay(5/portTICK_PERIOD_MS);
+        //    a+= 0.01;
+        //}
+
         motorControlPwm->setChannel2Duty(50, 50, 50);
-        //zero_electrical_angle = CH2_ZERO_ELECTRICAL_ANGLE;
-        //direction = CH2_SENSOR_DIRECTION;
+        //0zero_electrical_angle = CH2_ZERO_ELECTRICAL_ANGLE;
+        //0direction = CH2_SENSOR_DIRECTION;
     }
 #else
     motorControlPwm->setChannel1Duty(50, 50, 50);
@@ -344,13 +369,23 @@ void FOC::alignElectricalAngle() {
     printf("Calibrating ADC...\n");
     motorControlPwm->adc_calibration();
     vTaskDelay(100 / portTICK_PERIOD_MS);
-
-    //for(int i = 0; i < 100000; i++) {
-    //    cosVal = fast_cos(i*0.1);
-    //    sinVal = fast_sin(i*0.1);
-    //    svpwm(Valign, 0);
-    //    vTaskDelay(1 / portTICK_PERIOD_MS);
-    //}
+/*
+#ifdef ENABLE_2_CHANNEL_PWM
+    if(channel == Channel::CH1) {
+        printf("Aligning current sensor...\n");
+        uint8_t alignResult = motorControlPwm->ch1CurrentSenseAlign();
+        printf("Align result: %d\n", alignResult);
+    } else {
+        printf("Aligning current sensor...\n");
+        uint8_t alignResult = motorControlPwm->ch2CurrentSenseAlign();
+        printf("Align result: %d\n", alignResult);
+    }
+#else
+    printf("Aligning current sensor...\n");
+    uint8_t alignResult = motorControlPwm->ch1CurrentSenseAlign();
+    printf("Align result: %d\n", alignResult);
+#endif
+*/
 }
 
 void FOC::spwm(float vq, float vd, float angle) {

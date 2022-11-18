@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5
+CMAKE_SOURCE_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\esp-idf\pthread\\CMakeFiles\progress.marks
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug\CMakeFiles 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\esp-idf\pthread\\CMakeFiles\progress.marks
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/clean
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/preinstall
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ __idf_pthread: esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
 
 # fast build rule for target.
 __idf_pthread/fast:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/build
 .PHONY : __idf_pthread/fast
 
 pthread.obj: pthread.c.obj
@@ -179,7 +179,7 @@ pthread.obj: pthread.c.obj
 
 # target to build an object file
 pthread.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
 .PHONY : pthread.c.obj
 
 pthread.i: pthread.c.i
@@ -187,7 +187,7 @@ pthread.i: pthread.c.i
 
 # target to preprocess a source file
 pthread.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.i
 .PHONY : pthread.c.i
 
 pthread.s: pthread.c.s
@@ -195,7 +195,7 @@ pthread.s: pthread.c.s
 
 # target to generate assembly for a file
 pthread.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.s
 .PHONY : pthread.c.s
 
 pthread_cond_var.obj: pthread_cond_var.c.obj
@@ -203,7 +203,7 @@ pthread_cond_var.obj: pthread_cond_var.c.obj
 
 # target to build an object file
 pthread_cond_var.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
 .PHONY : pthread_cond_var.c.obj
 
 pthread_cond_var.i: pthread_cond_var.c.i
@@ -211,7 +211,7 @@ pthread_cond_var.i: pthread_cond_var.c.i
 
 # target to preprocess a source file
 pthread_cond_var.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.i
 .PHONY : pthread_cond_var.c.i
 
 pthread_cond_var.s: pthread_cond_var.c.s
@@ -219,7 +219,7 @@ pthread_cond_var.s: pthread_cond_var.c.s
 
 # target to generate assembly for a file
 pthread_cond_var.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.s
 .PHONY : pthread_cond_var.c.s
 
 pthread_local_storage.obj: pthread_local_storage.c.obj
@@ -227,7 +227,7 @@ pthread_local_storage.obj: pthread_local_storage.c.obj
 
 # target to build an object file
 pthread_local_storage.c.obj:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
 .PHONY : pthread_local_storage.c.obj
 
 pthread_local_storage.i: pthread_local_storage.c.i
@@ -235,7 +235,7 @@ pthread_local_storage.i: pthread_local_storage.c.i
 
 # target to preprocess a source file
 pthread_local_storage.c.i:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.i
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.i
 .PHONY : pthread_local_storage.c.i
 
 pthread_local_storage.s: pthread_local_storage.c.s
@@ -243,7 +243,7 @@ pthread_local_storage.s: pthread_local_storage.c.s
 
 # target to generate assembly for a file
 pthread_local_storage.c.s:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.s
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(MAKE) $(MAKESILENT) -f esp-idf\pthread\CMakeFiles\__idf_pthread.dir\build.make esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.s
 .PHONY : pthread_local_storage.c.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\AllFiles\programming\MachineDog\FocX_v_0_5_5\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
